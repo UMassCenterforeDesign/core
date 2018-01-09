@@ -1,0 +1,1303 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/UnitsOfMeasureOntology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/UnitsOfMeasureOntology.owl">
+    <Prefix name="" IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Version 0.90</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">COPYRIGHT © 2015 CUBRC, Inc.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">October 24, 2016</Literal>
+    </Annotation>
+    <Declaration>
+        <NamedIndividual IRI="#SquareDecimeterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NauticalMileMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoundsPerSquareInchMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BayreMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfMass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoundForceMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfWork"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LongTonMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SecondMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfLength"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GallonMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfLevel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CentigramMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DecibelMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CalorieMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ErgMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YearMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CubicInchMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PintMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CubicCentimeterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HourMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MillimeterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DegreeFahrenheitMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JouleMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KilometerPerHourMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TwentyFootEquivalentUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoundMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MilliliterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PascalMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SquareYardMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeciliterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AtmosphereMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SquareMeterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AcreMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CubicFootMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfSpeed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OunceMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GramMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CentimeterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MileMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DyneMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SquareFootMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MonthMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MilligramMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WeekMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SquareKilometerMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CubicMeterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DayMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CubicMillimeterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfForce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InchMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FootMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MeterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfPower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BarMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfArea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MeterPerSecondMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DegreeCelsiusMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KilogramMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MinuteMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MetricTonMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TeaspoonMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HorsepowerMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MilePerHourMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuartMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KilopondMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SquareMileMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfTemperature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CentiliterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DecimeterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SquareCentimeterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YardMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KilometerMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CubicYardMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NewtonMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KnotMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfPressure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MillibarMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WattMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BritishThermalUnitMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ShortTonMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TablespoonMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CubicDecimeterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KiloliterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DecigramMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LiterMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SquareInchMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementUnitOfEnergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SquareMillimeterMeasurementUnit"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfArea"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfEnergy"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfForce"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfLength"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfLevel"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfMass"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfPower"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfPressure"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfSpeed"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfTemperature"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfTime"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementUnitOfWork"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfArea"/>
+        <NamedIndividual IRI="#AcreMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfPressure"/>
+        <NamedIndividual IRI="#AtmosphereMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfPressure"/>
+        <NamedIndividual IRI="#BarMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfPressure"/>
+        <NamedIndividual IRI="#BayreMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfEnergy"/>
+        <NamedIndividual IRI="#BritishThermalUnitMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfPower"/>
+        <NamedIndividual IRI="#BritishThermalUnitMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfWork"/>
+        <NamedIndividual IRI="#BritishThermalUnitMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfEnergy"/>
+        <NamedIndividual IRI="#CalorieMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfPower"/>
+        <NamedIndividual IRI="#CalorieMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfWork"/>
+        <NamedIndividual IRI="#CalorieMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfMass"/>
+        <NamedIndividual IRI="#CentigramMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#CentiliterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfLength"/>
+        <NamedIndividual IRI="#CentimeterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#CubicCentimeterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#CubicDecimeterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#CubicFootMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#CubicInchMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#CubicMeterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#CubicMillimeterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#CubicYardMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfTime"/>
+        <NamedIndividual IRI="#DayMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfLevel"/>
+        <NamedIndividual IRI="#DecibelMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfMass"/>
+        <NamedIndividual IRI="#DecigramMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#DeciliterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfLength"/>
+        <NamedIndividual IRI="#DecimeterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfTemperature"/>
+        <NamedIndividual IRI="#DegreeCelsiusMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfTemperature"/>
+        <NamedIndividual IRI="#DegreeFahrenheitMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfForce"/>
+        <NamedIndividual IRI="#DyneMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfEnergy"/>
+        <NamedIndividual IRI="#ErgMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfPower"/>
+        <NamedIndividual IRI="#ErgMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfWork"/>
+        <NamedIndividual IRI="#ErgMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfLength"/>
+        <NamedIndividual IRI="#FootMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#GallonMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfMass"/>
+        <NamedIndividual IRI="#GramMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfEnergy"/>
+        <NamedIndividual IRI="#HorsepowerMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfPower"/>
+        <NamedIndividual IRI="#HorsepowerMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfWork"/>
+        <NamedIndividual IRI="#HorsepowerMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfTime"/>
+        <NamedIndividual IRI="#HourMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfLength"/>
+        <NamedIndividual IRI="#InchMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfEnergy"/>
+        <NamedIndividual IRI="#JouleMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfPower"/>
+        <NamedIndividual IRI="#JouleMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfWork"/>
+        <NamedIndividual IRI="#JouleMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfMass"/>
+        <NamedIndividual IRI="#KilogramMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#KiloliterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfLength"/>
+        <NamedIndividual IRI="#KilometerMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfSpeed"/>
+        <NamedIndividual IRI="#KilometerPerHourMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfForce"/>
+        <NamedIndividual IRI="#KilopondMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfSpeed"/>
+        <NamedIndividual IRI="#KnotMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#LiterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfMass"/>
+        <NamedIndividual IRI="#LongTonMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfLength"/>
+        <NamedIndividual IRI="#MeterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfSpeed"/>
+        <NamedIndividual IRI="#MeterPerSecondMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfMass"/>
+        <NamedIndividual IRI="#MetricTonMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfLength"/>
+        <NamedIndividual IRI="#MileMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfSpeed"/>
+        <NamedIndividual IRI="#MilePerHourMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfPressure"/>
+        <NamedIndividual IRI="#MillibarMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfMass"/>
+        <NamedIndividual IRI="#MilligramMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#MilliliterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfLength"/>
+        <NamedIndividual IRI="#MillimeterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfTime"/>
+        <NamedIndividual IRI="#MinuteMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfTime"/>
+        <NamedIndividual IRI="#MonthMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfLength"/>
+        <NamedIndividual IRI="#NauticalMileMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfForce"/>
+        <NamedIndividual IRI="#NewtonMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfMass"/>
+        <NamedIndividual IRI="#OunceMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfPressure"/>
+        <NamedIndividual IRI="#PascalMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#PintMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfForce"/>
+        <NamedIndividual IRI="#PoundForceMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfMass"/>
+        <NamedIndividual IRI="#PoundMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfPressure"/>
+        <NamedIndividual IRI="#PoundsPerSquareInchMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#QuartMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfTime"/>
+        <NamedIndividual IRI="#SecondMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfMass"/>
+        <NamedIndividual IRI="#ShortTonMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfArea"/>
+        <NamedIndividual IRI="#SquareCentimeterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfArea"/>
+        <NamedIndividual IRI="#SquareDecimeterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfArea"/>
+        <NamedIndividual IRI="#SquareFootMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfArea"/>
+        <NamedIndividual IRI="#SquareInchMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfArea"/>
+        <NamedIndividual IRI="#SquareKilometerMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfArea"/>
+        <NamedIndividual IRI="#SquareMeterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfArea"/>
+        <NamedIndividual IRI="#SquareMileMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfArea"/>
+        <NamedIndividual IRI="#SquareMillimeterMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfArea"/>
+        <NamedIndividual IRI="#SquareYardMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#TablespoonMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#TeaspoonMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfVolume"/>
+        <NamedIndividual IRI="#TwentyFootEquivalentUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfPower"/>
+        <NamedIndividual IRI="#WattMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfTime"/>
+        <NamedIndividual IRI="#WeekMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfLength"/>
+        <NamedIndividual IRI="#YardMeasurementUnit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MeasurementUnitOfTime"/>
+        <NamedIndividual IRI="#YearMeasurementUnit"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AcreMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Acre Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AtmosphereMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atmosphere Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BarMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bar Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BayreMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bayre Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BritishThermalUnitMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">British Thermal Unit Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CalorieMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Calorie Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CentigramMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Centigram Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CentiliterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Centiliter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CentimeterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Centimeter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CubicCentimeterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cubic Centimeter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CubicDecimeterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cubic Decimeter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CubicFootMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cubic Foot Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CubicInchMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cubic Inch Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CubicMeterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cubic Meter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CubicMillimeterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cubic Millimeter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CubicYardMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cubic Yard Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DayMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Day Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DecibelMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Decibel Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DecigramMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Decigram Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeciliterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Deciliter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DecimeterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Decimeter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DegreeCelsiusMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Degree Celsius Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DegreeFahrenheitMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Degree Fahhrenheit Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DyneMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dyne Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ErgMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Erg Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FootMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Foot Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GallonMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gallon Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GramMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gram Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HorsepowerMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Horsepower Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HourMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hour Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InchMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inch Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#JouleMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Joule Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KilogramMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kilogram Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KiloliterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kiloliter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KilometerMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kilometer Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KilometerPerHourMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kilometer Per Hour Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KilopondMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kilopond Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KnotMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Knot Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LiterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Liter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LongTonMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Long Ton Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfArea</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of two dimensional regions or geospatial regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfArea</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">square feet, square meters, acre, hectare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfArea</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfEnergy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of the amount of work that is available in an object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfEnergy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ft-lbs, calorie, horsepower, kilowatt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfEnergy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Energy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfForce</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of interactions in which the motion or velocity of an object are changed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfForce</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">newton, dyne, pound force </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfForce</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Force</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfLength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of one dimensional regions or geosptial regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfLength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">foot, meter, kilometer, mile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfLength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfLevel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of a ratio of the quality to a reference value of that same quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfLevel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfLevel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfMass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of an object&apos;s resistance to acceleration when a force has been applied</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfMass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ounce, gram, pound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfMass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Mass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfPower</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of rates of work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfPower</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">watt, horsepower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfPower</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Power</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfPressure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of force applied perpendicular to a surface per unit area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfPressure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pascal, atmosphere, pound-force per square inch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfPressure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfSpeed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of the rates at which objects cover distance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfSpeed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">miles per hour, kilometers per hour, knot, mach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfSpeed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Speed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfTemperature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of the thermal energy in an object </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfTemperature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">celsius, fahrenheit, kelvin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfTemperature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Temperature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of temporal regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">second, minute, hour, day</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfVolume</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of three dimensional regions or geospatial regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfVolume</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cubic feet, cubic meter, quart, liter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfVolume</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#MeasurementUnitOfWork</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of displacements of points to which forces have been applied</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>#MeasurementUnitOfWork</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">joule, erg, kilowatt hour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementUnitOfWork</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Meter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeterPerSecondMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Meter Per Second Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MetricTonMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Metric Ton Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MileMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mile Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MilePerHourMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mile Per Hour Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MillibarMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Millibar Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MilligramMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Milligram Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MilliliterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Milliliter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MillimeterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Millimeter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MinuteMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Minute Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MonthMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Month Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NauticalMileMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nautical Mile Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NewtonMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Newton Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OunceMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ounce Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PascalMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pascal Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PintMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pint Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PoundForceMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pound Force Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PoundMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pound Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PoundsPerSquareInchMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pounds Per Square Inch Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#QuartMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Quart Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecondMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Second Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ShortTonMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Short Ton Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SquareCentimeterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Square Centimeter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SquareDecimeterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Square Decimeter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SquareFootMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Square Foot Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SquareInchMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Square Inch Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SquareKilometerMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Square Kilometer Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SquareMeterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Square Meter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SquareMileMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Square Mile Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SquareMillimeterMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Square Millimeter Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SquareYardMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Square Yard Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TablespoonMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tablespoon Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TeaspoonMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Teaspoon Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TwentyFootEquivalentUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Twenty Foot Equivalent Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WattMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Watt Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WeekMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Week Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#YardMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Yard Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#YearMeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Year Measurement Unit</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
