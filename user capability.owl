@@ -170,10 +170,10 @@
         <ObjectProperty IRI="#has_user_requirement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#position"/>
+        <ObjectProperty IRI="#is_specified_by"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_specified_by"/>
+        <Class IRI="#position"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity"/>
