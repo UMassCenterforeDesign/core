@@ -12,7 +12,7 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://www.semanticweb.org/tom/ontologies/2017/10/info</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/info.owl</Import>
     <Declaration>
         <ObjectProperty IRI="#is_measurement_of"/>
     </Declaration>
