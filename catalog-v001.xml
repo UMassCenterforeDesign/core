@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl" uri="user%20capability.owl"/>
     <uri id="Imports Wizard Entry" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/UnitsOfMeasureOntology.owl" uri="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/UnitsOfMeasureOntology.owl"/>
     <uri id="Imports Wizard Entry" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/info.owl" uri="info.owl"/>
     <uri id="User Entered Import Resolution" name="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability" uri="user%20capability.owl"/>
@@ -8,14 +9,14 @@
     <uri id="User Entered Import Resolution" name="http://www.semanticweb.org/tom/ontologies/2017/10/info" uri="info.owl"/>
     <uri id="User Entered Import Resolution" name="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions" uri="dimensions.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1515523644180" name="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics" uri="EngMechanics.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515523644180" name="http://www.semanticweb.org/tom/ontologies/2017/8/regulation" uri="regulation.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515523644180" name="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model" uri="model.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515523644180" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/UnitsOfMeasureOntology.owl" uri="UnitsOfMeasureOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515523644180" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl" uri="design.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515523644180" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl" uri="dimensions.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515523644180" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl" uri="ergo-design.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515523644180" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/info.owl" uri="info.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515523644180" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl" uri="user%20capability.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515524117080" name="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics" uri="EngMechanics.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515524117080" name="http://www.semanticweb.org/tom/ontologies/2017/8/regulation" uri="regulation.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515524117080" name="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model" uri="model.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515524117080" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/UnitsOfMeasureOntology.owl" uri="UnitsOfMeasureOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515524117080" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl" uri="design.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515524117080" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl" uri="dimensions.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515524117080" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl" uri="ergo-design.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515524117080" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/info.owl" uri="info.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515524117080" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl" uri="user%20capability.owl"/>
     </group>
 </catalog>

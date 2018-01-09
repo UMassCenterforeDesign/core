@@ -6,13 +6,13 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl">
-    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability"/>
+    <Prefix name="" IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://www.semanticweb.org/tom/ontologies/2017/10/info</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/info.owl</Import>
     <Declaration>
         <Class IRI="#protraction"/>
     </Declaration>
@@ -47,10 +47,10 @@
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_problem"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <DataProperty IRI="#specifies_value"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#specifies_value"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000027"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMotion"/>
@@ -59,10 +59,10 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_disposition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#alignment"/>
+        <Class IRI="#spherical_grip"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#spherical_grip"/>
+        <Class IRI="#alignment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#capability_requirement"/>
@@ -116,10 +116,10 @@
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#extension"/>
+        <Class IRI="#cylindrical_grip"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#cylindrical_grip"/>
+        <Class IRI="#extension"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#specifies_user"/>
@@ -149,6 +149,9 @@
         <Class IRI="#momentum"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#excursion"/>
     </Declaration>
     <Declaration>
@@ -164,10 +167,10 @@
         <ObjectProperty IRI="#has_user_requirement"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_specified_by"/>
+        <Class IRI="#position"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#position"/>
+        <ObjectProperty IRI="#is_specified_by"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity"/>
@@ -177,6 +180,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#user_task_requirement_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/10/AAMODAT#range_capability"/>
@@ -203,6 +209,9 @@
         <Class IRI="#velocity"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </Declaration>
     <Declaration>
@@ -213,6 +222,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#dorsiflexion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
     </Declaration>
     <Declaration>
         <Class IRI="#grip_posture"/>
@@ -245,6 +257,9 @@
         <Class IRI="#anatomical_rotation"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
     </Declaration>
     <Declaration>
@@ -275,6 +290,9 @@
         <Class IRI="#adduction"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_output"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
     </Declaration>
     <Declaration>
@@ -285,6 +303,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_input"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
@@ -302,10 +323,10 @@
         <Class IRI="#power_grip"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#discrimination_capability"/>
+        <Class IRI="#depression_rotation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#depression_rotation"/>
+        <Class IRI="#discrimination_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#eversion"/>
@@ -317,31 +338,10 @@
         <Class IRI="#speed"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#reach"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#pinch_grip"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_input"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_output"/>
+        <Class IRI="#reach"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMotion"/>

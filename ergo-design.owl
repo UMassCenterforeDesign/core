@@ -6,14 +6,14 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl">
-    <Prefix name="" IRI="https://github.com/UMassCenterforeDesign/core/blob/master/ergo-design.owl"/>
+    <Prefix name="" IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://www.semanticweb.org/tom/ontologies/2017/8/user_capability</Import>
     <Import>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl</Import>
     <Declaration>
         <NamedIndividual IRI="#recommendation_color"/>
     </Declaration>
@@ -21,10 +21,10 @@
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#crush_function"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#rule:_error_diagnosis_support"/>
+        <Class IRI="#system_indicator_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#system_indicator_specification"/>
+        <NamedIndividual IRI="#rule:_error_diagnosis_support"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_sub-process"/>
@@ -33,10 +33,10 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#recognition_capability"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#recommendation_flexible_design"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+        <NamedIndividual IRI="#recommendation_flexible_design"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#rule:_match_between_system_and_world"/>
@@ -57,10 +57,10 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#recommendation_match_reality"/>
+        <NamedIndividual IRI="#rule:_error_prevention"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#rule:_error_prevention"/>
+        <NamedIndividual IRI="#recommendation_match_reality"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#recommendation_recognition"/>
@@ -123,10 +123,10 @@
         <NamedIndividual IRI="#recommendation_error_prevention"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#blue-yellow_color_combination_specification"/>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#flow"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#flow"/>
+        <Class IRI="#blue-yellow_color_combination_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="#literature_review_process"/>
@@ -210,10 +210,10 @@
         <NamedIndividual IRI="#rule:_audibility_of_alarms"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#hazard_analysis_and_critical_points"/>
+        <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#output_flow"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#output_flow"/>
+        <Class IRI="#hazard_analysis_and_critical_points"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
@@ -222,10 +222,10 @@
         <Class IRI="#shadowing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#focus_group_process"/>
+        <Class IRI="#error_analysis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#error_analysis"/>
+        <Class IRI="#focus_group_process"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#recommendation_system_state"/>
@@ -255,16 +255,16 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo#stakeholder_role"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#focus_group"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#rule:_readability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000055"/>
+        <Class IRI="#focus_group"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#problem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000055"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
@@ -339,10 +339,10 @@
         <Class IRI="#expert_usability_analysis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#recommendation"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+        <Class IRI="#recommendation"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
