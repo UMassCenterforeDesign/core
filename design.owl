@@ -1,30 +1,30 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://github.com/UMassCenterforeDesign/core/blob/master/design.owl"
+     xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://github.com/UMassCenterforeDesign/core/blob/master/design.owl">
-    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design"/>
+     ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl">
+    <Prefix name="" IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions</Import>
-    <Import>http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl</Import>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#cylindrical_coordinate_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDisposition"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDisposition"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system"/>
@@ -45,16 +45,22 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfFunction"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_minimum_value"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_disposition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
@@ -63,25 +69,31 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#cylindrical_form_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Specification"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRealizableEntity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#rate_parameter_specification"/>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#surface_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#three_dimensional_cartesian_coordinate_system"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#rate_parameter_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#TwoDimensionalExtent"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#three_dimensional_cartesian_coordinate_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDependentContinuant"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#step_form_specification"/>
@@ -90,16 +102,13 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDependentContinuant"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#dimensional_parameter_specification"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#affects"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRole"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRole"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#affects"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
@@ -108,10 +117,22 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000007"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfGenericallyDependentContinuant"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#rule_SLM_concave_overhangs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
@@ -123,13 +144,28 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_verification_plan_specification"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#shape_specification"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#perpendicularlity_specification"/>
@@ -138,13 +174,19 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_form_specification"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#spherical_coordinate_system"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angled_overhang"/>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Increase_function"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angled_overhang"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDependentContinuant"/>
@@ -156,13 +198,13 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRealizableEntity"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRealizableEntity"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#concave_profile_overhang"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfGenericallyDependentContinuant"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRealizableEntity"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDependentContinuant"/>
@@ -175,6 +217,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#dimension_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#rectangular_form_specification"/>
@@ -195,6 +240,9 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#energetic_parameter_specification"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#bearer_of"/>
     </Declaration>
     <Declaration>
@@ -204,10 +252,16 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#tooling_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_parameter_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
@@ -222,13 +276,19 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_specification"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#parallelism_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfSpecificallyDependentContinuant"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfSpecificallyDependentContinuant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfSpecificallyDependentContinuant"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#form_specification"/>
@@ -252,6 +312,9 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfGenericallyDependentContinuant"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Decrease_function"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRealizableEntity"/>
     </Declaration>
     <Declaration>
@@ -259,6 +322,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#axis"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification"/>
@@ -271,6 +337,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000024"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRole"/>
@@ -294,6 +363,15 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalExtent"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#reference_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfGenericallyDependentContinuant"/>
     </Declaration>
     <Declaration>
@@ -315,16 +393,19 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_realization_plan_specification"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfQuality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfQuality"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#function_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfSpecificallyDependentContinuant"/>
@@ -348,6 +429,9 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_overhang"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#has_feature"/>
     </Declaration>
     <Declaration>
@@ -363,97 +447,13 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#assembly_specification"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDependentContinuant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#reference_datum"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Decrease_function"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#assembly_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000024"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000028"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#axis"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Increase_function"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>

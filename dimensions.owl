@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://github.com/UMassCenterforeDesign/core/blob/master/dimensions.owl"
+     xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://github.com/UMassCenterforeDesign/core/blob/master/dimensions.owl">
-    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions"/>
+     ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl">
+    <Prefix name="" IRI="https://github.com/UMassCenterforeDesign/core/blob/master/dimensions.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -14,13 +14,160 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://www.semanticweb.org/tom/ontologies/2017/10/info</Import>
     <Declaration>
-        <Class IRI="#surface_roughness"/>
+        <Class IRI="#straightness"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Branched"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#radius"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Curved"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#material_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sloped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#viscoelasticity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aesthetic_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#surface_roughness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#TwoDimensionalExtent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodyShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#realized_accuracy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#circularity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Spherical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#torsional_loading_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#impact_loading_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Width"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sharp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Depth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#complexity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Bent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cylindricity"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perpendicularity"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Semicircular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fatigue_loading_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concentricity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Oblong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Triangular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Straight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cylindrical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#accessibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cubiod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thickness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#impulse_loading_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#angularity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#symmetry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Split"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
@@ -32,58 +179,52 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Perimeter"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Curved"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Protruding"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Rectangular"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#radius"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#impulse_loading_process"/>
+        <Class IRI="#elasticity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#circularity"/>
+        <Class IRI="#range_measurement_datum"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#coincidence"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sloped"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#viscoplasticity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#straightness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#bending_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConcaveShape"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#TwoDimensionalExtent"/>
+        <Class IRI="#shear_loading_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodyShape"/>
+        <Class IRI="#orientation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#complexity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#aesthetic_quality"/>
+        <Class IRI="#flatness"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#controlled_radius"/>
+        <Class IRI="#parallelism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#runout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Round"/>
     </Declaration>
     <Declaration>
         <Class IRI="#datum_error"/>
@@ -92,85 +233,40 @@
         <Class IRI="#arc_length"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#impact_loading_process"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConvexShape"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Spherical"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#density"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#area"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#accessibility"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Round"/>
+        <Class IRI="#viscoplasticity"/>
     </Declaration>
     <Declaration>
         <Class IRI="#offset"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConvexShape"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#parallelism"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#loading_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Width"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sharp"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Drooping"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Depth"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Square"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Bent"/>
+        <Class IRI="#bending_process"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition_source"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Diameter"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#tensile_loading_process"/>
+        <Class IRI="#coincidence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#angularity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#fatigue_loading_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Folded"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#distance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wavy"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Altitude"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Semicircular"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#cylindricity"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Blunt"/>
@@ -182,151 +278,55 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalExtent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Circumference"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#compressive_loading_process"/>
+        <Class IRI="#density"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Coiled"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wide"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Height"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Oblong"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#position"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Triangular"/>
+        <Class IRI="#tensile_loading_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Serrated"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Straight"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cylindrical"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#runout"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#symmetry"/>
+        <Class IRI="#datum_tolerance"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConeShape"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#torsional_loading_process"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#SizeQuality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#shear_loading_process"/>
+        <Class IRI="#loading_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#orientation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thin"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#datum_tolerance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#realized_accuracy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#flatness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cubiod"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#duration"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#viscoelasticity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#material_behavior"/>
+        <Class IRI="#controlled_radius"/>
     </Declaration>
     <Declaration>
         <Class IRI="#accuracy"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#duration"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thickness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#volume"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Split"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#elasticity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#range_measurement_datum"/>
+        <Class IRI="#compressive_loading_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#concentricity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#perpendicularity"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition_source"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodyShape"/>
