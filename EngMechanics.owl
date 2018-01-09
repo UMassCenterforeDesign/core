@@ -1,0 +1,769 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics">
+    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/5/design</Import>
+    <Declaration>
+        <Class IRI="#general_linear_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hookes_law_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#viscoelastic_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#loading"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rheological_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elasticity_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loading_along_y_axis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Newtonian_fluid_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loading_orientation_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kelvin-Voigt_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_stress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fatigue_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yield_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_strain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#creep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#stiffness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fatigue_ductility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fracture_ductility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#torsional_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_fatigue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#torsion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_toughness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_stiffness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#solid_mechanics_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#transverse_loading_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_yielding_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_shear_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#material_behavior_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_stress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-Newtonian_fluid_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#elongation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#rupture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plasticity_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plastic_deformation_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#yielding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_yielding_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fluid_mechanics_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maxwell_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#load_along_z_axis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loading_sequence_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#predictive_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loading_along_x_axis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#normal_strain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prony_series_viscoelastic_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#longitudinal_loading_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#hardness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_disposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shear_strain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loading_along_axis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fracture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#creep_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_tensile_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loading_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compressive_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fluid_disposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#normal_stress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ductility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_stress"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Hookes_law_model"/>
+        <Class IRI="#elasticity_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kelvin-Voigt_model"/>
+        <Class IRI="#viscoelastic_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maxwell_model"/>
+        <Class IRI="#viscoelastic_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Newtonian_fluid_model"/>
+        <Class IRI="#fluid_mechanics_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prony_series_viscoelastic_model"/>
+        <Class IRI="#viscoelastic_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elasticity_model"/>
+        <Class IRI="#solid_mechanics_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fluid_mechanics_model"/>
+        <Class IRI="#material_behavior_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#general_linear_model"/>
+        <Class IRI="#viscoelastic_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#load_along_z_axis"/>
+        <Class IRI="#loading_along_axis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loading_along_axis"/>
+        <Class IRI="#loading_orientation_plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loading_along_x_axis"/>
+        <Class IRI="#loading_along_axis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loading_along_y_axis"/>
+        <Class IRI="#loading_along_axis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loading_orientation_plan"/>
+        <Class IRI="#loading_plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loading_plan"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loading_sequence_plan"/>
+        <Class IRI="#loading_plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#longitudinal_loading_plan"/>
+        <Class IRI="#loading_orientation_plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#material_behavior_model"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#predictive_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-Newtonian_fluid_model"/>
+        <Class IRI="#fluid_mechanics_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-Newtonian_fluid_model"/>
+        <Class IRI="#rheological_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#normal_strain"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_strain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plastic_deformation_model"/>
+        <Class IRI="#rheological_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plasticity_model"/>
+        <Class IRI="#rheological_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plasticity_model"/>
+        <Class IRI="#solid_mechanics_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rate"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rheological_model"/>
+        <Class IRI="#material_behavior_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shear_strain"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_strain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#solid_mechanics_model"/>
+        <Class IRI="#material_behavior_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#transverse_loading_plan"/>
+        <Class IRI="#loading_orientation_plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#viscoelastic_model"/>
+        <Class IRI="#plasticity_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#viscoelastic_model"/>
+        <Class IRI="#rheological_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yield_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#loading"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_stiffness"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#stiffness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_stress"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#normal_stress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compression"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#loading"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compression"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compressive_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#creep"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#creep_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ductility"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#elongation"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fatigue_ductility"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ductility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fatigue_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fluid_disposition"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fracture"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fracture_ductility"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ductility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#hardness"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#loading"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_disposition"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_fatigue"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_toughness"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_strain"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_stress"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#normal_stress"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_stress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#rupture"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_stress"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_stress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_yielding_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_strength"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#stiffness"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_yielding_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_strength"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tension"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#loading"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#torsion"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#loading"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#torsional_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_shear_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_strength"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_tensile_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_strength"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#yielding"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hookes_law_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hookes law model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kelvin-Voigt_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kelvin-Voigt model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Maxwell_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maxwell model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Newtonian_fluid_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Newtonian fluid model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prony_series_viscoelastic_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Prony series viscoelastic model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#elasticity_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material elasticity model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fluid_mechanics_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fluid mechanics model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#general_linear_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">general linear model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#load_along_z_axis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">z axis loading plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#loading_along_axis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">loading along local axis plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#loading_along_x_axis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">x axis loading plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#loading_along_y_axis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">y axis loading plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#loading_orientation_plan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">loading orientation plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#loading_sequence_plan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">loading sequence plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#longitudinal_loading_plan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">longitudinal loading plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#material_behavior_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a continuum mechanics model is a physics-based model that specifically deals with the bulk behavior of a material when subjected to loading</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#material_behavior_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">continuum mechanics model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#non-Newtonian_fluid_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">non-Newtonian fluid model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#normal_strain</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">normal strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#plastic_deformation_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">plastic deformation model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#plasticity_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material plasticity model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rheological_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rheological model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#shear_strain</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shear strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#solid_mechanics_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">solid mechanics model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#transverse_loading_plan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">transverse loading plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#viscoelastic_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">viscoelastic model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#yield_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">yield strength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_stiffness</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bending stiffness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bending strength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compressive_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compressive strength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#creep_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">creep strength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fatigue_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fatigue strength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fluid_disposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fluid disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material deformation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_disposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_fatigue</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material fatigue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material strength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_toughness</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material toughness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_strain</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mechanical strain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_stress</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mechanical stress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shear strength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_stress</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shear stress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_yielding_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shear yielding strength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">solid material disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tensile strength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_yielding_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tensile yield strength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#torsional_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">torsional strength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_shear_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ultimate shear strength</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_tensile_strength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ultimate tensile strength</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

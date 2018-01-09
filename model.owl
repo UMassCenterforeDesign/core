@@ -1,0 +1,2233 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model">
+    <Prefix name="" IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/10/info</Import>
+    <Declaration>
+        <ObjectProperty IRI="#is_measurement_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#hypothesis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_model_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reference_textual_entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#objective"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NonNameIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NominalMeasurementInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_constant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_modeled_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#idealization"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_ordinal_measurement_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mathematical_independence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#transvere_axis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SiteIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rationale"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/method#has_parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_variable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001931"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#IntervalMeasurementInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#modeling_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_estimate_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_ratio_measurement_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_interval_measurement_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#matrix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfWork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multiplication_operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#addition_operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#estimate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#measurement_scale"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#division_operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agent_dependent_rationale"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfEnergy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000295"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_output"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_model_element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#predictive_model"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_tolerance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001933"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_input"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ordinal_measurement_scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ratio_measurement_scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#has_basis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#weight_value_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subtraction_operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#relation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#addition_symbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000312"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#probability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#describes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_nominal_measurement_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#TemporalRegionIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#simulated_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#matrix_operation_symbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interval_measurement_scale"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#designates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#specifies_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000028"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_process_part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000679"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mathematical_entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnitOfGeocoordinate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SpatialRegionIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#represents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agent_independent_rationale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_measurement_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mathematical_expression"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computed_data_item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subtraction_symbol"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#physical_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#modeling_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#axis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mathematical_operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfSpeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scalar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000221"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition_source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#GeospatialRegionBoundingBoxIdentifierList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#simulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#expected_value_estimate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_relation_with"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#purpose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heuristic_rationale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nominal_measurement_scale"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_specified_value"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reference_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estimates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#assumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_computed_from"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#GeospatialCoordinateReferenceSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#OrdinalMeasurementInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/OBI_0001937"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#first_principle_rationale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#experimenatal_rationale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#division_symbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfForce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#operation_symbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exponential_operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#probability_estimate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#longitudinal_axis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#descriptive_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multiplication_symbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200170"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mathematical_dependence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_estimated_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vector"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000679"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000312"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OBI_0200170"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#describes"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#designates"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#IntervalMeasurementInformationContentEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_interval_measurement_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementInformationContentEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_measurement_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NominalMeasurementInformationContentEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_nominal_measurement_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#OrdinalMeasurementInformationContentEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_ordinal_measurement_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_ratio_measurement_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#represents"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SiteIdentifier"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#designates"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SpatialRegionIdentifier"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#designates"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#TemporalRegionIdentifier"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#designates"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000679"/>
+        <Class IRI="#computed_data_item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001933"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001931"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001933"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001931"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000039"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001931"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="http://purl.obolibrary.org/obo/OBI_0001937"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001933"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200170"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeName"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#GeospatialCoordinateReferenceSystem"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#GeospatialRegionBoundingBoxIdentifierList"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnitOfGeocoordinate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#IntervalMeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnitOfGeocoordinate"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NominalMeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NonNameIdentifier"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#OrdinalMeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SiteIdentifier"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SpatialRegionIdentifier"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#TemporalRegionIdentifier"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfEnergy"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfForce"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLevel"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfSpeed"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTemperature"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTime"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfWork"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#hypothesis"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#relation"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#addition_operation"/>
+        <Class IRI="#mathematical_operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#addition_symbol"/>
+        <Class IRI="#operation_symbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agent"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agent_dependent_rationale"/>
+        <Class IRI="#rationale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agent_independent_rationale"/>
+        <Class IRI="#rationale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#assumption"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#axis"/>
+        <Class IRI="#mathematical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#computed_data_item"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#descriptive_model"/>
+        <Class IRI="#model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#division_operation"/>
+        <Class IRI="#mathematical_operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#division_symbol"/>
+        <Class IRI="#operation_symbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#duration"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#estimate"/>
+        <Class IRI="#computed_data_item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#expected_value_estimate"/>
+        <Class IRI="#estimate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#experimenatal_rationale"/>
+        <Class IRI="#agent_independent_rationale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exponential_operation"/>
+        <Class IRI="#mathematical_operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#first_principle_rationale"/>
+        <Class IRI="#agent_independent_rationale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heuristic_rationale"/>
+        <Class IRI="#agent_independent_rationale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#idealization"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interval_measurement_scale"/>
+        <Class IRI="#measurement_scale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#longitudinal_axis"/>
+        <Class IRI="#axis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mathematical_dependence"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mathematical_entity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mathematical_expression"/>
+        <Class IRI="#mathematical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mathematical_independence"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mathematical_operation"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#matrix"/>
+        <Class IRI="#mathematical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#matrix_operation_symbol"/>
+        <Class IRI="#operation_symbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#measurement_scale"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#model"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_model_element"/>
+            <Class IRI="#assumption"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_model_element"/>
+            <Class IRI="#idealization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_model_element"/>
+            <Class IRI="#rationale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_model_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#modeling_method"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#modeling_method"/>
+        <ObjectUnionOf>
+            <Class IRI="#model"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+                <Class IRI="#physical_model"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#modeling_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multiplication_operation"/>
+        <Class IRI="#mathematical_operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multiplication_symbol"/>
+        <Class IRI="#operation_symbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nominal_measurement_scale"/>
+        <Class IRI="#measurement_scale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#objective"/>
+        <Class IRI="#agent_dependent_rationale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operation_symbol"/>
+        <Class IRI="#mathematical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ordinal_measurement_scale"/>
+        <Class IRI="#measurement_scale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#physical_model"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plan"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plane"/>
+        <Class IRI="#mathematical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#predictive_model"/>
+        <Class IRI="#model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#probability"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#probability_estimate"/>
+        <Class IRI="#estimate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#purpose"/>
+        <Class IRI="#agent_dependent_rationale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ratio_measurement_scale"/>
+        <Class IRI="#measurement_scale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rationale"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rationale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <Class IRI="#purpose"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reference_datum"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reference_textual_entity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scalar"/>
+        <Class IRI="#mathematical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#simulated_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#simulation"/>
+        <Class IRI="#predictive_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subtraction_operation"/>
+        <Class IRI="#mathematical_operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subtraction_symbol"/>
+        <Class IRI="#operation_symbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tensor"/>
+        <Class IRI="#matrix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#transvere_axis"/>
+        <Class IRI="#axis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#variable"/>
+        <Class IRI="#mathematical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vector"/>
+        <Class IRI="#mathematical_entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#weight_value_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001933"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeName"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NonNameIdentifier"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#IntervalMeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NominalMeasurementInformationContentEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#IntervalMeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#OrdinalMeasurementInformationContentEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#IntervalMeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NominalMeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#OrdinalMeasurementInformationContentEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NominalMeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#OrdinalMeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity"/>
+    </DisjointClasses>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realized_by"/>
+    </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000221"/>
+        <ObjectProperty IRI="#is_measurement_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_input"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000295"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#is_input_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_output"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000312"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#is_output_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_realizable_entity"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_process_part"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/method#has_parameter"/>
+        <ObjectProperty IRI="#has_model_element"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#estimates"/>
+        <ObjectProperty IRI="#is_model_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_constant"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/method#has_parameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_input"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_model_element"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_output"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_variable"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/method#has_parameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_estimate_of"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_measurement_of"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_model_of"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_modeled_by"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estimates"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_modeled_by"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty IRI="#is_estimate_of"/>
+                                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectSomeValuesFrom>
+                    </ObjectSomeValuesFrom>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#has_basis"/>
+            </ObjectInverseOf>
+            <ObjectProperty IRI="#is_estimate_of"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#estimates"/>
+    </SubObjectPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_estimated_value"/>
+        <DataProperty IRI="#has_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_specified_value"/>
+        <DataProperty IRI="#has_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#specifies_value"/>
+        <DataProperty IRI="#has_value"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_estimated_value"/>
+        <Class IRI="#estimate"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_estimated_value"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_value"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000111"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000679</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">average value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000114"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000679</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000125</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000679</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A  data item that is produced as the output of an averaging data transformation and represents the average value of the input data.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000679</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PERSON: James Malone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000679</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PERSON: Monnie McGee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000679</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">arithmetic mean</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000679</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">average value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000111"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001930</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">categorical value specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000114"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001930</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000123</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001930</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A value specification that is specifies one category out of a fixed number of nominal categories</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001930</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PERSON:Bjoern Peters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001930</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">categorical value specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000111"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001931</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">scalar value specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000114"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001931</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000123</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001931</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A value specification that consists of two parts: a numeral and a unit label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001931</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PERSON:Bjoern Peters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001931</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">scalar value specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000111"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001933</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">value specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001933</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The value of &apos;positive&apos; in a classification scheme of &quot;positive or negative&quot;; the value of &apos;20g&apos; on the quantitative scale of mass.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000114"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001933</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000122</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001933</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An information content entity that specifies a value within a classification scheme or on a quantitative scale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001933</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This term is currently a descendant of &apos;information content entity&apos;, which requires that it &apos;is about&apos; something. A value specification of &apos;20g&apos; for a measurement data item of the mass of a particular mouse &apos;is about&apos; the mass of that mouse. However there are cases where a value specification is not clearly about any particular. In the future we may change &apos;value specification&apos; to remove the &apos;is about&apos; requirement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001933</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PERSON:Bjoern Peters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001933</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">value specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Descriptive ICE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An Information Content Entity that consists of a set of propositions that describe some Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Descriptive Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Designative ICE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An Information Content Entity that consists of a set of symbols that denote some Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Designative Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeName</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeName</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Designative Information Content Entity that consists of a string of characters that designates an entity within a specified cultural or social namespace and which is typically a word or phrase in a natural language that has an accepted cultural or social significance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeName</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Designative Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#GeospatialCoordinateReferenceSystem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Descriptive Information Content Entity that describes a set of standards for determining the location of a point at or near the surface of the Earth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#GeospatialCoordinateReferenceSystem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Geospatial Coordinate Reference System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#GeospatialRegionBoundingBoxIdentifierList</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Measurement Unit of Geocoordinate that is comprised of 4 pairs of coordinates, one for each of the 4 defining points (North, West, South, East) of a Geospatial Region Bounding Box.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#GeospatialRegionBoundingBoxIdentifierList</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Geospatial Region Bounding Box Identifier List</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#IntervalMeasurementInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Measurement Information Content Entity that consists of a symbol that places a Quality of an Entity onto some interval scale having no true zero value.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#IntervalMeasurementInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Interval Measurement Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Measurement ICE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Descriptive Information Content Entity that consists of a symbol that is a measure of the extent, dimensions, quanity, or quality of an Entity relative to some standard.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Measurement Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Descriptive Information Content Entity that describes a definite magnitude of a physical quantity, defined and adopted by convention and/or by law, that is used as a standard for measurement of the same physical quantity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition_source"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Derived from http://en.wikipedia.org/wiki/Measurement_unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Measurement Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnitOfGeocoordinate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A Measurement Unit specifying the geospatial coordinates of a location.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnitOfGeocoordinate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Measurement Unit of Geocoordinate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NominalMeasurementInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Measurement Information Content Entity that consists of a symbol that classifies Entities according to some shared, possibly arbitrary, characteristic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NominalMeasurementInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nominal Measurement Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NonNameIdentifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NonNameIdentifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NonNameIdentifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Designative Information Content Entity that consists of a string of characters that designates an entity within a specified namespace or context, is not a Designative Name, may be automatically or randomly generated, and typically has no preexisting cultural or social significance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NonNameIdentifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Non-Name Identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#OrdinalMeasurementInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Measurement Information Content Entity that consists of a symbol that places an Entity into some rank order.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#OrdinalMeasurementInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ordinal Measurement Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Measurement Information Content Entity that consists of a symbol that places a Quality of an Entity onto an interval scale having a true zero value.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ratio Measurement Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Descriptive Information Content Entity that consists of a set of propositions or an image that represents some Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Representational Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SiteIdentifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Designative Information Content Entity that designates some Site.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SiteIdentifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Site Identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SpatialRegionIdentifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Designative Information Content Entity that designates some Spatial Region.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SpatialRegionIdentifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Spatial Region Identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#TemporalRegionIdentifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Designative Information Content Entity that designates some Temporal Region.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#TemporalRegionIdentifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Temporal Region Identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of two dimensional regions or geospatial regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">square feet, square meters, acre, hectare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfEnergy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of the amount of work that is available in an object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfEnergy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ft-lbs, calorie, horsepower, kilowatt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfEnergy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Energy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfForce</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of interactions in which the motion or velocity of an object are changed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfForce</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">newton, dyne, pound force </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfForce</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Force</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of one dimensional regions or geosptial regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">foot, meter, kilometer, mile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLevel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of a ratio of the quality to a reference value of that same quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLevel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLevel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of an object&apos;s resistance to acceleration when a force has been applied</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ounce, gram, pound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Mass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of rates of work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">watt, horsepower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Power</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of force applied perpendicular to a surface per unit area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pascal, atmosphere, pound-force per square inch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfSpeed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of the rates at which objects cover distance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfSpeed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">miles per hour, kilometers per hour, knot, mach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfSpeed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Speed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTemperature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of the thermal energy in an object </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTemperature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">celsius, fahrenheit, kelvin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTemperature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Temperature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of temporal regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">second, minute, hour, day</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of three dimensional regions or geospatial regions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cubic feet, cubic meter, quart, liter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfWork</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A measurement unit used in measurements of displacements of points to which forces have been applied</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#example_of_usage"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfWork</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">joule, erg, kilowatt hour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfWork</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Measurement Unit of Work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#hypothesis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a hypothesis is a narrative object that uses past observations to make propositions as to the nature of some entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#relation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a relation is disposition that denotes a realizable connetion between two independent continuants.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#addition_operation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">addition operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#addition_symbol</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">addition symbol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#agent_dependent_rationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A rationale which depends upon the unqiue circumstances or disposition of some agent, and is thus not necessairly replicable through realization of some plan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#agent_dependent_rationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">agent variant rationale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#agent_independent_rationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">agent invariant rationale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>#assumption</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In continuum mechanics it is assumed that the space in between atoms is not significant to the macroscopic dispositions or qualities of the entity being analyzed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#assumption</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an assumption is a narrative object composed of a description or conclusion that depends on some pre-defined state of an entity or approximation of reality to be fully accurrate or valid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#axis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an axis a mathematical symbol  that expresses an infinite, one dimensional line existing in some N-dimensional space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#computed_data_item</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">computed data item</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#descriptive_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A descriptive model is a model that only documents or representation of an entity to within the scope information that is known, and deemed relevant to the model creator’s objectives or purpose.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#descriptive_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">descriptive model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#division_operation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">division operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#division_symbol</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">division symbol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#duration</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">duration is the length time required for a process to occur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#estimates</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a more specific relation between a model and some other entity, which specifies that a model, when employed in a modeling process, outputs a value that is an estimate of some entity&apos;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#expected_value_estimate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an expected value estimate is an estimate reflects an expected average value of a measurement of some output of a process having uncerrtain outcomes at the time of estimation, were it possible to measure said outcome from the realization of a sufficiently large number of processes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#expected_value_estimate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">expected value estimate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#experimenatal_rationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A rationale derived from an observational process that, by design, elucidates aspects of some entity that are of question in the formation of said rationale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#experimenatal_rationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">experimental rationale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#exponential_operation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">exponential operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#first_principle_rationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A rationale derived using logical or mathematical reasoning from a set of axioms or theories that are accepted by the agent as known to be true.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#first_principle_rationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">first principle rationale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_constant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has constant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_input</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has input data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_model_element</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has model element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_output</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has output data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#has_relation_with</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a property relation denoting that two continuants are in the same relational quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_relation_with</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has relation with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_specified_value</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has specified value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_tolerance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has tolerance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_variable</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has variable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#heuristic_rationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A rationale that is realized througha  rule-based reasoning process wherein the rules specify norms for interpretation of some observation or observations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#heuristic_rationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">heuristic rationale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>#idealization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In continuum mechanics the assumption that empty space between atoms is not significant to the dispositions or qualities of the entity in question allows the entity to be idealized as a continuum. In reality, it is not.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#idealization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The representation of an entity that is simpler or &quot;better&quot; than reality. When an agent makes an assumption as to the description of an entity, they may allow certain simplifications to be invoked under circumstances in which the underlying assumption is valid to within some relevant metric of validity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>#interval_measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The celsius temperature scale is an interval scale, as measurements of temperature in celsius have relative order and magnitude, but no true &quot;zero&quot; can be expressed. 0 degrees Celsius does not refer to an absence of temperature, but rather an arbitrary point within a set of measurements of temrpature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#interval_measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an interval measuremetn scale is a measurement scale that preserves the order and relative size of each data item within it, with measurements placed along a range of permissible values having no &quot;absolute&quot; zero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#interval_measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">interval measurement scale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_computed_from</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is computed from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#is_estimate_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">when models are used to generate estimates, they, similar to measurements, ultimately characterize a quality or disposition of some entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_estimate_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is estimate of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_measurement_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is measurement of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>#is_model_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a continuum mechanics model describes the behavior of bulk material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#is_model_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A relation between a modeling method and the entity that it describes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_model_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is model of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_modeled_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#longitudinal_axis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a longitudinal axis is an axis that is part of a coordinate system of at least 2 dimensions oriented relative some entity. The longitudinal axis runs parallel to some substantially straight spatial region and the transverse is normal to it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#longitudinal_axis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">longitudinal axis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mathematical_dependence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mathematical dependence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mathematical_entity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mathematical symbol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mathematical_independence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mathematical independence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mathematical_operation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mathematical operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#matrix</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a matrix is a rectangular mathematical symbol that consists of a rectangular (or projected to 2 dimensions as a rectangle) N&gt;=2 dimensional array of  of mathematical expressions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#matrix_operation_symbol</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">matrix operation symbol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A measurement scale is a data set that indicates the relative placement of a data item among all possible values  that it may take, or the range of values over which it might exist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">datum on a scale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">measurement scale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A model is an information content entity that is deliberately created using a replicable methodology and based a set of known objectives, purposes, assumptions, and idealizations that constitute a rationale to represent or discover information relating to some entity to within the limits of the creator and said methodology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#modeling_method</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a plan specification which details a set of instructions by which the constituent parts of a model may be operated upon to yield an approximation of some entity in whole or in part.  A modeling method is concretized as a plan to utilize a model, and then realized as a modeling process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#modeling_method</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">modeling method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#modeling_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">modeling process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#multiplication_operation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">multiplication operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#multiplication_symbol</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">multiplication symbol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#nominal_measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a nominal measurement scale is a measurement scale consisting of a set of possible data labels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nominal_measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">nominal measurement scale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#objective</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An objective is an agent variant rationale that documents the desired outcome which motivates some agent&apos;s participation in a process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operation_symbol</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mathematical operation sybmol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#ordinal_measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An ordinal measurement scale is a measurement scale that that records the relative order of measruemtns, but not the scale of the difference between them.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ordinal_measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ordinal measurement scale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>#physical_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An experimental apparatus that simulates some real world process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>#physical_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a scale model to investigate a fluid-structure interaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#physical_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A physical artifact for which the designed function is to describe, categorize, investigate or predict some aspect of another entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#physical_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">physical model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#predictive_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A predictive model is a model that is deliberately constructed with the objective of accurately predicting unknown information about some entity that is at least in part unknown or poorly understood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#predictive_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">predictive model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#probability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">probability is a representational information content entity that represents the likelihood of some realizable entity to be realized in a process over some interval of time or aggregate of processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#probability_estimate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a probability estimate that characterizes the realtive number of instances in which some particular process outcome might be observed given the process could be realized and its outcomes observed a sufficiently large number of times.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#probability_estimate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">probability estimate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>#purpose</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The indirect goal of a non-specific &quot;healthy lifestyle&quot; when engaging in a diet or exercise.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>#purpose</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The use of a model of some phenomenon within a system as part of the greater goal of characterizing that system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#purpose</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In a case where an agent intentionally participates in a process, they do with with an intent to further some broader goal. This broader goal, to which the completion of the process may only partially or indirectly contribute, is denoted as a purpose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>#ratio_measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a measurement scale for weight, where 0 represents no weight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#ratio_measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A ration measurement scale is a measurement scale preserving the ordering, relative spacing of all data values that are part of it, and also has an absolute zero value.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ratio_measurement_scale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ratio measurement scale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#rationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A rationale is a representational information content entity that represents thejustification or logic used when an agent participates in a planned process or makes a decision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#reference_datum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a reference datum is a data item that contains data pertaining to the nature of some entity that serves to contextualize some other information content entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#reference_datum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">reference datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#simulated_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A simulated process is a planned process that is the realization of the concretization of a simulation, and is itself an imitation of some other process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#simulated_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">simulated process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>#simulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A finite element study with time dependent loading or respones</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#simulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A simiulation is a predictive model that predicts a set of specified process outputs based on a set of specified process inputs by attempting to replicate the realized behavior of process participants over the duration of said process through the realization of an imitation or &quot;simulated&quot; process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#subtraction_operation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">subtraction operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#subtraction_symbol</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">subtraction symbol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#transvere_axis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a longitudinal axis is an axis that is part of a coordinate system of at least 2 dimensions oriented relative some entity. The longitudinal axis runs parallel to some substantially straight spatial region and the transverse is normal to it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#transvere_axis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">transverse axis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#vector</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a vector is mathematical symbol that is composed of a 1xn&gt;1 dimensional array of mathematical expressions wherein each term represents an entity in relation to some corresponding dimension of an N-dimensional of a coordinate system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#has_basis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has basis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#weight_value_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a weight value specification is a value specification that indicates a number  or category that wil be used to prioritize or emphasize some entity relative to antoher</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#weight_value_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">weight value specification</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,1080 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/10/info</Import>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#recognition_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#attention_capability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plantarflexion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/EngineeringDesign_v2#rotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_user_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_problem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMotion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eversion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_disposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#varus_alignment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#capability_requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#excursion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_members_affected_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#discrimination_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spherical_grip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_task_requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#requirement_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#momentum"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#&apos;has_specified_value&apos;"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#retraction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_user_specification"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#user_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/EngineeringDesign_v2#translation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000295"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#adduction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#speed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_classification_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hook_grip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#circumduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#task_requirement_specificaiton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#supination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#depression_rotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#recall_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alignment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#precision_grip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cognitive_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/10/AAMODAT#range_capability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_design_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo#stakeholder_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#velocity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flexion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#problem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grip_posture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dorsiflexion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_specification_for"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#extension"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_requirement_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ethnic_demographic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#power_grip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#user_task_requirement_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elevation_rotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_performed_by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition_source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#force"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#valgus_alignment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#user_interface_role"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#specifies_user"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#racial_demographic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#posture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_user"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inversion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_topic_of_specification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_user_requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#range_of_motion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_specified_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sex_demographic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anatomical_rotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cylindrical_grip"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#specifies_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#acceleration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#demographic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#force_exertation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_performed_with"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neutral_alignment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pronation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#pinch_grip"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMotion"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Speed"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/EngineeringDesign_v2#rotation"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/EngineeringDesign_v2#translation"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#pinch_grip"/>
+        <Class IRI="#precision_grip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#user_interface_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo#stakeholder_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abduction"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acceleration"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adduction"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alignment"/>
+        <Class IRI="#posture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anatomical_rotation"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/EngineeringDesign_v2#rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#attention_capability"/>
+        <Class IRI="#cognitive_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#capability_requirement"/>
+        <Class IRI="#requirement_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#circumduction"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cognitive_capability"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cylindrical_grip"/>
+        <Class IRI="#power_grip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#demographic"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#depression_rotation"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#discrimination_capability"/>
+        <Class IRI="#cognitive_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dorsiflexion"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elevation_rotation"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ethnic_demographic"/>
+        <Class IRI="#demographic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eversion"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#excursion"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#extension"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flexion"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#force"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#force_exertation"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grip_posture"/>
+        <Class IRI="#posture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hook_grip"/>
+        <Class IRI="#power_grip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inversion"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#momentum"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neutral_alignment"/>
+        <Class IRI="#alignment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plantarflexion"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#position"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#posture"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#power_grip"/>
+        <Class IRI="#grip_posture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#precision_grip"/>
+        <Class IRI="#grip_posture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#problem"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pronation"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#protraction"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#racial_demographic"/>
+        <Class IRI="#demographic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#range_of_motion"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/10/AAMODAT#range_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reach"/>
+        <Class IRI="#range_of_motion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recall_capability"/>
+        <Class IRI="#cognitive_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recognition_capability"/>
+        <Class IRI="#cognitive_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#requirement_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#retraction"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sex_demographic"/>
+        <Class IRI="#demographic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#speed"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spherical_grip"/>
+        <Class IRI="#power_grip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supination"/>
+        <Class IRI="#anatomical_rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#task_requirement_specificaiton"/>
+        <Class IRI="#requirement_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#user_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#user_task_requirement_specification"/>
+        <Class IRI="#task_requirement_specificaiton"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#valgus_alignment"/>
+        <Class IRI="#alignment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#varus_alignment"/>
+        <Class IRI="#alignment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#velocity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/10/AAMODAT#range_capability"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_input"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000295"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_output"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_classification_of"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_requirement_specification"/>
+        <ObjectProperty IRI="#is_topic_of_specification"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_task_requirement"/>
+        <ObjectProperty IRI="#has_requirement_specification"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_user_requirement"/>
+        <ObjectProperty IRI="#has_task_requirement"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_user_specification"/>
+        <ObjectProperty IRI="#is_topic_of_specification"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_performed_by"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_performed_with"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_specified_by"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_topic_of_specification"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#performs"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#specifies_user"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_classification_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_specification_for"/>
+        <ObjectProperty IRI="#is_topic_of_specification"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_user"/>
+        <ObjectProperty IRI="#is_user_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_performed_by"/>
+        <ObjectProperty IRI="#performs"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_members_affected_by"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_requirement_specification"/>
+        <Class IRI="#requirement_specification"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#has_user_specification"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_design_of"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#has_user"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#has_user_specification"/>
+            <ObjectProperty IRI="#specifies_user"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#is_user_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#is_user_of"/>
+            <ObjectProperty IRI="#has_user_requirement"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#has_task_requirement"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Speed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Process Profile that is characterized by an object&apos;s change in position during some time period.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition_source"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Speed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Velocity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Speed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An object&apos;s speed is the scalar absolute value of it&apos;s velocity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Speed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Speed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#pinch_grip</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pinch grip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#user_interface_role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">user interface role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_problem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">denotes a relation wherein some entity is noted as having an issue resulting from a mismatch between specified and realizable behavior</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_problem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has problem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">angle is a geometric relation that is a rate of divergence between two straight lines from some real or hypothetical point of intersection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">orientation is a relational quality having to do with the relative position or structure of two entities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/ergo#stakeholder_role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stakeholder role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_members_affected_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">indicates a relation in which entities that are the topic of some information content entity are by extension affected by some entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_members_affected_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">within scope of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_classification_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is classification of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_specification_for</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">denoets a relation betweeen a directive information content entity and some entity that it creates specifications to describe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_specification_for</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is specification for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">used to indicate a relation in which an information content entity asserts facts about other entities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is subject to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#acceleration</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">acceleration is the rate of change of the velocity of some object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#alignment</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">alignment is an posture that describes the orientation between distal and proximal segments of some appendage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#anatomical_rotation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an anatomical rotation is a rotation in which portions of a living object&apos;s anatomy are rotated about an anatomical joint.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#attention_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an attention capability is a capability that when realized allows its bearer to focus on some entity for some amount of time with only some pre-specified level of missed information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#attention_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">attention capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#capability_requirement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a cpaability requirement specificaiton is a requirement specification that specifies the required capabilities of some artifact or entity that interacts with it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#capability_requirement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">capability requirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cognitive_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cognitive capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cylindrical_grip</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cylindrical grip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#demographic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a demographic is an object aggregate that is composed of humans that share a set of qualities or dispositions that collectively distinguish them from the larger population.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#depression_rotation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">depression (rotation)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#discrimination_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a discrimination capability is a cognitive capability that indicates the extent to which a bearer can distinguish between two entities during some process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#elevation_rotation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">elevation (rotation)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#force</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">force is the product of an objects mass and acceleration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#force_exertation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a strenght exertation capability is a capability that when realize allows its bearer to deliver a specified amount of force in a pre-specified manner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#force_exertation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">force exertion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#grip_posture</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a grip posture is a posture that indicates a cumulative set of relations inhering in the aggregate of fingers and palm of a human hand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#grip_posture</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grip posture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_requirement_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has specified requirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_task_requirement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has specified task requirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_user</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has user</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_user_requirement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has specified user task requirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_user_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has user specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hook_grip</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hook grip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_performed_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is performed by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_performed_with</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is performed with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_specified_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is specified by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_topic_of_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is topic of specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_user_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is user of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#momentum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">momentum is the product of the mass and velocity of some object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neutral_alignment</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">neutral alignment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#posture</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">posture is an orientation between a set of entities that are part of or representative of some life form&apos;s anatomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#power_grip</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">power grip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#precision_grip</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">precision grip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#range_of_motion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">range of motion is a capability that when realized allows some partially constrained material entity to move within some confined region of an N-dimensional space.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#range_of_motion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">range of motion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#reach</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">reach is a range of motion that when realized allows its bearer to traverse a certain distance relative to a fixed reference point on the bearers body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#recall_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">recall capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#recognition_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a recognition capability is a capability that when realized allows its bearer to identify some entity based on familiarity with it or similar entities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#recognition_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">recognition capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#requirement_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">requirement specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#specifies_user</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">specifies user</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#specifies_value</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">specifies value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#speed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">speed is a capability that when realized allows its bearer to acheive some specified rate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#spherical_grip</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">spherical grip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#task_requirement_specificaiton</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">task requirement specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#user_role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a user role is a role that inheres in an entity that is intended to productively interact with some artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#user_role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">user role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#user_task_requirement_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a user task erquiremetn specification is a task requirement specification that details some process that must be completed by a user for the sucecsul operation of a device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#user_task_requirement_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">user task requirement specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#valgus_alignment</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">valgus alignment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#varus_alignment</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">varus alignment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#velocity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">velocity is speed in a specific direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#&apos;has_specified_value&apos;</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has specified value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/10/AAMODAT#range_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a range capability is a capability that enables its bearer to realize a process wherein the bearer moves itself or some material or information entity through space for some distance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/10/AAMODAT#range_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">range capability</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

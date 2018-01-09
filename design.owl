@@ -1,0 +1,1863 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tom/ontologies/2017/5/design"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/5/design">
+    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions</Import>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design</Import>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#cylindrical_coordinate_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDisposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_overhang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#geometric_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_minimum_value"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_disposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#geometry_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#cylindrical_form_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRealizableEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rate_parameter_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#surface_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#three_dimensional_cartesian_coordinate_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#TwoDimensionalExtent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#step_form_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dimensional_parameter_specification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#affects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfGenericallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#rule_SLM_concave_overhangs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#design_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#requirement_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#product_verification_plan_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shape_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#product_plan_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#perpendicularlity_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_form_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#spherical_coordinate_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angled_overhang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRealizableEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#concave_profile_overhang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfGenericallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRealizableEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_manufactured_not_perpendicular_to_build_plate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDisposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dimension_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#rectangular_form_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#position_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feature_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#energetic_parameter_specification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#bearer_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfFunction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tooling_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manufacturing_parameter_specification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_form_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#parallelism_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfSpecificallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfSpecificallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#form_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#immaterial_form_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#metric_specification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_form"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_made_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfGenericallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRealizableEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDisposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manufacturing_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#slot_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_manufactured_perpendicular_to_build_plate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#design_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#concave_form_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfSpecificallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angular_offset_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#behavior_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#product_validation_plan_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalExtent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfGenericallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#orientation_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tolerance_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#layer_height_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDisposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#cartesian_coordinate_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#product_realization_plan_specification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfQuality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#function_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfSpecificallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#PBF_rule_overhangs_large"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfFunction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_maximum_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#material"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_overhang"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#gap_specification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#process_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#assembly_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDependentContinuant"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_disposition"/>
+            <Class IRI="#Behavior"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDependentContinuant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDependentContinuant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
+            <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Decrease_function"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDisposition"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDisposition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#affects"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfFunction"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfFunction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#affects"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfGenericallyDependentContinuant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfQuality"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRealizableEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRole"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#affects"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfSpecificallyDependentContinuant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDependentContinuant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDependentContinuant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#bearer_of"/>
+                    <ObjectUnionOf>
+                        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
+                        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    </ObjectUnionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDisposition"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDisposition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_disposition"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfFunction"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfFunction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfGenericallyDependentContinuant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfGenericallyDependentContinuant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#bearer_of"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfQuality"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfQuality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_quality"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRealizableEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRealizableEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#bearer_of"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRole"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfSpecificallyDependentContinuant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfSpecificallyDependentContinuant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#bearer_of"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDependentContinuant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDependentContinuant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
+            <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Increase_function"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDisposition"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDisposition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#affects"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfFunction"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfFunction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#affects"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfGenericallyDependentContinuant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfQuality"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRealizableEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRole"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#affects"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfSpecificallyDependentContinuant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDependentContinuant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDisposition"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfFunction"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfGenericallyDependentContinuant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfQuality"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRealizableEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRole"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfSpecificallyDependentContinuant"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_quality"/>
+            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_made_of"/>
+            <Class IRI="http://www.owl-ontologies.com/design.owl#material"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#material"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angled_overhang"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angled_overhang"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#dimension_specification"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angular_offset_specification"/>
+        <Class IRI="#orientation_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#concave_form_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#concave_profile_overhang"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_overhang"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#concave_profile_overhang"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_form_specification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_form_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_overhang"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_overhang"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_overhang"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#concave_form_specification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_overhang"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <NamedIndividual IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#rule_SLM_concave_overhangs"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_form_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_overhang"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#cylindrical_form_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#gap_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#immaterial_form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_manufactured_not_perpendicular_to_build_plate"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_manufactured_perpendicular_to_build_plate"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#immaterial_form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#immaterial_form_specification"/>
+        <Class IRI="#form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
+        <Class IRI="#form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <NamedIndividual IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#PBF_rule_overhangs_large"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#parallelism_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angular_offset_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#perpendicularlity_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angular_offset_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#position_specification"/>
+        <Class IRI="#orientation_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#rectangular_form_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#slot_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#immaterial_form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#step_form_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#surface_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behavior"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#assembly_specification"/>
+        <Class IRI="#manufacturing_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#behavior_specification"/>
+        <Class IRI="#design_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dimension_specification"/>
+        <Class IRI="#geometry_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dimensional_parameter_specification"/>
+        <Class IRI="#manufacturing_parameter_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#energetic_parameter_specification"/>
+        <Class IRI="#manufacturing_parameter_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#feature_specification"/>
+        <Class IRI="#design_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#form_specification"/>
+        <Class IRI="#design_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#function_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#geometric_model"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#geometry_specification"/>
+        <Class IRI="#design_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#layer_height_specification"/>
+        <Class IRI="#dimensional_parameter_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturing_parameter_specification"/>
+        <Class IRI="#tooling_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturing_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#metric_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#orientation_specification"/>
+        <Class IRI="#geometry_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process_specification"/>
+        <Class IRI="#manufacturing_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product_plan_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product_plan_specification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#product_plan_specification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product_realization_plan_specification"/>
+        <Class IRI="#product_plan_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product_validation_plan_specification"/>
+        <Class IRI="#product_plan_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product_verification_plan_specification"/>
+        <Class IRI="#product_plan_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rate_parameter_specification"/>
+        <Class IRI="#manufacturing_parameter_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shape_specification"/>
+        <Class IRI="#geometry_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tolerance_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tooling_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification"/>
+        <Class IRI="#behavior_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#requirement_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#cartesian_coordinate_system"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000024"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
+                <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#axis"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
+            <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#reference_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#cylindrical_coordinate_system"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#spherical_coordinate_system"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#three_dimensional_cartesian_coordinate_system"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#cartesian_coordinate_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#three_dimensional_cartesian_coordinate_system"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000028"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#three_dimensional_cartesian_coordinate_system"/>
+        <ObjectExactCardinality cardinality="3">
+            <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
+            <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#axis"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_feature"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_made_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_maximum_value"/>
+        <DataProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_minimum_value"/>
+        <DataProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_value"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Process in which some independent continuant endures and 1) one or more of the dependent entities it bears increase or decrease in intensity, 2) the entity begins to bear some dependent entity or 3) the entity ceases to bear some dependent entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Change</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Change in which some Independent Continuant has a decrease in the level of some Dependent Continuant that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Decrease of Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Decrease of Realizable Entity in which some Independent Continuant has a decrease of some Disposition it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Decrease of Disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Decrease of Realizable Entity in which some Independent Continuant has a decrease of some Function that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Decrease of Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Decrease of Dependent Continuant in which some Independent Continuant has a decrease in the level of a Generically Dependent Continuant that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Comment: For the most part Generically Dependent Continuants do not inhere in their bearers over some continuous scale. The primary exception is religion and this class allows annotation of those cases where an Agent is described as becoming less religious. Other cases would include the decrease of an organization&apos;s bearing of some objective.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Decrease of Generically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Decrease of Specifically Dependent Continuant in which some Independent Continuant has a decrease of some Quality that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Examples: Weight Loss, Decreasing Temperature, decreasing color intensity, loss of structural integrity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Decrease of Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Decrease of Specifically Dependent Continuant in which some Independent Continuant has a decrease of some Realizable Entity that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Decrease of Realizable Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Decrease of Realizable Entity in which some Independent Continuant has a decrease of some Role that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Decrease of Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Decrease of Dependent Continuant in which some Independent Continuant has a decrease in some Specifically Dependent Continuant that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Decrease of Specifically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Change in which an Independent Continuant becomes the bearer of some Dependent Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gain of Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Gain of Realizable Entity in which some Independent Continuant becomes the bearer of some Disposition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This class should be used to demarcate the start of the temporal interval (through the occurs_on property) that the Entity bears the Disposition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gain of Disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Gain of Realizable Entity in which some Independent Continuant becomes the bearer of some Function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This class should be used to demarcate the start of the temporal interval (through the occurs_on property) that the Entity bears the Function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gain of Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Gain of Dependent Continuant wherein some Independent Continuant becomes the bearer of some Generically Dependent Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Examples: A Person forms a Plan, A Person is initiated into a Religion, A photgraphic image is produced.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gain of Generically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Gain of Specifically Dependent Continuant in which an Independent Continuant becomes the bearer of some Quality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Examples: A person becoming pregnant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gain of Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Gain of Specifically Dependent Continuant in which some Independent Continuant becomes the bearer of some Realizable Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Examples: An informant becomes unreliable (disposition), A person begins to speak French (function), a person becomes a welder (role).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gain of Realizable Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Gain of Realizable Entity in which some Independent Continuant becomes bearer of some Role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This class should be used to demarcate the start of the temporal interval (through the occurs_on property) that the Entity bears the Role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gain of Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Gain of Dependent Continuant in which some Independent Continuant becomes the bearer of some Specifically Dependent Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Examples: A Person becomes pregnant (gain of quality), A person becomes forgetful (gain of disposition), A vehicle becomes amphibious (gain of function), A Person becomes a Database Administrator (gain of role).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gain of Specifically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Change in which some Independent Continuant has an increase in the level of some Dependent Continuant that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Increase of Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An Increase of Realizable Entity in which some Independent Continuant has an increase of some Disposition that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Increase of Disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An Increase of Realizable Entity in which some Independent Continuant has an increase of some Function that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Increase of Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An Increase of Dependent Continuant in which some Independent Continuant has an increase of some Generically Dependent Continuant that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Increase of Generically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An Increase of Specifically Dependent Continuant in which some Indpendent Continuant has an increase of some Quality that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Increase of Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An Increase of Specifically Dependent Continuant in which some Independent Continuant has an increase of some Realizable Entity that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Increase of Realizable Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An Increase of Realizable Entity in which some Independent Continuant has an increase of some Role that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Increase of Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An Increase of Dependent Continuant in which some Independent Continuant has an increase of some Specifically Dependent Continuant that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Increase of Specifically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Change in which some Independent Continuant ceases to be the bearer of some Dependent Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Loss of Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Loss of Realizable Entity in which some Independent Continuant ceases to be the bearer of some Disposition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Loss of Disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Loss of Realizable Entity in which some Independent Continuant ceases to be the bearer of some Function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Loss of Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Loss of Dependent Continuant in which some Independent Continuant ceases to be the bearer of some Generically Dependent Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Loss of Generically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Loss of Specifically Dependent Continuant in which some Independent Continuant ceases to be the bearer of some Quality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Loss of Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Loss of Specifically Dependent Continuant in which some Independent Continuant ceases to be the bearer of some Realizable Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Loss of Realizable Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Loss of Realizable Entity in which some Independent Continuant ceases to be the bearer of some Role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Loss of Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Loss of Dependent Continuant in which some Independent Continuant ceases to be the bearer of some Specifically Dependent Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Loss of Specifically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.owl-ontologies.com/design.owl#Feature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.owl-ontologies.com/design.owl#Form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.owl-ontologies.com/design.owl#Specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">target value specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.owl-ontologies.com/design.owl#material</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a spatial coordinate system is a coordinate system expresses at a minimum the position of some entity relative to some arbitrary origin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">spatial coordinate system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">angle is a geometric relation that is a rate of divergence between two straight lines from some real or hypothetical point of intersection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#coincidence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">coincidence is an orientation wherein two or more n-dimensional entities occupy the same or directly touching n-dimensional space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#concentricity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">concentricity is a geometric relation that indicates coincidence of the center point of entities having a circular shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#offset</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">offset is a geometric relation indicating the one dimensional distance between two planes or objects having planar features</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#parallelism</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">parallelism is an angularity wherein the angularity is measured to be 0, resulting in an observable wherein extension of entities in the parallel dimension will not alter the offset between them.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#perpendicularity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perpendicularity is a orientation that indicates that an angle of exactly 90 degrees between two entities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angled_overhang</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">angled overhang specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angular_offset_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">angular offset specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#concave_form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">concave profile form specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#concave_profile_overhang</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">convex profile overhang specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">convex profile form specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_overhang</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">concave profile overhang specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">curved form specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_overhang</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">curved overhang specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#cylindrical_form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cylindrical form specificiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#gap_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a gap specification is a form specification indicating that on some specified 3 dimensional space, there is an empy 3-dimensioanal space that separates 2 faces of non-empty space.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#gap_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gap specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_manufactured_not_perpendicular_to_build_plate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hole parallel to layer cross section specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_manufactured_perpendicular_to_build_plate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hole perpendicular to layer cross section specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hole specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#immaterial_form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">immaterial form specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material form specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">overhang specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#parallelism_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">parallelism specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#perpendicularlity_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perpendicularity specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#position_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">position specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#rectangular_form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rectangular form specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#slot_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">slot specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_maximum_value</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">specifies maximum value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_minimum_value</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">specifies minimum value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_value</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">specifies value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#step_form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">step form specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#surface_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">surface specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Behavior</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">behavior</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#behavior_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">behavior specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#design_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#design_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a design specification is an plan specification that indicates the planned shape, function, capabilities, and creation process etc. of an artifact that will be brought into existence through the realization of a plan concretizing teh design specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#design_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dimension_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dimension specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dimensional_parameter_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tool dimension parameter specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#energetic_parameter_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tool energy parameter specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#feature_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">feature specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">form specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#function_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">function specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#geometric_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A geometric model is a model created to represent the geomtery of some continuant or proposed continuant as a set of shapes, dimensions, references, constraints, and relations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#geometric_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geometric model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#geometry_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a geometry specification is a is an objective specification that, when concretized as part of a plan and realized, specifies the intended geometry of some artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#geometry_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geometry specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_feature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_made_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is made of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#layer_height_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">additive layer height specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#manufacturing_parameter_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a  parameter specification is a  tooling specification that describes the set values of variable aspects of a tool or machine used in a  process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#manufacturing_parameter_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tooling parameter specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#manufacturing_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">manufacturing specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#metric_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">metric specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#orientation_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An orientation specification is a geometry specification that details how two continuants are to be positioned relative to one another.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#orientation_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">orientation specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#process_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a manufacturing process specification is a manufacturing specification that dictates a process by which some artifact, part of an artifact, or intermediarte in the creation of the aforementioned is to be manufactured</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#process_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">manufacturing process specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#product_plan_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">product plan specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rate_parameter_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tool rate parameter specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#shape_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shape specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#tolerance_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a tolerance specification is an objective specification that denotes that a measurement datum obtained from some entity should fall within some range of values relative to those specified in the design specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tolerance_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tolerance specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#tooling_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a  tooling specification is an action specification that details what specific  tools, machines, or sub-parts thereof are to be used in a process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tooling_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tooling specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a performance specification is a behavior specification that details a realizable capability that inheresin some artifact under a set of specified circumstances</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">performance specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#requirement_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">requirement specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A coordiante system is a mathetmatical model that represents information relating to some N-dimensional space relative to some origin from which all deviations are measured</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a coordinate system is a descriptive model that represents an  N-dimensional space as a set of positions or orientations relative some arbitrary origin point where all N dimensions overlap.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">coordinate system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#three_dimensional_cartesian_coordinate_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">three-dimensional cartesian coordinate system</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

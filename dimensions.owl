@@ -1,0 +1,1303 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions">
+    <Prefix name="" IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/dimensions.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/10/info</Import>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Branched"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#angularity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Pyramidal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fatigue_loading_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Perimeter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Curved"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Protruding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perpendicularity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Rectangular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#compressive_loading_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sloped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#offset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parallelism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cylindricity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConcaveShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#TwoDimensionalExtent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodyShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#torsional_loading_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#runout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concentricity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Spherical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#complexity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Round"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#viscoplasticity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#range_measurement_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bending_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConvexShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coincidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Width"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flatness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sharp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#viscoelasticity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Drooping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#orientation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shear_loading_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Square"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Depth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#realized_accuracy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Bent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Diameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tensile_loading_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#circularity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Folded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#radius"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elasticity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Altitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Semicircular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#straightness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Blunt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#surface_roughness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Flat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalExtent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Circumference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Coiled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#impulse_loading_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#material_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#accuracy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Height"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#datum_tolerance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#datum_error"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Oblong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Triangular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Serrated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Straight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cylindrical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arc_length"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#impact_loading_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConeShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#SizeQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#controlled_radius"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#density"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#symmetry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aesthetic_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cubiod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#accessibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thickness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Split"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loading_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodyShape"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Altitude"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Height"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Bent"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Blunt"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Branched"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Circumference"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Perimeter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Coiled"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConcaveShape"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConeShape"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConvexShape"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cubiod"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Curved"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cylindrical"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Depth"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Diameter"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Drooping"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Flat"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Folded"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Height"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Oblong"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#SizeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Perimeter"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Protruding"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Pyramidal"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Rectangular"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Round"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Semicircular"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Serrated"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sharp"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#SizeQuality"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sloped"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Spherical"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Split"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Square"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Rectangular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Straight"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thickness"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Depth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thin"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalExtent"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#SizeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Triangular"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#TwoDimensionalExtent"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#SizeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wavy"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wide"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Width"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Width"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#accessibility"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#accuracy"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aesthetic_quality"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angularity"/>
+        <Class IRI="#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arc_length"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#area"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#TwoDimensionalExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bending_process"/>
+        <Class IRI="#loading_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#circularity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coincidence"/>
+        <Class IRI="#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#complexity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#compressive_loading_process"/>
+        <Class IRI="#loading_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concentricity"/>
+        <Class IRI="#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#controlled_radius"/>
+        <Class IRI="#radius"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cylindricity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#datum_error"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#datum_tolerance"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#density"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distance"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elasticity"/>
+        <Class IRI="#material_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fatigue_loading_process"/>
+        <Class IRI="#loading_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flatness"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#impact_loading_process"/>
+        <Class IRI="#loading_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#impulse_loading_process"/>
+        <Class IRI="#loading_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loading_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#material_behavior"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#offset"/>
+        <Class IRI="#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#orientation"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#orientation"/>
+        <Class IRI="#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parallelism"/>
+        <Class IRI="#angularity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perpendicularity"/>
+        <Class IRI="#angularity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#position"/>
+        <Class IRI="#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#profile"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radius"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#range_measurement_datum"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#realized_accuracy"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#runout"/>
+        <Class IRI="#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shear_loading_process"/>
+        <Class IRI="#loading_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#straightness"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#surface_roughness"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#symmetry"/>
+        <Class IRI="#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tensile_loading_process"/>
+        <Class IRI="#loading_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#torsional_loading_process"/>
+        <Class IRI="#loading_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#viscoelasticity"/>
+        <Class IRI="#material_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#viscoplasticity"/>
+        <Class IRI="#material_behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#volume"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#duration"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodyShape</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a Person&apos;s body by virtue of the body&apos;s general outline or figure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodyShape</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Body Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Altitude</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Height that inheres in a Site that externally connects an Independent Continuant to either the surface of the Earth or the Earth&apos;s mean Sea Level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Altitude</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Altitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Bent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Angular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Bent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kinked</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Bent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer having one or more angles along its border.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Bent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Blunt</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer not having a sharp edge or point.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Blunt</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Blunt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Branched</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer having subdivisions or offshoots.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Branched</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Branched</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Circumference</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Perimeter that inheres in a circle or ellipse.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Circumference</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Circumference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Coiled</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer being wound in concentric rings or spirals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Coiled</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Coiled</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConcaveShape</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality that inheres in a bearer in virtue of the bearer having one or more cavities, such that at least one line connecting a pair of points on the surface of the bearer will lie outside.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConcaveShape</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Concave Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConeShape</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Three Dimensional Shape that inheres in a bearer in virtue of it having a flat base with sides that taper smoothly to an apex.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition_source"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConeShape</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Cone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConeShape</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cone Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConvexShape</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality that inheres in a bearer in virtue of the bearer not having a cavity, such that no line connecting a pair of points on the surface of the bearer will lie outside.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ConvexShape</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Convex Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cubiod</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Three Dimensional Shape that inheres in a bearer in virtue of it having six rectangular faces.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cubiod</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cubiod</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Curved</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer having borders which are smoothly rounded.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Curved</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Curved</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cylindrical</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Columnar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cylindrical</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Three Dimensional Shape inhering in a bearer in virtue of the bearer having an elongated shape with round bases.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Cylindrical</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cylindrical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Depth</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A One Dimensional Extent that inheres in a bearer in virtue of the bearer&apos;s extension in a downward, backward, or inward direction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Depth</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Depth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Diameter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A One Dimensional Extent that inheres in a circle in virtue of the extent of a straight line that passes through the center of the circle and starts and ends on the circle&apos;s boundary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Diameter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Diameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Drooping</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer having a border that hangs downwards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Drooping</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Drooping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Flat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer having a horizontal border without a significant deviation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Flat</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Flat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Folded</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of one part of the bearer being layered over another connected part.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Folded</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Folded</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Height</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A One Dimensional Extent that inheres in a bearer in virtue of the bearer&apos;s extension in a vertical direction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Height</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A One-Dimensional Extent inhering in a bearer by virtue of the bearer&apos;s vertical dimension of extension.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Height</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A One Dimensional Extent that inheres in a bearer in virtue of the bearer&apos;s greatest extent in one direction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Oblong</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer having an long thin shape with approximately parallel sides.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Oblong</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Oblong</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Size Quality inhering in an bearer by virtue of the bearer&apos;s extension in one dimension.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Size Quality that inheres in a bearer in virtue of the bearer&apos;s extension in one dimension.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition_source"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/PATO_0001708</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Subclasses of one dimensional extent are included for usability. It is doubtful any of them can be objectively distinguished (on the side of the bearing entity) without some reference to external properties such as orientation and perspective.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">One Dimensional Extent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">One-Dimensional Extent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Perimeter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A One Dimensional Extent that inheres in a bearer in virtue of the extent of a boundary which encloses the bearer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Perimeter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Perimeter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Protruding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a part of an object in virtue of the part extending out above or beyond the surface of the object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Protruding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Protruding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Pyramidal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Three Dimensional Shape that inheres in a bearer in virtue of it having a polygonal base with vertices that all connect to the same apex to form triangular faces.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition_source"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Pyramidal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Pyramid_(geometry)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Pyramidal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Pyramidal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Rectangular</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of having four sides and four 90 degree angles.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Rectangular</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rectangular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Round</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Circular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Round</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality that inheres in a bearer in virtue of every point along its circumference being equidistant from the center.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition_source"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Round</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.merriam-webster.com/dictionary/round</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Round</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Round</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Semicircular</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape quality inhering in a bearer in virtue of the bearer having the shape of half a circle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Semicircular</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Semicircular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Serrated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer having multiple sharp points along a edge.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Serrated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Serrated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Quality inhering in a bearer by virtue of the bearer&apos;s ratios of distances between its features (points edges surfaces and also holes etc).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Quality that inheres in a bearer in virtue of the ratios between dimensions of external features of that bearer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Shape Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shape quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sharp</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer having a fine point or thin edge.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sharp</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sharp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#SizeQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Quality inhering in a bearer by virtue of the bearer&apos;s physical magnitude.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#SizeQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Quality that inheres in a bearer in virtue of the bearer&apos;s extension in one or more dimensions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#SizeQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Size Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sloped</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer having a horizontal border which is not level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sloped</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sloped</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Spherical</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Three Dimensional Shape inhering in a bearer in virtue of it having round cross sections.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Spherical</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Spherical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Split</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer having a linear opening, or having been divided into parts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Split</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Split</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Square</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Rectangular shape which has four equal length sides and four 90 degree angles.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Square</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Square</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Straight</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Linear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Straight</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer not having curves, bends, or angles along its borders.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Straight</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Straight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thickness</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Depth that inheres in a bearer in virtue of it extending inward through an object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thickness</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Thickness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thin</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Narrow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thin</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Slender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thin</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer having a width or depth which is significantly smaller in proportion to its length or height.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thin</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Thin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality that inheres only in a three dimensional entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Three Dimensional Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Triangular</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of it having three angles and three sides.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Triangular</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Triangular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wavy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Undulate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wavy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of it having a sinuous or rippled border.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wavy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Wavy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wide</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Broad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#alternative_label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wide</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wide</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Shape Quality inhering in a bearer in virtue of the bearer having a width or depth which is significantly larger in proportion to its length or height.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wide</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Wide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Width</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A One Dimensional Extent that inheres in a bearer in virtue of the bearer&apos;s extension in a horizontal direction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Width</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Width</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#accuracy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">accuracy is a disposition of a material entity to adhere to a set of specified dimensions when engaging in a process. It is distinct from realized accuracy, which inheres in the output of such a process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#aesthetic_quality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">aesthetic quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#arc_length</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">arc length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bending_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bending process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#datum_error</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a datum error is a data item that contains information relating to the amount of uncertainty in a measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#datum_error</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">datum error</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#datum_tolerance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a datum tolerance is a data item that describes the extent to which a measurement datum is allowed to vary when said measurement datum is being used to specify the specifically dependent continuants of some artifact.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#datum_tolerance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">datum tolerance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#loading_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">loading process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#orientation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">orientation is a relational quality having to do with the relative position or structure of two entities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#range_measurement_datum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a range measuremetn datum is a set of two scalar measurement datums that together comprise a range of possible observations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#range_measurement_datum</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">range measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#realized_accuracy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">realized accuracy is a quality that describes the extent to which some artifact adheres to a specified set of dimensions . This is distinct from &quot;accuracy&quot; which is a disposition of an artifact to produce said specified dimensions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#realized_accuracy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">realized accuracy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#surface_roughness</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">surface roughness</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

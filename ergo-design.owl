@@ -1,0 +1,1207 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design">
+    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/8/user_capability</Import>
+    <Import>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl</Import>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#crush_function"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rule:_visibility_of_system_status"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recommendation_user_control"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recommendation_error_prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fault_tree_analysis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stakeholder_engagement_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stakeholder_engagement_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#literature_review_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#systems_theoretic_accident_model_and_process"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rule:_color_blindness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#compress_function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#red-green_color_combination_specification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rule:_audibility_of_alarms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#risk_assessment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recommendation_minimalist_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#pierce_function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recommendation_color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#potential_error"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#flow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#system_indicator_specification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rule:_minimalist_and_aesthetic_design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recommendation_match_reality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recommendation_flexible_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#failure_mode_and_effects_analysis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hazard_analysis_and_critical_points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shadowing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#error_trigger_plan_specification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_sub-process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#survey"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_sub-classification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rule:_user_control_and_freedom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#focus_group_process"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rule:_recognition_rather_than_recall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rule:_error_prevention"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rule:_error_diagnosis_support"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interview_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#recommendation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rule:_flexible_design"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#output_flow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#recognition_user_task_requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#deform_function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ethnographic_research"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_consequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#expert_usability_analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cognitive_user_task_requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blue-yellow_color_combination_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000055"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#principle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#contextual_inquiry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cognitive_walkthrough"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#usability_testing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ergonomic_rule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#survey_process"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recommendation_system_state"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#form_function"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rule:_match_between_system_and_world"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recommendation_legibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#preliminary_hazard_analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Compact_function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#color_specification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rule:_readability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#error_analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hazard_and_operability_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#document_review_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recommendation_recognition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#market_research_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#method"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rule:_anticipate_user_actions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hallway_testing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#regulatory_review_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recommendation_alarms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#delphi_technique_engagement_procses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#delphi_technique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recommendation_user_actions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alarm_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#color_combination_specification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#text"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recommendation_error_diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#focus_group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single_color_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#recall_user_task"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#alarm_specification"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#system_indicator_specification"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+                        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Announce_function"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#cognitive_user_task_requirement"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#cognitive_user_task_requirement"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
+                            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#cognitive_capability"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectSomeValuesFrom>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#recall_user_task"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#cognitive_user_task_requirement"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
+                            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#recall_capability"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectSomeValuesFrom>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#recognition_user_task_requirement"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#cognitive_user_task_requirement"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
+                            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#recognition_capability"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectSomeValuesFrom>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#system_indicator_specification"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+                    <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Indicate_function"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#flow"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000055"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alarm_specification"/>
+        <Class IRI="#system_indicator_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alarm_specification"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <NamedIndividual IRI="#rule:_audibility_of_alarms"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blue-yellow_color_combination_specification"/>
+        <Class IRI="#color_combination_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blue-yellow_color_combination_specification"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <NamedIndividual IRI="#rule:_color_blindness"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cognitive_user_task_requirement"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#user_task_requirement_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cognitive_walkthrough"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#color_combination_specification"/>
+        <Class IRI="#color_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#color_specification"/>
+        <Class IRI="#quality_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contextual_inquiry"/>
+        <Class IRI="#ethnographic_research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#delphi_technique"/>
+        <Class IRI="#stakeholder_engagement_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#delphi_technique_engagement_procses"/>
+        <Class IRI="#stakeholder_engagement_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#document_review_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ergonomic_rule"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#error_analysis"/>
+        <Class IRI="#risk_assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#error_trigger_plan_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ethnographic_research"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#expert_usability_analysis"/>
+        <Class IRI="#usability_testing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#failure_mode_and_effects_analysis"/>
+        <Class IRI="#risk_assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fault_tree_analysis"/>
+        <Class IRI="#risk_assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#focus_group"/>
+        <Class IRI="#stakeholder_engagement_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#focus_group_process"/>
+        <Class IRI="#stakeholder_engagement_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hallway_testing"/>
+        <Class IRI="#usability_testing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hazard_analysis_and_critical_points"/>
+        <Class IRI="#risk_assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hazard_and_operability_study"/>
+        <Class IRI="#risk_assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <Class IRI="#ergonomic_rule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interview"/>
+        <Class IRI="#stakeholder_engagement_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interview_process"/>
+        <Class IRI="#stakeholder_engagement_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#literature_review_process"/>
+        <Class IRI="#document_review_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#market_research_process"/>
+        <Class IRI="#document_review_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#method"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#potential_error"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#problem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#preliminary_hazard_analysis"/>
+        <Class IRI="#risk_assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#principle"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recall_user_task"/>
+        <Class IRI="#cognitive_user_task_requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recall_user_task"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <NamedIndividual IRI="#rule:_recognition_rather_than_recall"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recognition_user_task_requirement"/>
+        <Class IRI="#cognitive_user_task_requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recommendation"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#red-green_color_combination_specification"/>
+        <Class IRI="#color_combination_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#red-green_color_combination_specification"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <NamedIndividual IRI="#rule:_color_blindness"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regulatory_review_process"/>
+        <Class IRI="#document_review_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#risk_assessment"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shadowing"/>
+        <Class IRI="#ethnographic_research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#single_color_specification"/>
+        <Class IRI="#color_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stakeholder_engagement_method"/>
+        <Class IRI="#method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stakeholder_engagement_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stakeholder_engagement_process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#agent"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
+                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo#stakeholder_role"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#survey"/>
+        <Class IRI="#stakeholder_engagement_method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#survey_process"/>
+        <Class IRI="#stakeholder_engagement_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#system_indicator_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#system_indicator_specification"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <NamedIndividual IRI="#rule:_readability"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systems_theoretic_accident_model_and_process"/>
+        <Class IRI="#risk_assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#usability_testing"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#user_task_requirement_specification"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <NamedIndividual IRI="#rule:_anticipate_user_actions"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#user_task_requirement_specification"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <NamedIndividual IRI="#rule:_user_control_and_freedom"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#agent"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#recommendation"/>
+        <NamedIndividual IRI="#recommendation_alarms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#recommendation"/>
+        <NamedIndividual IRI="#recommendation_color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#recommendation"/>
+        <NamedIndividual IRI="#recommendation_error_diagnosis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#recommendation"/>
+        <NamedIndividual IRI="#recommendation_error_prevention"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#recommendation"/>
+        <NamedIndividual IRI="#recommendation_flexible_design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#recommendation"/>
+        <NamedIndividual IRI="#recommendation_legibility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#recommendation"/>
+        <NamedIndividual IRI="#recommendation_match_reality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#recommendation"/>
+        <NamedIndividual IRI="#recommendation_minimalist_design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#recommendation"/>
+        <NamedIndividual IRI="#recommendation_recognition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#recommendation"/>
+        <NamedIndividual IRI="#recommendation_system_state"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#recommendation"/>
+        <NamedIndividual IRI="#recommendation_user_actions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#recommendation"/>
+        <NamedIndividual IRI="#recommendation_user_control"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <NamedIndividual IRI="#rule:_anticipate_user_actions"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <NamedIndividual IRI="#rule:_audibility_of_alarms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <NamedIndividual IRI="#rule:_color_blindness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <NamedIndividual IRI="#rule:_error_diagnosis_support"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <NamedIndividual IRI="#rule:_error_prevention"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <NamedIndividual IRI="#rule:_flexible_design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <NamedIndividual IRI="#rule:_match_between_system_and_world"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <NamedIndividual IRI="#rule:_minimalist_and_aesthetic_design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <NamedIndividual IRI="#rule:_readability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <NamedIndividual IRI="#rule:_recognition_rather_than_recall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <NamedIndividual IRI="#rule:_user_control_and_freedom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heuristic_ergonomic_rule"/>
+        <NamedIndividual IRI="#rule:_visibility_of_system_status"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_consequence"/>
+        <NamedIndividual IRI="#rule:_anticipate_user_actions"/>
+        <NamedIndividual IRI="#recommendation_user_actions"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_consequence"/>
+        <NamedIndividual IRI="#rule:_audibility_of_alarms"/>
+        <NamedIndividual IRI="#recommendation_alarms"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_consequence"/>
+        <NamedIndividual IRI="#rule:_color_blindness"/>
+        <NamedIndividual IRI="#recommendation_color"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_consequence"/>
+        <NamedIndividual IRI="#rule:_error_diagnosis_support"/>
+        <NamedIndividual IRI="#recommendation_error_diagnosis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_consequence"/>
+        <NamedIndividual IRI="#rule:_error_prevention"/>
+        <NamedIndividual IRI="#recommendation_error_prevention"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_consequence"/>
+        <NamedIndividual IRI="#rule:_flexible_design"/>
+        <NamedIndividual IRI="#recommendation_flexible_design"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_consequence"/>
+        <NamedIndividual IRI="#rule:_match_between_system_and_world"/>
+        <NamedIndividual IRI="#recommendation_match_reality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_consequence"/>
+        <NamedIndividual IRI="#rule:_readability"/>
+        <NamedIndividual IRI="#recommendation_legibility"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_consequence"/>
+        <NamedIndividual IRI="#rule:_recognition_rather_than_recall"/>
+        <NamedIndividual IRI="#recommendation_recognition"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_consequence"/>
+        <NamedIndividual IRI="#rule:_user_control_and_freedom"/>
+        <NamedIndividual IRI="#recommendation_user_control"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_consequence"/>
+        <NamedIndividual IRI="#rule:_visibility_of_system_status"/>
+        <NamedIndividual IRI="#recommendation_system_state"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_sub-classification"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_sub-process"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_sub-classification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_sub-classification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#is_functional_model_of"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#has_functional_model"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#submodel"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#is_functional_model_of"/>
+            <ObjectProperty IRI="#has_sub-process"/>
+            <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#has_functional_model"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#submodel"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+            <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#has_functional_model"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#has_functional_model"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#is_modeled_by"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#is_modeled_by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#has_sub-classification"/>
+            </ObjectInverseOf>
+            <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#has_functional_model"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#has_functional_model"/>
+    </SubObjectPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#text"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Compact_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compacting function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#compress_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compressing function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#crush_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">crushing function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#deform_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">deforming function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#form_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">forming function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#pierce_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">piercing function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000055</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a design specification is an plan specification that indicates the planned shape, function, capabilities, and creation process etc. of an artifact that will be brought into existence through the realization of a plan concretizing teh design specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">feature specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a geometry specification is a is an objective specification that, when concretized as part of a plan and realized, specifies the intended geometry of some artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geometry specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#alarm_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">alarm specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#blue-yellow_color_combination_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a color combination specificaiton that specifies a combination of shades of blue and shades of yellow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cognitive_walkthrough</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cognitive walkthrough process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#color_combination_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a color combinaton specification is a color specification that specifies two or more colors that are to share a border, or overlap one another</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#color_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a color specification is a quality specification that specifies what color some continuant wll be</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#contextual_inquiry</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">contextual inquiry process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#delphi_technique</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">delphi engagement method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#delphi_technique_engagement_procses</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a delphi technique engagement process is a stakeholder engagement process that realizes the concretization of of a plan specification for a the Delphi process of stakeholder engagement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#delphi_technique_engagement_procses</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Delphi technique engagement process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#document_review_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">document review process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#ergonomic_rule</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an ergonomic rule is a rule that specifies a set of undesirable conditions relating to usability or work environment that, when met, result in a set of specificaitons for changes to be impleemented to alleviate these undesirable conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ergonomic_rule</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ergonomic rule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#error_analysis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">error analysis process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#error_trigger_plan_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an error triggering plan specification is a plan specification that details a plan for how one might generate an undesirable outomce</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ethnographic_research</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ethnographic research process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#expert_usability_analysis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">expert usability testing method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#failure_mode_and_effects_analysis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">failure mode and effects analysis method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fault_tree_analysis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fault tree analysis method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#focus_group</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">focus group method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#focus_group_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a focus group process is stakeholder engagement process wherein a group of agents who are stakeholders in some entity are used as proxies for a larger collection thereof are solicited to engage in a guided discussion of said entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#focus_group_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">focus group process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hallway_testing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hallway testing method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_consequence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has consequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_sub-process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has sub process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hazard_analysis_and_critical_points</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hazard and critical points analysis method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hazard_and_operability_study</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hazard and operability study method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#heuristic_ergonomic_rule</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a heuristic ergonomic rule is an ergonomic rule that uses a set of indirect assessments of a situation to recommend changes to some entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#heuristic_ergonomic_rule</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">heuristic ergonomic rule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#interview</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">interview method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#interview_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an interview process is a stakeholder engagement process in which an agent or group fo agents that are stakeholders in some entity are solicited to answer a series of questions about said entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#interview_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">interview process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#literature_review_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">literature review process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#market_research_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">market research process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#method</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a method is a plan specification consisting of a set of action specifications that constitute a generic workflow for realizing some standardized objective</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#potential_error</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">potential error</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#preliminary_hazard_analysis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">preliminary hazard analysis process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#quality_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a quality specification is a directive entity that specifies a quality that is to inhere in some continuant as a result of a process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#red-green_color_combination_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a color combination system that specifies a combination of shades of red and shades of green.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#regulatory_review_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">review of regulatory documents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#risk_assessment</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">risk assessment process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#shadowing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shadowing process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#single_color_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a single color specification is a color specification that specifies the color of a single color that is found either in a one color region or in a single color objec.t</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#stakeholder_engagement_method</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a stakeholder engagemetn methods is a method that details a workflow for engageign with agents who are stakeholders in some entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stakeholder_engagement_method</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stakeholder engagement method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stakeholder_engagement_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stakeholder engagement process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#survey</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">survey method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#survey_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">survey process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#systems_theoretic_accident_model_and_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">systems theoretic accident model method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#usability_testing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a usability testing process is a planned process where an agent or group of agents interact with an artifact or information entity to realize the concretization of a plan specification with teh objective of identifying problems relating the design of said entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#usability_testing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">usability testing process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has classification</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
