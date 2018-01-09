@@ -65,6 +65,9 @@
         <Class IRI="#alignment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#capability_requirement"/>
     </Declaration>
     <Declaration>
@@ -78,6 +81,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#supination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#range_capability"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
@@ -123,9 +129,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#specifies_user"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_classification_of"/>
@@ -183,9 +186,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/10/AAMODAT#range_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#elevation_rotation"/>
@@ -305,10 +305,10 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_input"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_input"/>
     </Declaration>
     <Declaration>
         <Class IRI="#varus_alignment"/>
@@ -323,19 +323,16 @@
         <Class IRI="#power_grip"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#depression_rotation"/>
+        <Class IRI="#discrimination_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#discrimination_capability"/>
+        <Class IRI="#depression_rotation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#eversion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#hook_grip"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#speed"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#pinch_grip"/>
@@ -368,10 +365,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity"/>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
     </SubClassOf>
@@ -392,8 +385,8 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/10/AAMODAT#range_capability"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#abduction"/>
@@ -429,7 +422,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#cognitive_capability"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#cylindrical_grip"/>
@@ -481,7 +474,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#force_exertation"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#grip_posture"/>
@@ -540,8 +533,12 @@
         <Class IRI="#demographic"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#range_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#range_of_motion"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/10/AAMODAT#range_capability"/>
+        <Class IRI="#range_capability"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#reach"/>
@@ -566,10 +563,6 @@
     <SubClassOf>
         <Class IRI="#sex_demographic"/>
         <Class IRI="#demographic"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#speed"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#spherical_grip"/>
@@ -815,16 +808,6 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is subject to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/10/AAMODAT#range_capability</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a range capability is a capability that enables its bearer to realize a process wherein the bearer moves itself or some material or information entity through space for some distance</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/10/AAMODAT#range_capability</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">range capability</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#acceleration</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">acceleration is the rate of change of the velocity of some object</Literal>
@@ -995,6 +978,16 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">precision grip</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#range_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a range capability is a capability that enables its bearer to realize a process wherein the bearer moves itself or some material or information entity through space for some distance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#range_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">range capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#range_of_motion</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">range of motion is a capability that when realized allows some partially constrained material entity to move within some confined region of an N-dimensional space.</Literal>
@@ -1038,11 +1031,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#specifies_value</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">specifies value</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#speed</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">speed is a capability that when realized allows its bearer to acheive some specified rate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
