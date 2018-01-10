@@ -20,9 +20,6 @@
         <Class IRI="#rationale"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#hypothesis"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#multiplication_operation"/>
     </Declaration>
     <Declaration>
@@ -41,13 +38,13 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_ordinal_measurement_of"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#matrix"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#agent"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#matrix"/>
     </Declaration>
     <Declaration>
         <Class IRI="#reference_textual_entity"/>
@@ -59,10 +56,10 @@
         <Class IRI="#addition_operation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SiteIdentifier"/>
+        <ObjectProperty IRI="#is_modeled_by"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_modeled_by"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SiteIdentifier"/>
     </Declaration>
     <Declaration>
         <Class IRI="#multiplication_symbol"/>
@@ -80,19 +77,19 @@
         <Class IRI="#objective"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_model_of"/>
+        <Class IRI="#modeling_method"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#modeling_method"/>
+        <ObjectProperty IRI="#is_model_of"/>
     </Declaration>
     <Declaration>
         <Class IRI="#mathematical_independence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#probability"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <Class IRI="#probability"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000116"/>
@@ -173,6 +170,9 @@
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#hypothesis"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0001933"/>
     </Declaration>
     <Declaration>
@@ -206,10 +206,10 @@
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#weight_value_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#estimate"/>
+        <Class IRI="#predictive_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#predictive_model"/>
+        <Class IRI="#estimate"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
@@ -230,10 +230,10 @@
         <Class IRI="#tensor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ratio_measurement_scale"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+        <Class IRI="#ratio_measurement_scale"/>
     </Declaration>
     <Declaration>
         <Class IRI="#addition_symbol"/>
@@ -254,10 +254,10 @@
         <Class IRI="#idealization"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#describes"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_nominal_measurement_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_a_nominal_measurement_of"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#describes"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#TemporalRegionIdentifier"/>
@@ -266,10 +266,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#designates"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#designates"/>
     </Declaration>
     <Declaration>
         <Class IRI="#model"/>
@@ -305,10 +305,10 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#SpatialRegionIdentifier"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#plan"/>
+        <Class IRI="#mathematical_expression"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#mathematical_expression"/>
+        <Class IRI="#plan"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#represents"/>
@@ -395,13 +395,13 @@
         <Class IRI="#variable"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#operation_symbol"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
@@ -422,10 +422,10 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#GeospatialCoordinateReferenceSystem"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#mathematical_operation"/>
+        <Class IRI="#reference_datum"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#reference_datum"/>
+        <Class IRI="#mathematical_operation"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#OrdinalMeasurementInformationContentEntity"/>
@@ -434,10 +434,10 @@
         <Class IRI="#descriptive_model"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_relation_with"/>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/OBI_0001937"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://purl.obolibrary.org/obo/OBI_0001937"/>
+        <ObjectProperty IRI="#has_relation_with"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
@@ -728,16 +728,16 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#hypothesis"/>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#relation"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#weight_value_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0001933"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#hypothesis"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#addition_operation"/>
@@ -1717,11 +1717,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#hypothesis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a hypothesis is a narrative object that uses past observations to make propositions as to the nature of some entity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#relation</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a relation is disposition that denotes a realizable connetion between two independent continuants.</Literal>
     </AnnotationAssertion>
@@ -1739,6 +1734,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#weight_value_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">weight value specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#hypothesis</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a hypothesis is a narrative object that uses past observations to make propositions as to the nature of some entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
