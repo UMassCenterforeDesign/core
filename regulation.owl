@@ -42,7 +42,7 @@
         <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#is_specified_by"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_classification"/>
@@ -167,7 +167,7 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence"/>
         <ObjectProperty IRI="#is_consequence_of"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
@@ -213,7 +213,7 @@
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
             <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence"/>
         </ObjectPropertyChain>
         <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
     </SubObjectPropertyOf>
@@ -240,12 +240,12 @@
     </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">denotes a relation in which being affected by (and thus subject to) some information content entity imposes a set of consequences upon the entity in question</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has consequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

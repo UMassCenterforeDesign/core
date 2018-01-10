@@ -52,7 +52,7 @@
         <Class IRI="#hazard_and_operability_study"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#rule:_error_prevention"/>
@@ -100,7 +100,7 @@
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#recommendation_user_actions"/>
@@ -130,7 +130,7 @@
         <Class IRI="#interview"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
     </Declaration>
     <Declaration>
         <Class IRI="#survey_process"/>
@@ -157,7 +157,7 @@
         <Class IRI="#heuristic_ergonomic_rule"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="#stakeholder_engagement_method"/>
@@ -235,7 +235,7 @@
         <Class IRI="#error_trigger_plan_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo#stakeholder_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#rule:_readability"/>
@@ -247,7 +247,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000055"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
     </Declaration>
     <Declaration>
         <Class IRI="#color_combination_specification"/>
@@ -283,7 +283,7 @@
         <Class IRI="#interview_process"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#rule:_recognition_rather_than_recall"/>
@@ -322,7 +322,7 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
     </Declaration>
     <Declaration>
         <Class IRI="#principle"/>
@@ -350,7 +350,7 @@
         <ObjectIntersectionOf>
             <Class IRI="#system_indicator_specification"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
                 <ObjectIntersectionOf>
                     <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
                     <ObjectSomeValuesFrom>
@@ -364,9 +364,9 @@
     <EquivalentClasses>
         <Class IRI="#system_indicator_specification"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
                     <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Indicate_function"/>
@@ -383,16 +383,16 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
@@ -405,7 +405,7 @@
     <SubClassOf>
         <Class IRI="#alarm_specification"/>
         <ObjectHasValue>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
             <NamedIndividual IRI="#rule:_audibility_of_alarms"/>
         </ObjectHasValue>
     </SubClassOf>
@@ -416,7 +416,7 @@
     <SubClassOf>
         <Class IRI="#blue-yellow_color_combination_specification"/>
         <ObjectHasValue>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
             <NamedIndividual IRI="#rule:_color_blindness"/>
         </ObjectHasValue>
     </SubClassOf>
@@ -543,7 +543,7 @@
     <SubClassOf>
         <Class IRI="#red-green_color_combination_specification"/>
         <ObjectHasValue>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
             <NamedIndividual IRI="#rule:_color_blindness"/>
         </ObjectHasValue>
     </SubClassOf>
@@ -579,7 +579,7 @@
                 <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo#stakeholder_role"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
@@ -594,12 +594,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#system_indicator_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#system_indicator_specification"/>
         <ObjectHasValue>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
             <NamedIndividual IRI="#rule:_readability"/>
         </ObjectHasValue>
     </SubClassOf>
@@ -772,11 +772,11 @@
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#has_sub-classification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has_sub-classification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
     </ObjectPropertyRange>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
@@ -796,14 +796,14 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
             <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#has_functional_model"/>
         </ObjectPropertyChain>
         <ObjectProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#has_functional_model"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
             <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_modeled_by"/>
         </ObjectPropertyChain>
         <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_modeled_by"/>
@@ -858,32 +858,32 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a design specification is an plan specification that indicates the planned shape, function, capabilities, and creation process etc. of an artifact that will be brought into existence through the realization of a plan concretizing teh design specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">feature specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a geometry specification is a is an objective specification that, when concretized as part of a plan and realized, specifies the intended geometry of some artifact</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geometry specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

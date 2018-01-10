@@ -35,7 +35,7 @@
         <Class IRI="#attention_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/EngineeringDesign_v2#rotation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#rotation"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
@@ -71,7 +71,7 @@
         <Class IRI="#capability_requirement"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_members_affected_by"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_members_affected_by"/>
     </Declaration>
     <Declaration>
         <Class IRI="#task_requirement_specificaiton"/>
@@ -101,7 +101,7 @@
         <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/EngineeringDesign_v2#translation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#translation"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_topic_of_specification"/>
@@ -119,7 +119,7 @@
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
     </Declaration>
     <Declaration>
         <Class IRI="#cylindrical_grip"/>
@@ -131,7 +131,7 @@
         <ObjectProperty IRI="#specifies_user"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_classification_of"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_classification_of"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_performed_by"/>
@@ -176,7 +176,7 @@
         <Class IRI="#position"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#angularity"/>
     </Declaration>
     <Declaration>
         <Class IRI="#neutral_alignment"/>
@@ -200,10 +200,10 @@
         <ObjectProperty IRI="#is_performed_with"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_design_of"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_design_of"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo#stakeholder_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
     </Declaration>
     <Declaration>
         <Class IRI="#velocity"/>
@@ -218,7 +218,7 @@
         <Class IRI="#demographic"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
     </Declaration>
     <Declaration>
         <Class IRI="#dorsiflexion"/>
@@ -230,7 +230,7 @@
         <Class IRI="#grip_posture"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_specification_for"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_specification_for"/>
     </Declaration>
     <Declaration>
         <Class IRI="#recall_capability"/>
@@ -245,7 +245,7 @@
         <Class IRI="#precision_grip"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#orientation"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition_source"/>
@@ -260,7 +260,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_user"/>
@@ -272,7 +272,7 @@
         <Class IRI="#user_role"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#user_interface_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#user_interface_role"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#performs"/>
@@ -302,7 +302,7 @@
         <Class IRI="#retraction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
@@ -335,7 +335,7 @@
         <Class IRI="#hook_grip"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#pinch_grip"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#pinch_grip"/>
     </Declaration>
     <Declaration>
         <Class IRI="#reach"/>
@@ -349,39 +349,39 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/EngineeringDesign_v2#rotation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#rotation"/>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMotion"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/EngineeringDesign_v2#translation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#translation"/>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMotion"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#pinch_grip"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#pinch_grip"/>
         <Class IRI="#precision_grip"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#user_interface_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#user_interface_role"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#angularity"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#orientation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#orientation"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#orientation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#orientation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo#stakeholder_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
     </SubClassOf>
     <SubClassOf>
@@ -406,7 +406,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#anatomical_rotation"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2015/6/EngineeringDesign_v2#rotation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#rotation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#attention_capability"/>
@@ -506,7 +506,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#posture"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#orientation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#power_grip"/>
@@ -609,15 +609,15 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_output"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_classification_of"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_classification_of"/>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -658,14 +658,14 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#specifies_user"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_classification_of"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_classification_of"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_specification_for"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_specification_for"/>
         <ObjectProperty IRI="#is_topic_of_specification"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
@@ -677,8 +677,8 @@
         <ObjectProperty IRI="#performs"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_members_affected_by"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_members_affected_by"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has_requirement_specification"/>
@@ -687,14 +687,14 @@
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
         </ObjectPropertyChain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
             <ObjectProperty IRI="#has_user_specification"/>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_design_of"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_design_of"/>
         </ObjectPropertyChain>
         <ObjectProperty IRI="#has_user"/>
     </SubObjectPropertyOf>
@@ -734,12 +734,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#pinch_grip</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#pinch_grip</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pinch grip</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2015/6/medical_ergonomics#user_interface_role</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#user_interface_role</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">user interface role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -754,57 +754,57 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#angularity</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">angle is a geometric relation that is a rate of divergence between two straight lines from some real or hypothetical point of intersection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#orientation</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#orientation</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">orientation is a relational quality having to do with the relative position or structure of two entities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/ergo#stakeholder_role</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stakeholder role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_members_affected_by</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_members_affected_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">indicates a relation in which entities that are the topic of some information content entity are by extension affected by some entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_members_affected_by</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_members_affected_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">within scope of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_classification_of</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_classification_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is classification of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_specification_for</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_specification_for</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">denoets a relation betweeen a directive information content entity and some entity that it creates specifications to describe.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#is_specification_for</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_specification_for</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is specification for</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">used to indicate a relation in which an information content entity asserts facts about other entities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is subject to</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

@@ -20,10 +20,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_strength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#loading"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#loading"/>
     </Declaration>
     <Declaration>
         <Class IRI="#yield_strength"/>
@@ -38,13 +38,13 @@
         <Class IRI="#shear_strain"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_stress"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#bending_stress"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fatigue_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#fatigue_strength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#bending"/>
     </Declaration>
     <Declaration>
         <Class IRI="#elasticity_model"/>
@@ -53,31 +53,31 @@
         <Class IRI="#Hookes_law_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_strain"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#mechanical_strain"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#creep"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#creep"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#stiffness"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#stiffness"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fatigue_ductility"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#fatigue_ductility"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fracture_ductility"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#fracture_ductility"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#torsional_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#torsional_strength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_fatigue"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_fatigue"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#tensile_strength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#solid_material_disposition"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
@@ -92,13 +92,13 @@
         <Class IRI="#loading_orientation_plan"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#torsion"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#torsion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_toughness"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_toughness"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_stiffness"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#bending_stiffness"/>
     </Declaration>
     <Declaration>
         <Class IRI="#loading_along_axis"/>
@@ -110,31 +110,31 @@
         <Class IRI="#viscoelastic_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_yielding_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#shear_yielding_strength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_shear_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#ultimate_shear_strength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_stress"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#shear_stress"/>
     </Declaration>
     <Declaration>
         <Class IRI="#rate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#bending_strength"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#elongation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#elongation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Prony_series_viscoelastic_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#rupture"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#rupture"/>
     </Declaration>
     <Declaration>
         <Class IRI="#non-Newtonian_fluid_model"/>
@@ -149,10 +149,10 @@
         <Class IRI="#plasticity_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#yielding"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#yielding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_yielding_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#tensile_yielding_strength"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#predictive_model"/>
@@ -167,7 +167,7 @@
         <Class IRI="#plastic_deformation_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compression"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#compression"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Maxwell_model"/>
@@ -176,218 +176,218 @@
         <Class IRI="#loading_plan"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tension"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#tension"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#hardness"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#hardness"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_deformation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_disposition"/>
     </Declaration>
     <Declaration>
         <Class IRI="#solid_mechanics_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fracture"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#fracture"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#creep_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#creep_strength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_tensile_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#ultimate_tensile_strength"/>
     </Declaration>
     <Declaration>
         <Class IRI="#material_behavior_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compressive_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#compressive_strength"/>
     </Declaration>
     <Declaration>
         <Class IRI="#longitudinal_loading_plan"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#shear_strength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fluid_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#fluid_disposition"/>
     </Declaration>
     <Declaration>
         <Class IRI="#loading_along_y_axis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#normal_stress"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#normal_stress"/>
     </Declaration>
     <Declaration>
         <Class IRI="#rheological_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ductility"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#ductility"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_stress"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#mechanical_stress"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#loading"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#bending"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#loading"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_stiffness"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#stiffness"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#bending_stiffness"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#stiffness"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#bending_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_strength"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_stress"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#normal_stress"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#bending_stress"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#normal_stress"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compression"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#loading"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#compression"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#loading"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compression"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#compression"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_deformation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compressive_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#compressive_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_strength"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#creep"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#creep"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_deformation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#creep_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#creep_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_strength"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ductility"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#ductility"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#solid_material_disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#elongation"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#elongation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_deformation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fatigue_ductility"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ductility"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#fatigue_ductility"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#ductility"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fatigue_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#fatigue_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_strength"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fluid_disposition"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#fluid_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fracture"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#fracture"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_deformation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fracture_ductility"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ductility"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#fracture_ductility"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#ductility"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#hardness"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#hardness"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#solid_material_disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#loading"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#loading"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_deformation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#solid_material_disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_disposition"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_fatigue"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_fatigue"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#solid_material_disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#solid_material_disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_toughness"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_toughness"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#solid_material_disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_strain"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#mechanical_strain"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_stress"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#mechanical_stress"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#normal_stress"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_stress"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#normal_stress"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#mechanical_stress"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#rupture"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#rupture"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_deformation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#shear_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_strength"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_stress"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_stress"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#shear_stress"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#mechanical_stress"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_yielding_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#shear_yielding_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#shear_strength"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#solid_material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#stiffness"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#stiffness"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#solid_material_disposition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#tensile_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_strength"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_yielding_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#tensile_yielding_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#tensile_strength"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tension"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#loading"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#tension"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#loading"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#torsion"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#loading"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#torsion"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#loading"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#torsional_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#torsional_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_strength"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_shear_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#ultimate_shear_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#shear_strength"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_tensile_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#ultimate_tensile_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#tensile_strength"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#yielding"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#yielding"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_deformation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hookes_law_model"/>
@@ -463,7 +463,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#normal_strain"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_strain"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#mechanical_strain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#plastic_deformation_model"/>
@@ -487,7 +487,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#shear_strain"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_strain"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#mechanical_strain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#solid_mechanics_model"/>
@@ -507,116 +507,116 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#yield_strength"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_strength"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_stiffness</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#bending_stiffness</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bending stiffness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending_strength</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#bending_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bending strength</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compressive_strength</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#compressive_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compressive strength</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#creep_strength</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#creep_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">creep strength</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fatigue_strength</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#fatigue_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fatigue strength</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fluid_disposition</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#fluid_disposition</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fluid disposition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_deformation</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material deformation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_disposition</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_disposition</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material disposition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_fatigue</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_fatigue</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material fatigue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material strength</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_toughness</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_toughness</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material toughness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_strain</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#mechanical_strain</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mechanical strain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_stress</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#mechanical_stress</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mechanical stress</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_strength</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#shear_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shear strength</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_stress</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#shear_stress</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shear stress</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_yielding_strength</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#shear_yielding_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shear yielding strength</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#solid_material_disposition</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">solid material disposition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_strength</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#tensile_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tensile strength</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_yielding_strength</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#tensile_yielding_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tensile yield strength</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#torsional_strength</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#torsional_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">torsional strength</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_shear_strength</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#ultimate_shear_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ultimate shear strength</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_tensile_strength</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#ultimate_tensile_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ultimate tensile strength</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

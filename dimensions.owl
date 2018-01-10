@@ -326,7 +326,7 @@
         <Class IRI="#compressive_loading_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#Behavior"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodyShape"/>
@@ -521,7 +521,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#Behavior"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
@@ -626,7 +626,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#material_behavior"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#Behavior"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#offset"/>
