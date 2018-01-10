@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl">
-    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics"/>
+    <Prefix name="" IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -74,10 +74,10 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_fatigue"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_strength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_strength"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#solid_material_disposition"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
@@ -167,10 +167,10 @@
         <Class IRI="#plastic_deformation_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Maxwell_model"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compression"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compression"/>
+        <Class IRI="#Maxwell_model"/>
     </Declaration>
     <Declaration>
         <Class IRI="#loading_plan"/>
@@ -195,9 +195,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#creep_strength"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#plan"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#ultimate_tensile_strength"/>
@@ -443,10 +440,6 @@
     <SubClassOf>
         <Class IRI="#loading_orientation_plan"/>
         <Class IRI="#loading_plan"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#loading_plan"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#plan"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#loading_sequence_plan"/>

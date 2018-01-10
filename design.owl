@@ -15,9 +15,6 @@
     <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl</Import>
     <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl</Import>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#cylindrical_coordinate_system"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDisposition"/>
     </Declaration>
     <Declaration>
@@ -27,13 +24,7 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_overhang"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometric_model"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfFunction"/>
@@ -54,9 +45,6 @@
         <DataProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_minimum_value"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_disposition"/>
     </Declaration>
     <Declaration>
@@ -69,10 +57,10 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#cylindrical_form_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRealizableEntity"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRealizableEntity"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.owl-ontologies.com/design.owl#Specification"/>
@@ -85,9 +73,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#TwoDimensionalExtent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#three_dimensional_cartesian_coordinate_system"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
@@ -175,9 +160,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_form_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#spherical_coordinate_system"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Increase_function"/>
@@ -324,9 +306,6 @@
         <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#axis"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification"/>
     </Declaration>
     <Declaration>
@@ -363,9 +342,6 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalExtent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#reference_datum"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </Declaration>
     <Declaration>
@@ -385,9 +361,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDisposition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#cartesian_coordinate_system"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_realization_plan_specification"/>
@@ -427,9 +400,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_overhang"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#has_feature"/>
@@ -816,10 +786,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
     </SubClassOf>
@@ -1008,10 +974,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometric_model"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
     </SubClassOf>
@@ -1092,60 +1054,6 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#requirement_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#cartesian_coordinate_system"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system"/>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
-                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000024"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
-                <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#axis"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
-            <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#reference_datum"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#cylindrical_coordinate_system"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#spherical_coordinate_system"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#three_dimensional_cartesian_coordinate_system"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#cartesian_coordinate_system"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#three_dimensional_cartesian_coordinate_system"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
-            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000028"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#three_dimensional_cartesian_coordinate_system"/>
-        <ObjectExactCardinality cardinality="3">
-            <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
-            <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#axis"/>
-        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
@@ -1564,16 +1472,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a spatial coordinate system is a coordinate system expresses at a minimum the position of some entity relative to some arbitrary origin</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#spatial_coordinate_system</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">spatial coordinate system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">angle is a geometric relation that is a rate of divergence between two straight lines from some real or hypothetical point of intersection</Literal>
     </AnnotationAssertion>
@@ -1794,16 +1692,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#geometric_model</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A geometric model is a model created to represent the geomtery of some continuant or proposed continuant as a set of shapes, dimensions, references, constraints, and relations</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#geometric_model</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geometric model</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a geometry specification is a is an objective specification that, when concretized as part of a plan and realized, specifies the intended geometry of some artifact</Literal>
     </AnnotationAssertion>
@@ -1921,26 +1809,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#requirement_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">requirement specification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A coordiante system is a mathetmatical model that represents information relating to some N-dimensional space relative to some origin from which all deviations are measured</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a coordinate system is a descriptive model that represents an  N-dimensional space as a set of positions or orientations relative some arbitrary origin point where all N dimensions overlap.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#coordinate_system</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">coordinate system</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#three_dimensional_cartesian_coordinate_system</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">three-dimensional cartesian coordinate system</Literal>
     </AnnotationAssertion>
 </Ontology>
 

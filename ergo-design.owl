@@ -31,9 +31,6 @@
         <ObjectProperty IRI="#has_sub-process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#recognition_capability"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
     </Declaration>
     <Declaration>
@@ -100,9 +97,6 @@
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#pierce_function"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#potential_error"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#agent"/>
     </Declaration>
     <Declaration>
@@ -116,9 +110,6 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#cognitive_user_task_requirement"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#recommendation_error_prevention"/>
@@ -145,9 +136,6 @@
         <Class IRI="#survey_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#recognition_user_task_requirement"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ethnographic_research"/>
     </Declaration>
     <Declaration>
@@ -167,9 +155,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#heuristic_ergonomic_rule"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#recall_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
@@ -232,9 +217,6 @@
         <NamedIndividual IRI="#recommendation_system_state"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#cognitive_capability"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#deform_function"/>
     </Declaration>
     <Declaration>
@@ -262,9 +244,6 @@
         <Class IRI="#focus_group"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#problem"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000055"/>
     </Declaration>
     <Declaration>
@@ -286,9 +265,6 @@
         <Class IRI="#failure_mode_and_effects_analysis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#user_task_requirement_specification"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#form_function"/>
     </Declaration>
     <Declaration>
@@ -308,9 +284,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#specifies"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#recall_user_task"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#rule:_recognition_rather_than_recall"/>
@@ -389,63 +362,6 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#cognitive_user_task_requirement"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#cognitive_user_task_requirement"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
-                    <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                        <ObjectSomeValuesFrom>
-                            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
-                            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#cognitive_capability"/>
-                        </ObjectSomeValuesFrom>
-                    </ObjectSomeValuesFrom>
-                </ObjectSomeValuesFrom>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#recall_user_task"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#cognitive_user_task_requirement"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
-                    <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                        <ObjectSomeValuesFrom>
-                            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
-                            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#recall_capability"/>
-                        </ObjectSomeValuesFrom>
-                    </ObjectSomeValuesFrom>
-                </ObjectSomeValuesFrom>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#recognition_user_task_requirement"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#cognitive_user_task_requirement"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
-                    <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                        <ObjectSomeValuesFrom>
-                            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
-                            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#recognition_capability"/>
-                        </ObjectSomeValuesFrom>
-                    </ObjectSomeValuesFrom>
-                </ObjectSomeValuesFrom>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#system_indicator_specification"/>
         <ObjectIntersectionOf>
             <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
@@ -479,20 +395,6 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#user_task_requirement_specification"/>
-        <ObjectHasValue>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
-            <NamedIndividual IRI="#rule:_anticipate_user_actions"/>
-        </ObjectHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#user_task_requirement_specification"/>
-        <ObjectHasValue>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
-            <NamedIndividual IRI="#rule:_user_control_and_freedom"/>
-        </ObjectHasValue>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#agent"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
     </SubClassOf>
@@ -517,10 +419,6 @@
             <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
             <NamedIndividual IRI="#rule:_color_blindness"/>
         </ObjectHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#cognitive_user_task_requirement"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#user_task_requirement_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#cognitive_walkthrough"/>
@@ -623,10 +521,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#potential_error"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#problem"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#preliminary_hazard_analysis"/>
         <Class IRI="#risk_assessment"/>
     </SubClassOf>
@@ -637,21 +531,6 @@
     <SubClassOf>
         <Class IRI="#quality_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#recall_user_task"/>
-        <Class IRI="#cognitive_user_task_requirement"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#recall_user_task"/>
-        <ObjectHasValue>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
-            <NamedIndividual IRI="#rule:_recognition_rather_than_recall"/>
-        </ObjectHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#recognition_user_task_requirement"/>
-        <Class IRI="#cognitive_user_task_requirement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#recommendation"/>
@@ -1176,11 +1055,6 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#method</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a method is a plan specification consisting of a set of action specifications that constitute a generic workflow for realizing some standardized objective</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#potential_error</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">potential error</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
