@@ -162,7 +162,7 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_form_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Increase_function"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Increase_function"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angled_overhang"/>
@@ -294,7 +294,7 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfGenericallyDependentContinuant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Decrease_function"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Decrease_function"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRealizableEntity"/>
@@ -462,7 +462,7 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDependentContinuant"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
-            <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Decrease_function"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Decrease_function"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -661,7 +661,7 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDependentContinuant"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
-            <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Increase_function"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Increase_function"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
