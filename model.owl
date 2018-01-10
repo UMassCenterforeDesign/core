@@ -308,9 +308,6 @@
         <Class IRI="#mathematical_expression"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#plan"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#represents"/>
     </Declaration>
     <Declaration>
@@ -398,10 +395,10 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#operation_symbol"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+        <Class IRI="#operation_symbol"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
@@ -932,10 +929,6 @@
     <SubClassOf>
         <Class IRI="#physical_model"/>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#plan"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#plane"/>
