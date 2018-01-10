@@ -66,6 +66,9 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#affects"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#plan"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#disposition_of"/>
     </Declaration>
     <Declaration>
@@ -588,6 +591,10 @@
     <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plan"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>

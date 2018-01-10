@@ -18,10 +18,10 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDisposition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_overhang"/>
@@ -39,6 +39,9 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#requirement_specification"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length"/>
     </Declaration>
     <Declaration>
@@ -51,7 +54,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#cylindrical_form_specification"/>
@@ -69,7 +72,7 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#surface_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#rate_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#rate_parameter_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#TwoDimensionalExtent"/>
@@ -90,7 +93,7 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#dimensional_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#dimensional_parameter_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfRole"/>
@@ -123,10 +126,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#requirement_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
@@ -135,7 +135,7 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_verification_plan_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_verification_plan_specification"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -144,13 +144,13 @@
         <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#shape_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#shape_specification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_model_element"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_plan_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
@@ -165,10 +165,10 @@
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Increase_function"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angled_overhang"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angled_overhang"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDependentContinuant"/>
@@ -180,13 +180,13 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRealizableEntity"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfGenericallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRealizableEntity"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#concave_profile_overhang"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfGenericallyDependentContinuant"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDependentContinuant"/>
@@ -198,7 +198,7 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDisposition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#dimension_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#dimension_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
@@ -210,7 +210,7 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#position_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRole"/>
@@ -219,7 +219,7 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfQuality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#energetic_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#energetic_parameter_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
@@ -237,13 +237,13 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#tooling_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#tooling_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#manufacturing_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_parameter_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#angularity"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
@@ -273,22 +273,22 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#form_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#form_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#metric_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#immaterial_form_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#metric_specification"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#has_form"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#has_form"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#is_made_of"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#is_made_of"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfGenericallyDependentContinuant"/>
@@ -306,7 +306,7 @@
         <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#manufacturing_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#slot_specification"/>
@@ -315,7 +315,7 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_manufactured_perpendicular_to_build_plate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_process"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000024"/>
@@ -333,10 +333,10 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angular_offset_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#behavior_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#behavior_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_validation_plan_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_validation_plan_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalExtent"/>
@@ -351,31 +351,31 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfGenericallyDependentContinuant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#orientation_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#orientation_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#tolerance_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#tolerance_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#layer_height_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#layer_height_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDisposition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_realization_plan_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfQuality"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_realization_plan_specification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfQuality"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#function_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#function_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
@@ -402,7 +402,7 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_overhang"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#has_feature"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#has_feature"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#gap_specification"/>
@@ -411,20 +411,24 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_quality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#process_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#process_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#Behavior"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDependentContinuant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#assembly_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#assembly_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
         <ObjectSomeValuesFrom>
@@ -436,7 +440,7 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_disposition"/>
-            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#Behavior"/>
+            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -773,7 +777,7 @@
     <SubClassOf>
         <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#is_made_of"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#is_made_of"/>
             <Class IRI="http://www.owl-ontologies.com/design.owl#material"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -798,17 +802,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
             <ObjectIntersectionOf>
-                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#dimension_specification"/>
+                <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#dimension_specification"/>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
-                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#angularity"/>
+                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angular_offset_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#orientation_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#orientation_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#concave_form_specification"/>
@@ -843,7 +847,7 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_overhang"/>
         <ObjectHasValue>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
             <NamedIndividual IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#rule_SLM_concave_overhangs"/>
         </ObjectHasValue>
     </SubClassOf>
@@ -877,11 +881,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#immaterial_form_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#form_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#form_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#form_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#form_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
@@ -897,7 +901,7 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
         <ObjectHasValue>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
             <NamedIndividual IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#PBF_rule_overhangs_large"/>
         </ObjectHasValue>
     </SubClassOf>
@@ -911,7 +915,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#position_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#orientation_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#orientation_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#rectangular_form_specification"/>
@@ -930,119 +934,119 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#Behavior"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#assembly_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#manufacturing_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#assembly_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#behavior_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#behavior_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_process"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_process"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#dimension_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#dimension_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#dimensional_parameter_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#manufacturing_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#dimensional_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_parameter_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#energetic_parameter_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#manufacturing_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#energetic_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_parameter_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#form_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#form_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#function_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#function_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#layer_height_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#dimensional_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#layer_height_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#dimensional_parameter_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#manufacturing_parameter_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#tooling_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#tooling_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#manufacturing_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000007"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#metric_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#metric_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#orientation_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#orientation_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#process_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#manufacturing_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#process_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_plan_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_plan_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
-            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_plan_specification"/>
+            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_realization_plan_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_plan_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_realization_plan_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_validation_plan_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_plan_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_validation_plan_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_verification_plan_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_plan_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_verification_plan_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#rate_parameter_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#manufacturing_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#rate_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_parameter_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#shape_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#shape_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#tolerance_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#tolerance_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#tooling_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#tooling_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000007"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#behavior_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#behavior_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification"/>
@@ -1052,19 +1056,19 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#requirement_specification"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#requirement_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    </SubClassOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#has_feature"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#has_feature"/>
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#is_made_of"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#is_made_of"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubDataPropertyOf>
@@ -1472,32 +1476,32 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#angularity</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#angularity</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">angle is a geometric relation that is a rate of divergence between two straight lines from some real or hypothetical point of intersection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#coincidence</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#coincidence</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">coincidence is an orientation wherein two or more n-dimensional entities occupy the same or directly touching n-dimensional space</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#concentricity</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#concentricity</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">concentricity is a geometric relation that indicates coincidence of the center point of entities having a circular shape</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#offset</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#offset</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">offset is a geometric relation indicating the one dimensional distance between two planes or objects having planar features</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#parallelism</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#parallelism</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">parallelism is an angularity wherein the angularity is measured to be 0, resulting in an observable wherein extension of entities in the parallel dimension will not alter the offset between them.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#perpendicularity</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#perpendicularity</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perpendicularity is a orientation that indicates that an angle of exactly 90 degrees between two entities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1637,162 +1641,162 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#Behavior</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">behavior</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#behavior_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#behavior_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">behavior specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_process</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#design_process</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a design specification is an plan specification that indicates the planned shape, function, capabilities, and creation process etc. of an artifact that will be brought into existence through the realization of a plan concretizing teh design specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#dimension_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#dimension_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dimension specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#dimensional_parameter_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#dimensional_parameter_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tool dimension parameter specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#energetic_parameter_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#energetic_parameter_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tool energy parameter specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">feature specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#form_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#form_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">form specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#function_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#function_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">function specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a geometry specification is a is an objective specification that, when concretized as part of a plan and realized, specifies the intended geometry of some artifact</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geometry specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#has_feature</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#has_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has feature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#has_form</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#has_form</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has form</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#is_made_of</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#is_made_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is made of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#layer_height_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#layer_height_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">additive layer height specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#manufacturing_parameter_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_parameter_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a  parameter specification is a  tooling specification that describes the set values of variable aspects of a tool or machine used in a  process.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#manufacturing_parameter_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_parameter_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tooling parameter specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#manufacturing_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">manufacturing specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#metric_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#metric_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">metric specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#orientation_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#orientation_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An orientation specification is a geometry specification that details how two continuants are to be positioned relative to one another.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#orientation_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#orientation_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">orientation specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#process_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#process_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a manufacturing process specification is a manufacturing specification that dictates a process by which some artifact, part of an artifact, or intermediarte in the creation of the aforementioned is to be manufactured</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#process_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#process_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">manufacturing process specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#product_plan_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">product plan specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#rate_parameter_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#rate_parameter_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tool rate parameter specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#shape_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#shape_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shape specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#tolerance_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#tolerance_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a tolerance specification is an objective specification that denotes that a measurement datum obtained from some entity should fall within some range of values relative to those specified in the design specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#tolerance_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#tolerance_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tolerance specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#tooling_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#tooling_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a  tooling specification is an action specification that details what specific  tools, machines, or sub-parts thereof are to be used in a process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#tooling_specification</IRI>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#tooling_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tooling specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
