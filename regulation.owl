@@ -39,7 +39,7 @@
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_specified_by"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#is_specified_by"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence"/>
@@ -183,7 +183,7 @@
     </ObjectPropertyDomain>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_specified_by"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#is_specified_by"/>
             <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
         </ObjectPropertyChain>
         <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
@@ -250,7 +250,7 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_specified_by</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#is_specified_by</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is specified by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

@@ -317,7 +317,7 @@
         <Class IRI="#accuracy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#duration"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#duration"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
@@ -525,7 +525,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#duration"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#duration"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
     </SubClassOf>
     <SubClassOf>

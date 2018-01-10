@@ -40,7 +40,7 @@
         <NamedIndividual IRI="#rule:_match_between_system_and_world"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#is_modeled_by"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_modeled_by"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#recommendation_minimalist_design"/>
@@ -97,7 +97,7 @@
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#pierce_function"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#agent"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
@@ -395,7 +395,7 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#agent"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
     </SubClassOf>
     <SubClassOf>
@@ -576,7 +576,7 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
             <ObjectIntersectionOf>
-                <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#agent"/>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
                     <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo#stakeholder_role"/>
@@ -804,9 +804,9 @@
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
             <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
-            <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#is_modeled_by"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_modeled_by"/>
         </ObjectPropertyChain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#is_modeled_by"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_modeled_by"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>

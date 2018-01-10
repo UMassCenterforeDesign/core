@@ -126,7 +126,7 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#requirement_specification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#requirement_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
@@ -147,7 +147,7 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#shape_specification"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_model_element"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
@@ -1052,7 +1052,7 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#requirement_specification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#requirement_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
     </SubClassOf>
     <SubClassOf>
@@ -1807,7 +1807,7 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#requirement_specification</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#requirement_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">requirement specification</Literal>
     </AnnotationAssertion>
 </Ontology>

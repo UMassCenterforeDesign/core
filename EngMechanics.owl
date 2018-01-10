@@ -155,7 +155,7 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#tensile_yielding_strength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#predictive_model"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#predictive_model"/>
     </Declaration>
     <Declaration>
         <Class IRI="#load_along_z_axis"/>
@@ -451,7 +451,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#material_behavior_model"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#predictive_model"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#predictive_model"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#non-Newtonian_fluid_model"/>
