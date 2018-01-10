@@ -14,6 +14,9 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/info.owl</Import>
     <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#geometry"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#straightness"/>
     </Declaration>
     <Declaration>
@@ -60,9 +63,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#circularity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
     </Declaration>
     <Declaration>
         <Class IRI="#torsional_loading_process"/>
@@ -168,6 +168,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Split"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#duration"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
@@ -317,16 +320,13 @@
         <Class IRI="#accuracy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#duration"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
     </Declaration>
     <Declaration>
         <Class IRI="#compressive_loading_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#Behavior"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodyShape"/>
@@ -446,7 +446,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#geometry"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sharp"/>
@@ -454,7 +454,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#SizeQuality"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#geometry"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Sloped"/>
@@ -517,16 +517,12 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#OneDimensionalExtent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#Behavior"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#duration"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#geometry"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#accessibility"/>
@@ -626,7 +622,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#material_behavior"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#Behavior"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#offset"/>
@@ -707,6 +703,10 @@
     <SubClassOf>
         <Class IRI="#volume"/>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#duration"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>

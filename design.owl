@@ -24,6 +24,9 @@
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#geometry"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_overhang"/>
     </Declaration>
     <Declaration>
@@ -100,9 +103,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#affects"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000007"/>
@@ -771,7 +771,7 @@
         <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_quality"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+            <Class IRI="#geometry"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -788,10 +788,6 @@
     <SubClassOf>
         <Class IRI="http://www.owl-ontologies.com/design.owl#material"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angled_overhang"/>
@@ -1058,6 +1054,10 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#geometry"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#requirement_specification"/>
