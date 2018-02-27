@@ -56,6 +56,9 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodyShape"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#resolution"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#realized_accuracy"/>
     </Declaration>
     <Declaration>
@@ -125,6 +128,9 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Wide"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#horizontal_resolution"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Oblong"/>
     </Declaration>
     <Declaration>
@@ -153,6 +159,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vertical_resolution"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Thickness"/>
@@ -609,6 +618,10 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#horizontal_resolution"/>
+        <Class IRI="#resolution"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#impact_loading_process"/>
         <Class IRI="#loading_process"/>
     </SubClassOf>
@@ -631,10 +644,6 @@
     <SubClassOf>
         <Class IRI="#orientation"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#orientation"/>
-        <Class IRI="#orientation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#parallelism"/>
@@ -665,6 +674,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#resolution"/>
+        <Class IRI="#aesthetic_quality"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#runout"/>
         <Class IRI="#orientation"/>
     </SubClassOf>
@@ -691,6 +704,10 @@
     <SubClassOf>
         <Class IRI="#torsional_loading_process"/>
         <Class IRI="#loading_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vertical_resolution"/>
+        <Class IRI="#resolution"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#viscoelasticity"/>
@@ -1295,6 +1312,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#horizontal_resolution</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">horizontal resolution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#loading_process</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">loading process</Literal>
     </AnnotationAssertion>
@@ -1327,6 +1349,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#surface_roughness</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">surface roughness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#vertical_resolution</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vertical resolution</Literal>
     </AnnotationAssertion>
 </Ontology>
 

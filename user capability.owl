@@ -35,16 +35,10 @@
         <Class IRI="#attention_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#rotation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </Declaration>
     <Declaration>
         <Class IRI="#requirement_specification"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_problem"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#specifies_value"/>
@@ -71,9 +65,6 @@
         <Class IRI="#capability_requirement"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_members_affected_by"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#task_requirement_specificaiton"/>
     </Declaration>
     <Declaration>
@@ -83,7 +74,13 @@
         <Class IRI="#supination"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#range_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#translation"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
@@ -101,9 +98,6 @@
         <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#translation"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#is_topic_of_specification"/>
     </Declaration>
     <Declaration>
@@ -119,9 +113,6 @@
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#cylindrical_grip"/>
     </Declaration>
     <Declaration>
@@ -129,9 +120,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#specifies_user"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_classification_of"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_performed_by"/>
@@ -146,10 +134,22 @@
         <Class IRI="#force"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_classification_of"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#abduction"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#rotation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#momentum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#pinch_grip"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_members_affected_by"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
@@ -161,6 +161,9 @@
         <Class IRI="#range_of_motion"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#user_interface_role"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#is_user_of"/>
     </Declaration>
     <Declaration>
@@ -170,13 +173,19 @@
         <ObjectProperty IRI="#has_user_requirement"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_specified_by"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#position"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#is_specified_by"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#angularity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_design_of"/>
     </Declaration>
     <Declaration>
         <Class IRI="#neutral_alignment"/>
@@ -200,12 +209,6 @@
         <ObjectProperty IRI="#is_performed_with"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_design_of"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#velocity"/>
     </Declaration>
     <Declaration>
@@ -215,10 +218,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#demographic"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#orientation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
+        <Class IRI="#demographic"/>
     </Declaration>
     <Declaration>
         <Class IRI="#dorsiflexion"/>
@@ -227,10 +230,10 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#grip_posture"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_specification_for"/>
+        <Class IRI="#grip_posture"/>
     </Declaration>
     <Declaration>
         <Class IRI="#recall_capability"/>
@@ -245,9 +248,6 @@
         <Class IRI="#precision_grip"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#orientation"/>
-    </Declaration>
-    <Declaration>
         <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition_source"/>
     </Declaration>
     <Declaration>
@@ -260,9 +260,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#has_user"/>
     </Declaration>
     <Declaration>
@@ -272,10 +269,10 @@
         <Class IRI="#user_role"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#user_interface_role"/>
+        <ObjectProperty IRI="#performs"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#performs"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#&apos;has_specified_value&apos;"/>
@@ -293,7 +290,13 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_output"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_problem"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -302,7 +305,7 @@
         <Class IRI="#retraction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_specification_for"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
@@ -323,19 +326,16 @@
         <Class IRI="#power_grip"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#discrimination_capability"/>
+        <Class IRI="#depression_rotation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#depression_rotation"/>
+        <Class IRI="#discrimination_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#eversion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#hook_grip"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#pinch_grip"/>
     </Declaration>
     <Declaration>
         <Class IRI="#reach"/>
@@ -349,20 +349,16 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000144"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#rotation"/>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMotion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#translation"/>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMotion"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#pinch_grip"/>
-        <Class IRI="#precision_grip"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#user_interface_role"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#angularity"/>
@@ -377,16 +373,20 @@
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#orientation"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#pinch_grip"/>
+        <Class IRI="#precision_grip"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#user_interface_role"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#abduction"/>
@@ -733,16 +733,6 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Speed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#pinch_grip</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pinch grip</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#user_interface_role</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">user interface role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_problem</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">denotes a relation wherein some entity is noted as having an issue resulting from a mismatch between specified and realizable behavior</Literal>
@@ -764,8 +754,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#pinch_grip</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pinch grip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stakeholder role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#user_interface_role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">user interface role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -855,7 +855,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#demographic</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a demographic is an object aggregate that is composed of humans that share a set of qualities or dispositions that collectively distinguish them from the larger population.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a demographic is an object aggregate that is composed of humans that share a set of traits that collectively distinguish them from the larger population.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -880,7 +880,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#force_exertation</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a strenght exertation capability is a capability that when realize allows its bearer to deliver a specified amount of force in a pre-specified manner</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a strenght exertation capability is a capability that when realize allows its bearer to deliver some level of force</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

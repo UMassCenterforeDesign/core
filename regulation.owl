@@ -27,6 +27,9 @@
         <Class IRI="#regulatory_specification"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#has_vertical_section"/>
     </Declaration>
     <Declaration>
@@ -37,12 +40,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#is_specified_by"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_classification"/>
@@ -93,6 +90,9 @@
         <ObjectProperty IRI="#is_consequence_of"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#is_specified_by"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
     </Declaration>
     <Declaration>
@@ -104,11 +104,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#classification_specification"/>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#classification_system"/>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#medical_device_classification_system"/>
@@ -116,7 +116,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#regulation"/>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+        <Class IRI="#standard"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#regulatory_specification"/>
@@ -124,7 +124,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#standard"/>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000001"/>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#has_classification"/>
@@ -183,13 +183,6 @@
     </ObjectPropertyDomain>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#is_specified_by"/>
-            <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
             <ObjectProperty IRI="#has_classification"/>
             <ObjectProperty IRI="#has_members_affected_by"/>
         </ObjectPropertyChain>
@@ -238,6 +231,13 @@
         </ObjectPropertyChain>
         <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
     </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#is_specified_by"/>
+            <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
+    </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence</IRI>
@@ -247,11 +247,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has consequence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#is_specified_by</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is specified by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -357,6 +352,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#&apos;is_subject_to&apos;</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is subject to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#is_specified_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is specified by</Literal>
     </AnnotationAssertion>
 </Ontology>
 

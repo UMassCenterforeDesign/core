@@ -15,16 +15,16 @@
     <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl</Import>
     <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl</Import>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDisposition"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#geometry"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDisposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Change"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_overhang"/>
@@ -39,10 +39,10 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfFunction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#requirement_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#requirement_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Length"/>
@@ -57,9 +57,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#cylindrical_form_specification"/>
     </Declaration>
     <Declaration>
@@ -72,10 +69,10 @@
         <Class IRI="http://www.owl-ontologies.com/design.owl#Specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#surface_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#rate_parameter_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#rate_parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#surface_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#TwoDimensionalExtent"/>
@@ -90,10 +87,10 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#step_form_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDependentContinuant"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfDependentContinuant"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#dimensional_parameter_specification"/>
@@ -126,16 +123,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_verification_plan_specification"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -150,7 +141,7 @@
         <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_model_element"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
+        <Class IRI=""/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
@@ -165,34 +156,34 @@
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Increase_function"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angled_overhang"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angled_overhang"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDependentContinuant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfRealizableEntity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfGenericallyDependentContinuant"/>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRealizableEntity"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfGenericallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#concave_profile_overhang"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDependentContinuant"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_manufactured_not_perpendicular_to_build_plate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_manufactured_not_perpendicular_to_build_plate"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDependentContinuant"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfDisposition"/>
@@ -210,7 +201,7 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#position_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
+        <Class IRI="#oriented_hole_manufacturing_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfRole"/>
@@ -225,10 +216,13 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#energetic_parameter_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <Class IRI="#oriented_void_manufacturing_specification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#bearer_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfFunction"/>
@@ -237,10 +231,10 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#tooling_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#tooling_specification"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_parameter_specification"/>
@@ -264,28 +258,31 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#parallelism_specification"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IncreaseOfSpecificallyDependentContinuant"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfSpecificallyDependentContinuant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#form_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#metric_specification"/>
+        <Class IRI="#design_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#immaterial_form_specification"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#has_form"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#metric_specification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#&apos;is_subject_to&apos;"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#has_form"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#is_made_of"/>
@@ -294,13 +291,10 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfGenericallyDependentContinuant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Decrease_function"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDisposition"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#GainOfRealizableEntity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDisposition"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
@@ -333,25 +327,25 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#angular_offset_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#behavior_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_validation_plan_specification"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalExtent"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_feature_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#form_manufacturing_specification"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfGenericallyDependentContinuant"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#orientation_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#orientation_specification"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfGenericallyDependentContinuant"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#tolerance_specification"/>
@@ -361,9 +355,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#DecreaseOfDisposition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_realization_plan_specification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -384,6 +375,9 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfSpecificallyDependentContinuant"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#material_composition_specification"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#PBF_rule_overhangs_large"/>
     </Declaration>
     <Declaration>
@@ -393,13 +387,19 @@
         <DataProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_maximum_value"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_value"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Decrease_function"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.owl-ontologies.com/design.owl#material"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#specifies_value"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#convex_profile_overhang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#intended_behavior_specification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#has_feature"/>
@@ -408,19 +408,19 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#gap_specification"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_quality"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#process_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#process_specification"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_quality"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDependentContinuant"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#assembly_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#assembly_specification"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#LossOfDependentContinuant"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
@@ -865,11 +865,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_manufactured_not_perpendicular_to_build_plate"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_specification"/>
+        <Class IRI="#oriented_hole_manufacturing_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_manufactured_perpendicular_to_build_plate"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_specification"/>
+        <Class IRI="#oriented_hole_manufacturing_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_specification"/>
@@ -885,7 +885,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification"/>
+        <Class IRI="#oriented_void_manufacturing_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification"/>
@@ -938,20 +938,16 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#behavior_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_feature_specification"/>
+        <Class IRI="#design_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_process"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#dimension_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
+        <Class IRI=""/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#dimensional_parameter_specification"/>
@@ -962,20 +958,23 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_parameter_specification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#form_specification"/>
+        <Class IRI="#design_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#form_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <Class IRI=""/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#function_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#intended_behavior_specification"/>
+        <Class IRI="#design_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#layer_height_specification"/>
@@ -987,7 +986,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000007"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#metric_specification"/>
@@ -995,34 +994,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#orientation_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
+        <Class IRI=""/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#process_specification"/>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_realization_plan_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_validation_plan_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_verification_plan_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#rate_parameter_specification"/>
@@ -1030,7 +1006,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#shape_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification"/>
+        <Class IRI=""/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#tolerance_specification"/>
@@ -1038,11 +1014,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#tooling_specification"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000007"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#behavior_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#intended_behavior_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#performance_specification"/>
@@ -1056,8 +1032,63 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI=""/>
+        <Class IRI="#design_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=""/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#is_specification_for"/>
+            <Class IRI="#geometry"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#form_manufacturing_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#geometry"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#material_composition_specification"/>
+        <Class IRI="#design_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#material_composition_specification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+            <Class IRI="http://www.owl-ontologies.com/design.owl#material"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oriented_hole_manufacturing_specification"/>
+        <Class IRI="#oriented_void_manufacturing_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oriented_hole_manufacturing_specification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#hole_specification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oriented_void_manufacturing_specification"/>
+        <Class IRI="#form_manufacturing_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oriented_void_manufacturing_specification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#immaterial_form_specification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oriented_void_manufacturing_specification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#orientation_specification"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#requirement_specification"/>
@@ -1465,6 +1496,11 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">form</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.owl-ontologies.com/design.owl#Specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a target value specification is a specification that indicates the &quot;ideal&quot; level of some measurement or estimate of some entity to meet some objective</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.owl-ontologies.com/design.owl#Specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">target value specification</Literal>
@@ -1530,6 +1566,11 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">concave profile overhang specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a curved form specification is a material form specification that specifies a form intended to have a curvilinear profile not described by a named geometric shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_form_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">curved form specification</Literal>
@@ -1538,6 +1579,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#curved_overhang</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">curved overhang specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#cylindrical_form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a cylindrical form specification is a material form specification that specifies the form of some material entity having a cylindrical 3-D shape</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1570,9 +1616,19 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hole specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#immaterial_form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an immaterial form specification is a form specification for a spatial region (e.g. geometry and the absence of material)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#immaterial_form_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">immaterial form specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#material_form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a material form specification is a form specification for a material entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1580,9 +1636,14 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material form specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an manufactured overhang specification is a manufacturing specification for a material entity or part of a material entity that will not be directly supproted by another part of said entity during manufacturing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/AM_rules#overhang_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">overhang specification</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">manufacturing overhang specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1640,24 +1701,19 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">behavior</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#design_feature_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a feature specification is a design specification indicating the intended form and function of some entity or part of an entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#behavior_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">behavior specification</Literal>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#design_feature_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design feature specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#design_process</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a design specification is an plan specification that indicates the planned shape, function, capabilities, and creation process etc. of an artifact that will be brought into existence through the realization of a plan concretizing teh design specification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#design_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1675,9 +1731,14 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tool energy parameter specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#feature_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">feature specification</Literal>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">this definition fo form is slighly modified from the one used in NIST&apos;s core product model. This is mainly to accomodate specifications for various features such as slots, holes, etc. which technically lack material composition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#form_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a form specification is a design specification indicating the intended geometry and material composition (or lack thereof) of some independent continuant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1690,16 +1751,6 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">function specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a geometry specification is a is an objective specification that, when concretized as part of a plan and realized, specifies the intended geometry of some artifact</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#geometry_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geometry specification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#has_feature</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has feature</Literal>
@@ -1708,6 +1759,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#has_form</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#intended_behavior_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an intended behavior specification is a design specification that indicates some set of realizable entities that an entity specified by the design specification is to realize in some process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#intended_behavior_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">intended behavior specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1728,6 +1789,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_parameter_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tooling parameter specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#manufacturing_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a manufacturing plan specification is a plan specification that indicates how some material entity is to made through some manufacturing process and how that process is to be carried out</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1761,11 +1827,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#product_plan_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">product plan specification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#rate_parameter_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tool rate parameter specification</Literal>
     </AnnotationAssertion>
@@ -1777,7 +1838,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/5/design#tolerance_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a tolerance specification is an objective specification that denotes that a measurement datum obtained from some entity should fall within some range of values relative to those specified in the design specification</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a tolerance specification is an value specification that prescribes a range of measurement values that would be deemed acceptable within soem other specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1806,8 +1867,53 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI></IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a geometry specification is a is an objective specification that, when concretized as part of a plan and realized, specifies the intended geometry of some artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI></IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geometry specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#design_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a design specification is an plan specification that indicates the planned shape, function, capabilities, and creation process etc. of an artifact that will be brought into existence through the realization of a plan concretizing teh design specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#design_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#material_composition_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a material composition specification is a design specification that indicates the material(s) that some material entity described in a design will be made of.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#material_composition_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material composition specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#oriented_void_manufacturing_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a manufactured void specificaiton is a manufacturing specification describign a void having some known orientation during manufacturing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#angularity</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">angle is a geometric relation that is a rate of divergence between two straight lines from some real or hypothetical point of intersection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#computed_data_item</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a computed data item is a data item that is directly calcualted based on other data items</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#estimate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an estimate is a computed data item that is intended to replicate a measurement of some observable phenomenon or an aggregate thereof</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

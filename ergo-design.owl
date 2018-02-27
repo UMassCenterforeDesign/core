@@ -73,6 +73,9 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#feature_specification"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#hallway_testing"/>
     </Declaration>
     <Declaration>
@@ -121,9 +124,6 @@
         <Class IRI="#literature_review_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"/>
     </Declaration>
     <Declaration>
@@ -170,9 +170,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#rule:_color_blindness"/>
@@ -248,6 +245,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#focus_group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000055"/>
@@ -354,6 +354,9 @@
     <Declaration>
         <Class IRI="#cognitive_walkthrough"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_feature_specification"/>
+    </Declaration>
     <EquivalentClasses>
         <Class IRI="#alarm_specification"/>
         <ObjectIntersectionOf>
@@ -373,7 +376,7 @@
     <EquivalentClasses>
         <Class IRI="#system_indicator_specification"/>
         <ObjectIntersectionOf>
-            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification"/>
+            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_feature_specification"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
                 <ObjectSomeValuesFrom>
@@ -389,7 +392,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#feature_specification"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#alarm_specification"/>
@@ -587,7 +598,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#system_indicator_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_feature_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#system_indicator_specification"/>
@@ -611,14 +622,6 @@
     <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification"/>
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="#recommendation"/>
@@ -846,6 +849,26 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geometry specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a design specification is an directive information entit that indicates the desired shape, function, capabilities, and creation process etc. of an artifact that will be brought into existence through the realization of a plan concretizing teh design specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#feature_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a feature specification is a design specification that specifies some aspect of the entity described in a design specification is utile or of interest to some other entity to whom the design is targeted.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#feature_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">product feature specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#alarm_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">alarm specification</Literal>
@@ -914,6 +937,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#error_trigger_plan_specification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an error triggering plan specification is a plan specification that details a plan for how one might generate an undesirable outomce</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#error_trigger_plan_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">error trigger plan specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1096,6 +1124,21 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compacting function</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Energy_flow</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an energy flow is a flow wherein some form of energy is crosses a fiat boundry during its realization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Material_flow</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an material flow is a flow wherein some form of matter is crosses a fiat boundry during its realization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Signal_flow</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an signal flow is a flow wherein some form of signal is crosses a fiat boundry during its realization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#compress_function</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compressing function</Literal>
@@ -1111,6 +1154,11 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">deforming function</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#flow</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a flow is a disposition inhering within some entity that when realized results in a the passage of material, energy, or information across some fiat boundry within said entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#form_function</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">forming function</Literal>
@@ -1121,24 +1169,39 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">piercing function</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent_independent_rationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an agent invariant rationale is a rationale that is based upon information or knowledge that does not depend on the perspectives or preferences of some given person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a design specification is an plan specification that indicates the planned shape, function, capabilities, and creation process etc. of an artifact that will be brought into existence through the realization of a plan concretizing teh design specification</Literal>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a regulation is a conditional specificaiton that issues a legally bindign mandate that some additional specifications or course of action be met subject to the target entit&apos;s status in relation to the legal jurisdiction of some entity bearing authority and meeting some additional criteria.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#design_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design specification</Literal>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#ethnic_demographic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An ethnic demographic is a demographic distinguished by a shared social identity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/masterdesign.owl#feature_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">feature specification</Literal>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#racial_demographic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a racial demographic is a demographic that is distinguished by a shared racial identify or classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#sex_demographic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a sex demogrpahic is a demographic that is distinguished by shared biological sex.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#task_requirement_specificaiton</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a task requiremetn specification is a requirement specification that specifies some entity must particiapte in a process in some pre-specified way</Literal>
     </AnnotationAssertion>
 </Ontology>
 
