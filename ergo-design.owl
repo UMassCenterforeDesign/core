@@ -1,1209 +1,1141 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl"
      xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl"
+     xmlns:ExtendedRelationOntology="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl">
-    <Prefix name="" IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl</Import>
-    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl</Import>
-    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl</Import>
-    <Declaration>
-        <NamedIndividual IRI="#recommendation_color"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#system_indicator_specification"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#rule:_error_diagnosis_support"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_sub-process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Announce_function"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#recommendation_flexible_design"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#rule:_match_between_system_and_world"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#crush_function"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Indicate_function"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#recommendation_minimalist_design"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_modeled_by"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#hazard_and_operability_study"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#rule:_error_prevention"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#recommendation_match_reality"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#recommendation_recognition"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#feature_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#hallway_testing"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#text"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#delphi_technique"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#compress_function"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#rule:_flexible_design"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#rule:_anticipate_user_actions"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#recommendation_error_diagnosis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#recommendation_user_actions"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#recommendation_alarms"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#recommendation_error_prevention"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#blue-yellow_color_combination_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#literature_review_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#interview"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#survey_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ethnographic_research"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#systems_theoretic_accident_model_and_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#pierce_function"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#risk_assessment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#quality_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#flow"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000001"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#preliminary_hazard_analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#stakeholder_engagement_method"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#fault_tree_analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#rule:_color_blindness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#contextual_inquiry"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#stakeholder_role"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#rule:_visibility_of_system_status"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#survey"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#deform_function"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#document_review_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#method"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#rule:_audibility_of_alarms"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#hazard_analysis_and_critical_points"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#shadowing"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#is_functional_model_of"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#error_analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#focus_group_process"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#recommendation_system_state"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#regulatory_review_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#market_research_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#usability_testing"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_sub-classification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#error_trigger_plan_specification"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#rule:_readability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#focus_group"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000055"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#color_combination_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#delphi_technique_engagement_procses"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#rule:_minimalist_and_aesthetic_design"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#submodel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#stakeholder_engagement_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#failure_mode_and_effects_analysis"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#output_flow"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#single_color_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#color_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#interview_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#form_function"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#rule:_recognition_rather_than_recall"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#recommendation_user_control"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#alarm_specification"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_consequence"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ergonomic_rule"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#expert_usability_analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#recommendation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#principle"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#recommendation_legibility"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#red-green_color_combination_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Compact_function"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#rule:_user_control_and_freedom"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#cognitive_walkthrough"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_feature_specification"/>
-    </Declaration>
-    <EquivalentClasses>
-        <Class IRI="#alarm_specification"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#system_indicator_specification"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
-                <ObjectIntersectionOf>
-                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                    <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
-                        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Announce_function"/>
-                    </ObjectSomeValuesFrom>
-                </ObjectIntersectionOf>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#system_indicator_specification"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_feature_specification"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
-                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Indicate_function"/>
-                </ObjectSomeValuesFrom>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000055"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000001"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#feature_specification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#alarm_specification"/>
-        <Class IRI="#system_indicator_specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#alarm_specification"/>
-        <ObjectHasValue>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
-            <NamedIndividual IRI="#rule:_audibility_of_alarms"/>
-        </ObjectHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#blue-yellow_color_combination_specification"/>
-        <Class IRI="#color_combination_specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#blue-yellow_color_combination_specification"/>
-        <ObjectHasValue>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
-            <NamedIndividual IRI="#rule:_color_blindness"/>
-        </ObjectHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#cognitive_walkthrough"/>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#color_combination_specification"/>
-        <Class IRI="#color_specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#color_specification"/>
-        <Class IRI="#quality_specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#contextual_inquiry"/>
-        <Class IRI="#ethnographic_research"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#delphi_technique"/>
-        <Class IRI="#stakeholder_engagement_method"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#delphi_technique_engagement_procses"/>
-        <Class IRI="#stakeholder_engagement_process"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#document_review_process"/>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ergonomic_rule"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000055"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#error_analysis"/>
-        <Class IRI="#risk_assessment"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#error_trigger_plan_specification"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ethnographic_research"/>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#expert_usability_analysis"/>
-        <Class IRI="#usability_testing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#failure_mode_and_effects_analysis"/>
-        <Class IRI="#risk_assessment"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#fault_tree_analysis"/>
-        <Class IRI="#risk_assessment"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#focus_group"/>
-        <Class IRI="#stakeholder_engagement_method"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#focus_group_process"/>
-        <Class IRI="#stakeholder_engagement_process"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#hallway_testing"/>
-        <Class IRI="#usability_testing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#hazard_analysis_and_critical_points"/>
-        <Class IRI="#risk_assessment"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#hazard_and_operability_study"/>
-        <Class IRI="#risk_assessment"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <Class IRI="#ergonomic_rule"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#interview"/>
-        <Class IRI="#stakeholder_engagement_method"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#interview_process"/>
-        <Class IRI="#stakeholder_engagement_process"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#literature_review_process"/>
-        <Class IRI="#document_review_process"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#market_research_process"/>
-        <Class IRI="#document_review_process"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#method"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#preliminary_hazard_analysis"/>
-        <Class IRI="#risk_assessment"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#principle"/>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#quality_specification"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000005"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#recommendation"/>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#red-green_color_combination_specification"/>
-        <Class IRI="#color_combination_specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#red-green_color_combination_specification"/>
-        <ObjectHasValue>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
-            <NamedIndividual IRI="#rule:_color_blindness"/>
-        </ObjectHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#regulatory_review_process"/>
-        <Class IRI="#document_review_process"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#risk_assessment"/>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#shadowing"/>
-        <Class IRI="#ethnographic_research"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#single_color_specification"/>
-        <Class IRI="#color_specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#stakeholder_engagement_method"/>
-        <Class IRI="#method"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#stakeholder_engagement_process"/>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#stakeholder_engagement_process"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-            <ObjectIntersectionOf>
-                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
-                    <Class IRI="#stakeholder_role"/>
-                </ObjectSomeValuesFrom>
-            </ObjectIntersectionOf>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#survey"/>
-        <Class IRI="#stakeholder_engagement_method"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#survey_process"/>
-        <Class IRI="#stakeholder_engagement_process"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#system_indicator_specification"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/5/design#design_feature_specification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#system_indicator_specification"/>
-        <ObjectHasValue>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
-            <NamedIndividual IRI="#rule:_readability"/>
-        </ObjectHasValue>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#systems_theoretic_accident_model_and_process"/>
-        <Class IRI="#risk_assessment"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#usability_testing"/>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#flow"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
-    </SubClassOf>
-    <ClassAssertion>
-        <Class IRI="#recommendation"/>
-        <NamedIndividual IRI="#recommendation_alarms"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#recommendation"/>
-        <NamedIndividual IRI="#recommendation_color"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#recommendation"/>
-        <NamedIndividual IRI="#recommendation_error_diagnosis"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#recommendation"/>
-        <NamedIndividual IRI="#recommendation_error_prevention"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#recommendation"/>
-        <NamedIndividual IRI="#recommendation_flexible_design"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#recommendation"/>
-        <NamedIndividual IRI="#recommendation_legibility"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#recommendation"/>
-        <NamedIndividual IRI="#recommendation_match_reality"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#recommendation"/>
-        <NamedIndividual IRI="#recommendation_minimalist_design"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#recommendation"/>
-        <NamedIndividual IRI="#recommendation_recognition"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#recommendation"/>
-        <NamedIndividual IRI="#recommendation_system_state"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#recommendation"/>
-        <NamedIndividual IRI="#recommendation_user_actions"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#recommendation"/>
-        <NamedIndividual IRI="#recommendation_user_control"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <NamedIndividual IRI="#rule:_anticipate_user_actions"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <NamedIndividual IRI="#rule:_audibility_of_alarms"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <NamedIndividual IRI="#rule:_color_blindness"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <NamedIndividual IRI="#rule:_error_diagnosis_support"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <NamedIndividual IRI="#rule:_error_prevention"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <NamedIndividual IRI="#rule:_flexible_design"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <NamedIndividual IRI="#rule:_match_between_system_and_world"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <NamedIndividual IRI="#rule:_minimalist_and_aesthetic_design"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <NamedIndividual IRI="#rule:_readability"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <NamedIndividual IRI="#rule:_recognition_rather_than_recall"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <NamedIndividual IRI="#rule:_user_control_and_freedom"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#heuristic_ergonomic_rule"/>
-        <NamedIndividual IRI="#rule:_visibility_of_system_status"/>
-    </ClassAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_consequence"/>
-        <NamedIndividual IRI="#rule:_anticipate_user_actions"/>
-        <NamedIndividual IRI="#recommendation_user_actions"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_consequence"/>
-        <NamedIndividual IRI="#rule:_audibility_of_alarms"/>
-        <NamedIndividual IRI="#recommendation_alarms"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_consequence"/>
-        <NamedIndividual IRI="#rule:_color_blindness"/>
-        <NamedIndividual IRI="#recommendation_color"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_consequence"/>
-        <NamedIndividual IRI="#rule:_error_diagnosis_support"/>
-        <NamedIndividual IRI="#recommendation_error_diagnosis"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_consequence"/>
-        <NamedIndividual IRI="#rule:_error_prevention"/>
-        <NamedIndividual IRI="#recommendation_error_prevention"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_consequence"/>
-        <NamedIndividual IRI="#rule:_flexible_design"/>
-        <NamedIndividual IRI="#recommendation_flexible_design"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_consequence"/>
-        <NamedIndividual IRI="#rule:_match_between_system_and_world"/>
-        <NamedIndividual IRI="#recommendation_match_reality"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_consequence"/>
-        <NamedIndividual IRI="#rule:_readability"/>
-        <NamedIndividual IRI="#recommendation_legibility"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_consequence"/>
-        <NamedIndividual IRI="#rule:_recognition_rather_than_recall"/>
-        <NamedIndividual IRI="#recommendation_recognition"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_consequence"/>
-        <NamedIndividual IRI="#rule:_user_control_and_freedom"/>
-        <NamedIndividual IRI="#recommendation_user_control"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#has_consequence"/>
-        <NamedIndividual IRI="#rule:_visibility_of_system_status"/>
-        <NamedIndividual IRI="#recommendation_system_state"/>
-    </ObjectPropertyAssertion>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_sub-classification"/>
-        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_sub-process"/>
-        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-    </SubObjectPropertyOf>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_sub-classification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_sub-classification"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
-    </ObjectPropertyRange>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#is_functional_model_of"/>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#submodel"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#is_functional_model_of"/>
-            <ObjectProperty IRI="#has_sub-process"/>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#submodel"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_modeled_by"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_modeled_by"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectInverseOf>
-                <ObjectProperty IRI="#has_sub-classification"/>
-            </ObjectInverseOf>
-            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model"/>
-    </SubObjectPropertyOf>
-    <DataPropertyRange>
-        <DataProperty IRI="#text"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/IAO_0000055</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rule</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a geometry specification is a is an objective specification that, when concretized as part of a plan and realized, specifies the intended geometry of some artifact</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geometry specification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a design specification is an directive information entit that indicates the desired shape, function, capabilities, and creation process etc. of an artifact that will be brought into existence through the realization of a plan concretizing teh design specification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design specification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#feature_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a feature specification is a design specification that specifies some aspect of the entity described in a design specification is utile or of interest to some other entity to whom the design is targeted.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#feature_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">product feature specification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#alarm_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">alarm specification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#blue-yellow_color_combination_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a color combination specificaiton that specifies a combination of shades of blue and shades of yellow</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#cognitive_walkthrough</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cognitive walkthrough process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#color_combination_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a color combinaton specification is a color specification that specifies two or more colors that are to share a border, or overlap one another</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#color_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a color specification is a quality specification that specifies what color some continuant wll be</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#contextual_inquiry</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">contextual inquiry process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#delphi_technique</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">delphi engagement method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#delphi_technique_engagement_procses</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a delphi technique engagement process is a stakeholder engagement process that realizes the concretization of of a plan specification for a the Delphi process of stakeholder engagement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#delphi_technique_engagement_procses</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Delphi technique engagement process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#document_review_process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">document review process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#ergonomic_rule</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an ergonomic rule is a rule that specifies a set of undesirable conditions relating to usability or work environment that, when met, result in a set of specificaitons for changes to be impleemented to alleviate these undesirable conditions</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ergonomic_rule</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ergonomic rule</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#error_analysis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">error analysis process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#error_trigger_plan_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an error triggering plan specification is a plan specification that details a plan for how one might generate an undesirable outomce</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#error_trigger_plan_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">error trigger plan specification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ethnographic_research</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ethnographic research process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#expert_usability_analysis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">expert usability testing method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#failure_mode_and_effects_analysis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">failure mode and effects analysis method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#fault_tree_analysis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fault tree analysis method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#focus_group</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">focus group method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#focus_group_process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a focus group process is stakeholder engagement process wherein a group of agents who are stakeholders in some entity are used as proxies for a larger collection thereof are solicited to engage in a guided discussion of said entity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#focus_group_process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">focus group process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hallway_testing</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hallway testing method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#has_consequence</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has consequence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#has_sub-process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has sub process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hazard_analysis_and_critical_points</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hazard and critical points analysis method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hazard_and_operability_study</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hazard and operability study method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#heuristic_ergonomic_rule</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a heuristic ergonomic rule is an ergonomic rule that uses a set of indirect assessments of a situation to recommend changes to some entity.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#heuristic_ergonomic_rule</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">heuristic ergonomic rule</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#interview</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">interview method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#interview_process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an interview process is a stakeholder engagement process in which an agent or group fo agents that are stakeholders in some entity are solicited to answer a series of questions about said entity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#interview_process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">interview process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#literature_review_process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">literature review process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#market_research_process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">market research process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#method</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a method is a plan specification consisting of a set of action specifications that constitute a generic workflow for realizing some standardized objective</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#preliminary_hazard_analysis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">preliminary hazard analysis process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#quality_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a quality specification is a directive entity that specifies a quality that is to inhere in some continuant as a result of a process.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#red-green_color_combination_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a color combination system that specifies a combination of shades of red and shades of green.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#regulatory_review_process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">review of regulatory documents</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#risk_assessment</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">risk assessment process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#shadowing</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shadowing process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#single_color_specification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a single color specification is a color specification that specifies the color of a single color that is found either in a one color region or in a single color objec.t</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#stakeholder_engagement_method</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a stakeholder engagemetn methods is a method that details a workflow for engageign with agents who are stakeholders in some entity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#stakeholder_engagement_method</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stakeholder engagement method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#stakeholder_engagement_process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stakeholder engagement process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#survey</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">survey method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#survey_process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">survey process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#systems_theoretic_accident_model_and_process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">systems theoretic accident model method</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#usability_testing</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a usability testing process is a planned process where an agent or group of agents interact with an artifact or information entity to realize the concretization of a plan specification with teh objective of identifying problems relating the design of said entity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#usability_testing</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">usability testing process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Compact_function</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compacting function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Energy_flow</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an energy flow is a flow wherein some form of energy is crosses a fiat boundry during its realization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Material_flow</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an material flow is a flow wherein some form of matter is crosses a fiat boundry during its realization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Signal_flow</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an signal flow is a flow wherein some form of signal is crosses a fiat boundry during its realization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#compress_function</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compressing function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#crush_function</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">crushing function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#deform_function</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">deforming function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#flow</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a flow is a disposition inhering within some entity that when realized results in a the passage of material, energy, or information across some fiat boundry within said entity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#form_function</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">forming function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#pierce_function</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">piercing function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent_independent_rationale</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an agent invariant rationale is a rationale that is based upon information or knowledge that does not depend on the perspectives or preferences of some given person</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has classification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#regulation</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a regulation is a conditional specificaiton that issues a legally bindign mandate that some additional specifications or course of action be met subject to the target entit&apos;s status in relation to the legal jurisdiction of some entity bearing authority and meeting some additional criteria.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#ethnic_demographic</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An ethnic demographic is a demographic distinguished by a shared social identity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#racial_demographic</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a racial demographic is a demographic that is distinguished by a shared racial identify or classification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#sex_demographic</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a sex demogrpahic is a demographic that is distinguished by shared biological sex.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#task_requirement_specificaiton</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a task requiremetn specification is a requirement specification that specifies some entity must particiapte in a process in some pre-specified way</Literal>
-    </AnnotationAssertion>
-</Ontology>
+     xmlns:ergo-design="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000058 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000058"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_participant -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizes"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#has_consequence -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#has_consequence">
+        <rdfs:label>has consequence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#has_sub-classification -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#has_sub-classification">
+        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#has_sub-process -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#has_sub-process">
+        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+        <rdfs:label>has sub process</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#has_sub-classification"/>
+            </rdf:Description>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#is_functional_model_of -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#is_functional_model_of"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#output_flow -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#output_flow"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#submodel -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#submodel">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#is_functional_model_of"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#is_functional_model_of"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#has_sub-process"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#has_functional_model"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_modeled_by -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_modeled_by">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_modeled_by"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#has_classification">
+        <rdfs:label>has classification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos; -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#text -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#text">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
+        <rdfs:label>rule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
+        <obo:IAO_0000115>a geometry specification is a is an objective specification that, when concretized as part of a plan and realized, specifies the intended geometry of some artifact</obo:IAO_0000115>
+        <rdfs:label>geometry specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_feature_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_feature_specification"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
+        <obo:IAO_0000115>a design specification is an directive information entit that indicates the desired shape, function, capabilities, and creation process etc. of an artifact that will be brought into existence through the realization of a plan concretizing teh design specification</obo:IAO_0000115>
+        <rdfs:label>design specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#feature_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#feature_specification">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
+        <obo:IAO_0000115>a feature specification is a design specification that specifies some aspect of the entity described in a design specification is utile or of interest to some other entity to whom the design is targeted.</obo:IAO_0000115>
+        <rdfs:label>product feature specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#alarm_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#alarm_specification">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#system_indicator_specification"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+                                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Announce_function"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#system_indicator_specification"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_audibility_of_alarms"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>alarm specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#blue-yellow_color_combination_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#blue-yellow_color_combination_specification">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#color_combination_specification"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_color_blindness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a color combination specificaiton that specifies a combination of shades of blue and shades of yellow</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#cognitive_walkthrough -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#cognitive_walkthrough">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:label>cognitive walkthrough process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#color_combination_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#color_combination_specification">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#color_specification"/>
+        <obo:IAO_0000115>a color combinaton specification is a color specification that specifies two or more colors that are to share a border, or overlap one another</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#color_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#color_specification">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#quality_specification"/>
+        <obo:IAO_0000115>a color specification is a quality specification that specifies what color some continuant wll be</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#contextual_inquiry -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#contextual_inquiry">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#ethnographic_research"/>
+        <rdfs:label>contextual inquiry process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#delphi_technique -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#delphi_technique">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_method"/>
+        <rdfs:label>delphi engagement method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#delphi_technique_engagement_procses -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#delphi_technique_engagement_procses">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_process"/>
+        <obo:IAO_0000115>a delphi technique engagement process is a stakeholder engagement process that realizes the concretization of of a plan specification for a the Delphi process of stakeholder engagement</obo:IAO_0000115>
+        <rdfs:label>Delphi technique engagement process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#document_review_process -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#document_review_process">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:label>document review process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#ergonomic_rule -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#ergonomic_rule">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000055"/>
+        <obo:IAO_0000115>an ergonomic rule is a rule that specifies a set of undesirable conditions relating to usability or work environment that, when met, result in a set of specificaitons for changes to be impleemented to alleviate these undesirable conditions</obo:IAO_0000115>
+        <rdfs:label>ergonomic rule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#error_analysis -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#error_analysis">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#risk_assessment"/>
+        <rdfs:label>error analysis process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#error_trigger_plan_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#error_trigger_plan_specification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000115>an error triggering plan specification is a plan specification that details a plan for how one might generate an undesirable outomce</obo:IAO_0000115>
+        <rdfs:label>error trigger plan specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#ethnographic_research -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#ethnographic_research">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:label>ethnographic research process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#expert_usability_analysis -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#expert_usability_analysis">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#usability_testing"/>
+        <rdfs:label>expert usability testing method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#failure_mode_and_effects_analysis -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#failure_mode_and_effects_analysis">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#risk_assessment"/>
+        <rdfs:label>failure mode and effects analysis method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#fault_tree_analysis -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#fault_tree_analysis">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#risk_assessment"/>
+        <rdfs:label>fault tree analysis method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#focus_group -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#focus_group">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_method"/>
+        <rdfs:label>focus group method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#focus_group_process -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#focus_group_process">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_process"/>
+        <obo:IAO_0000115>a focus group process is stakeholder engagement process wherein a group of agents who are stakeholders in some entity are used as proxies for a larger collection thereof are solicited to engage in a guided discussion of said entity</obo:IAO_0000115>
+        <rdfs:label>focus group process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#hallway_testing -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#hallway_testing">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#usability_testing"/>
+        <rdfs:label>hallway testing method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#hazard_analysis_and_critical_points -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#hazard_analysis_and_critical_points">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#risk_assessment"/>
+        <rdfs:label>hazard and critical points analysis method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#hazard_and_operability_study -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#hazard_and_operability_study">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#risk_assessment"/>
+        <rdfs:label>hazard and operability study method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#ergonomic_rule"/>
+        <obo:IAO_0000115>a heuristic ergonomic rule is an ergonomic rule that uses a set of indirect assessments of a situation to recommend changes to some entity.</obo:IAO_0000115>
+        <rdfs:label>heuristic ergonomic rule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#interview -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#interview">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_method"/>
+        <rdfs:label>interview method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#interview_process -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#interview_process">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_process"/>
+        <obo:IAO_0000115>an interview process is a stakeholder engagement process in which an agent or group fo agents that are stakeholders in some entity are solicited to answer a series of questions about said entity</obo:IAO_0000115>
+        <rdfs:label>interview process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#literature_review_process -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#literature_review_process">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#document_review_process"/>
+        <rdfs:label>literature review process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#market_research_process -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#market_research_process">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#document_review_process"/>
+        <rdfs:label>market research process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#method -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#method">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <obo:IAO_0000115>a method is a plan specification consisting of a set of action specifications that constitute a generic workflow for realizing some standardized objective</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#preliminary_hazard_analysis -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#preliminary_hazard_analysis">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#risk_assessment"/>
+        <rdfs:label>preliminary hazard analysis process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#principle -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#principle">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#quality_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#quality_specification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115>a quality specification is a directive entity that specifies a quality that is to inhere in some continuant as a result of a process.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#red-green_color_combination_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#red-green_color_combination_specification">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#color_combination_specification"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_color_blindness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a color combination system that specifies a combination of shades of red and shades of green.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#regulatory_review_process -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#regulatory_review_process">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#document_review_process"/>
+        <rdfs:label>review of regulatory documents</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#risk_assessment -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#risk_assessment">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:label>risk assessment process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#shadowing -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#shadowing">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#ethnographic_research"/>
+        <rdfs:label>shadowing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#single_color_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#single_color_specification">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#color_specification"/>
+        <obo:IAO_0000115>a single color specification is a color specification that specifies the color of a single color that is found either in a one color region or in a single color objec.t</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_method -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_method">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#method"/>
+        <obo:IAO_0000115>a stakeholder engagemetn methods is a method that details a workflow for engageign with agents who are stakeholders in some entity</obo:IAO_0000115>
+        <rdfs:label>stakeholder engagement method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_process -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_process">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
+                                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>stakeholder engagement process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#survey -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#survey">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_method"/>
+        <rdfs:label>survey method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#survey_process -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#survey_process">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_process"/>
+        <rdfs:label>survey process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#system_indicator_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#system_indicator_specification">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_feature_specification"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+                                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Indicate_function"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_feature_specification"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_readability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#systems_theoretic_accident_model_and_process -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#systems_theoretic_accident_model_and_process">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#risk_assessment"/>
+        <rdfs:label>systems theoretic accident model method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#usability_testing -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#usability_testing">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115>a usability testing process is a planned process where an agent or group of agents interact with an artifact or information entity to realize the concretization of a plan specification with teh objective of identifying problems relating the design of said entity</obo:IAO_0000115>
+        <rdfs:label>usability testing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Announce_function -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Announce_function"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Compact_function -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Compact_function">
+        <rdfs:label>compacting function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Indicate_function -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Indicate_function"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#compress_function -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#compress_function">
+        <rdfs:label>compressing function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#crush_function -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#crush_function">
+        <rdfs:label>crushing function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#deform_function -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#deform_function">
+        <rdfs:label>deforming function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#flow -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#flow">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <ExtendedRelationOntology:definition>a flow is a disposition inhering within some entity that when realized results in a the passage of material, energy, or information across some fiat boundry within said entity</ExtendedRelationOntology:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#form_function -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#form_function">
+        <rdfs:label>forming function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#pierce_function -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#pierce_function">
+        <rdfs:label>piercing function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_alarms -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_alarms">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_color -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_color">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_error_diagnosis -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_error_diagnosis">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_error_prevention -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_error_prevention">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_flexible_design -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_flexible_design">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_legibility -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_legibility">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_match_reality -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_match_reality">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_minimalist_design -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_minimalist_design">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_recognition -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_recognition">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_system_state -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_system_state">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_user_actions -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_user_actions">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_user_control -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_user_control">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_anticipate_user_actions -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_anticipate_user_actions">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule"/>
+        <ergo-design:has_consequence rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_user_actions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_audibility_of_alarms -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_audibility_of_alarms">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule"/>
+        <ergo-design:has_consequence rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_alarms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_color_blindness -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_color_blindness">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule"/>
+        <ergo-design:has_consequence rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_error_diagnosis_support -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_error_diagnosis_support">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule"/>
+        <ergo-design:has_consequence rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_error_diagnosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_error_prevention -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_error_prevention">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule"/>
+        <ergo-design:has_consequence rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_error_prevention"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_flexible_design -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_flexible_design">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule"/>
+        <ergo-design:has_consequence rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_flexible_design"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_match_between_system_and_world -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_match_between_system_and_world">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule"/>
+        <ergo-design:has_consequence rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_match_reality"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_minimalist_and_aesthetic_design -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_minimalist_and_aesthetic_design">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_readability -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_readability">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule"/>
+        <ergo-design:has_consequence rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_legibility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_recognition_rather_than_recall -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_recognition_rather_than_recall">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule"/>
+        <ergo-design:has_consequence rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_recognition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_user_control_and_freedom -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_user_control_and_freedom">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule"/>
+        <ergo-design:has_consequence rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_user_control"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_visibility_of_system_status -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#rule:_visibility_of_system_status">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#heuristic_ergonomic_rule"/>
+        <ergo-design:has_consequence rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#recommendation_system_state"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Energy_flow">
+        <ExtendedRelationOntology:definition>an energy flow is a flow wherein some form of energy is crosses a fiat boundry during its realization</ExtendedRelationOntology:definition>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Material_flow">
+        <ExtendedRelationOntology:definition>an material flow is a flow wherein some form of matter is crosses a fiat boundry during its realization</ExtendedRelationOntology:definition>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Signal_flow">
+        <ExtendedRelationOntology:definition>an signal flow is a flow wherein some form of signal is crosses a fiat boundry during its realization</ExtendedRelationOntology:definition>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent_independent_rationale">
+        <ExtendedRelationOntology:definition>an agent invariant rationale is a rationale that is based upon information or knowledge that does not depend on the perspectives or preferences of some given person</ExtendedRelationOntology:definition>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#regulation">
+        <ExtendedRelationOntology:definition>a regulation is a conditional specificaiton that issues a legally bindign mandate that some additional specifications or course of action be met subject to the target entit&apos;s status in relation to the legal jurisdiction of some entity bearing authority and meeting some additional criteria.</ExtendedRelationOntology:definition>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#ethnic_demographic">
+        <ExtendedRelationOntology:definition>An ethnic demographic is a demographic distinguished by a shared social identity</ExtendedRelationOntology:definition>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#racial_demographic">
+        <ExtendedRelationOntology:definition>a racial demographic is a demographic that is distinguished by a shared racial identify or classification</ExtendedRelationOntology:definition>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#sex_demographic">
+        <ExtendedRelationOntology:definition>a sex demogrpahic is a demographic that is distinguished by shared biological sex.</ExtendedRelationOntology:definition>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/user%20capability.owl#task_requirement_specificaiton">
+        <ExtendedRelationOntology:definition>a task requiremetn specification is a requirement specification that specifies some entity must particiapte in a process in some pre-specified way</ExtendedRelationOntology:definition>
+    </rdf:Description>
+</rdf:RDF>
 
 
 
