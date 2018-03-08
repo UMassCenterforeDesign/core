@@ -955,7 +955,6 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Human_energy">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Energy_flow"/>
-        <rdfs:label>human energy flow</rdfs:label>
     </owl:Class>
     
 
