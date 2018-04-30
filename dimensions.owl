@@ -582,14 +582,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </owl:Class>
-    
-
-
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
@@ -634,6 +626,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#angularity">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#orientation"/>
+        <ExtendedRelationOntology:definition>angularity is an orientation of some entity indicating rotational offset between substantially straight entities or parts of entities about an axis normal to a intersection or hypothetical interesection between siad entities (vertex).</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
@@ -817,7 +810,7 @@
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_behavior -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl#material_behavior">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tom/ontologies/2017/5/design#Behavior"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </owl:Class>
     
 

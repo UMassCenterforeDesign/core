@@ -11,7 +11,6 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl">
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/info.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl"/>
     </owl:Ontology>
     
@@ -250,16 +249,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310"/>
-    
-
-
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeName"/>
     </owl:Class>
     
 

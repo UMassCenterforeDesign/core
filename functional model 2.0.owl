@@ -484,6 +484,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Branch_function">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        <ExtendedRelationOntology:definition>A function wherein the bearer causes some flow of energy, material, or signal to no longer be joined or mixed.</ExtendedRelationOntology:definition>
         <rdfs:label>branching function</rdfs:label>
     </owl:Class>
     
@@ -519,6 +520,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Channel_function">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        <ExtendedRelationOntology:definition>a channeling function is a function wherein the bearer moves some entity from one location to another during its realization</ExtendedRelationOntology:definition>
         <rdfs:label>channeling function</rdfs:label>
     </owl:Class>
     
@@ -616,6 +618,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Connect_function">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        <ExtendedRelationOntology:definition>a connecting functionis a function wherein the realization of said function causes a minimum of two entities be brought together</ExtendedRelationOntology:definition>
         <rdfs:label>connecting function</rdfs:label>
     </owl:Class>
     
@@ -679,6 +682,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Couple_function">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Connect_function"/>
+        <ExtendedRelationOntology:definition>a coupling function is a connecting function wherein each entity brought together is still distinguishable from the other</ExtendedRelationOntology:definition>
         <rdfs:label>coupling function</rdfs:label>
     </owl:Class>
     
@@ -875,6 +879,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Export_function">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Channel_function"/>
+        <ExtendedRelationOntology:definition>is a function wherein the realization of said function causes some entity to be moved from inside some fiat boundry to outside said boundry</ExtendedRelationOntology:definition>
         <rdfs:label>exporting function</rdfs:label>
     </owl:Class>
     
@@ -990,6 +995,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Import_function">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Channel_function"/>
+        <ExtendedRelationOntology:definition>an importing function is a function wherein the realization of said function causes some entity to be brough within some fiat boundry</ExtendedRelationOntology:definition>
         <rdfs:label>importing function</rdfs:label>
     </owl:Class>
     
@@ -1608,6 +1614,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Transfer_function">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Channel_function"/>
+        <ExtendedRelationOntology:definition>a transferring function is a function wherein the realization of said function causes some entity to be relocated from one location to another</ExtendedRelationOntology:definition>
         <rdfs:label>transfering function</rdfs:label>
     </owl:Class>
     
@@ -1635,6 +1642,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Transmit_function">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Transfer_function"/>
+        <ExtendedRelationOntology:definition>a trasmitting function is a transferring functio wherein the entity transferred durign realization is a form of energy or information</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
@@ -1643,6 +1651,7 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Transport_function">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Transfer_function"/>
+        <ExtendedRelationOntology:definition>a transporting function is a transferring function wherein the entity transported is a material entity.</ExtendedRelationOntology:definition>
     </owl:Class>
     
 

@@ -430,6 +430,12 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeName -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeName"/>
+    
+
+
     <!-- http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Speed -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Speed">
@@ -515,7 +521,7 @@
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#classification">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeName"/>
     </owl:Class>
     
 

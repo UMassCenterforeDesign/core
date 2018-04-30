@@ -280,12 +280,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    
-
-
     <!-- http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
@@ -295,27 +289,8 @@
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
         <obo:IAO_0000115>a geometry specification is a is an objective specification that, when concretized as part of a plan and realized, specifies the intended geometry of some artifact</obo:IAO_0000115>
         <rdfs:label>geometry specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_feature_specification -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_feature_specification">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
-        <obo:IAO_0000115>a design specification is an directive information entit that indicates the desired shape, function, capabilities, and creation process etc. of an artifact that will be brought into existence through the realization of a plan concretizing teh design specification</obo:IAO_0000115>
-        <rdfs:label>design specification</rdfs:label>
     </owl:Class>
     
 
@@ -323,7 +298,6 @@
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#feature_specification -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#feature_specification">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_specification"/>
         <obo:IAO_0000115>a feature specification is a design specification that specifies some aspect of the entity described in a design specification is utile or of interest to some other entity to whom the design is targeted.</obo:IAO_0000115>
         <rdfs:label>product feature specification</rdfs:label>
     </owl:Class>
@@ -384,7 +358,7 @@
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#cognitive_walkthrough -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#cognitive_walkthrough">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAppraisal"/>
         <rdfs:label>cognitive walkthrough process</rdfs:label>
     </owl:Class>
     
@@ -439,7 +413,7 @@
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#document_review_process -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#document_review_process">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAppraisal"/>
         <rdfs:label>document review process</rdfs:label>
     </owl:Class>
     
@@ -477,7 +451,7 @@
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#ethnographic_research -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#ethnographic_research">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#SocialAct"/>
         <rdfs:label>ethnographic research process</rdfs:label>
     </owl:Class>
     
@@ -603,28 +577,11 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#method -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#method">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <obo:IAO_0000115>a method is a plan specification consisting of a set of action specifications that constitute a generic workflow for realizing some standardized objective</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#preliminary_hazard_analysis -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#preliminary_hazard_analysis">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#risk_assessment"/>
         <rdfs:label>preliminary hazard analysis process</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#principle -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#principle">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
     </owl:Class>
     
 
@@ -673,7 +630,7 @@
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#risk_assessment -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#risk_assessment">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAppraisal"/>
         <rdfs:label>risk assessment process</rdfs:label>
     </owl:Class>
     
@@ -700,7 +657,7 @@
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_method -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_method">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#method"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#method_specification"/>
         <obo:IAO_0000115>a stakeholder engagemetn methods is a method that details a workflow for engageign with agents who are stakeholders in some entity</obo:IAO_0000115>
         <rdfs:label>stakeholder engagement method</rdfs:label>
     </owl:Class>
@@ -710,7 +667,7 @@
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_process -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_engagement_process">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#SocialAct"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -761,23 +718,6 @@
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#system_indicator_specification -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#system_indicator_specification">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_feature_specification"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#specifies"/>
-                        <owl:someValuesFrom>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
-                                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl#Indicate_function"/>
-                            </owl:Restriction>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#design_feature_specification"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl#&apos;is_subject_to&apos;"/>
@@ -800,7 +740,7 @@
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#usability_testing -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#usability_testing">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAppraisal"/>
         <obo:IAO_0000115>a usability testing process is a planned process where an agent or group of agents interact with an artifact or information entity to realize the concretization of a plan specification with teh objective of identifying problems relating the design of said entity</obo:IAO_0000115>
         <rdfs:label>usability testing process</rdfs:label>
     </owl:Class>

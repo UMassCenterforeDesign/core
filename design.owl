@@ -13,6 +13,8 @@
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl"/>
+        <obo:IAO_0000115>a geometry specification is a is an objective specification that, when concretized as part of a plan and realized, specifies the intended geometry of some artifact</obo:IAO_0000115>
+        <rdfs:label>geometry specification</rdfs:label>
     </owl:Ontology>
     
 
@@ -868,7 +870,7 @@
     <!-- http://www.owl-ontologies.com/design.owl#Feature -->
 
     <owl:Class rdf:about="http://www.owl-ontologies.com/design.owl#Feature">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/design.owl#Form"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
@@ -1217,8 +1219,6 @@
                 <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#geometry"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>a geometry specification is a is an objective specification that, when concretized as part of a plan and realized, specifies the intended geometry of some artifact</obo:IAO_0000115>
-        <rdfs:label>geometry specification</rdfs:label>
     </owl:Class>
     
 
