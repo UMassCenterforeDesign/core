@@ -110,61 +110,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
-        <owl:equivalentProperty>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-            </rdf:Description>
-        </owl:equivalentProperty>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:inverseOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000111 xml:lang="en">is part of</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">my brain is part of my body (continuant parthood, two material entities)</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">this day is part of this year (occurrent parthood)</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a part and its whole</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other.</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
-
-A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An occurrent cannot be part of a continuant: use &apos;has participant&apos;. A material entity cannot be part of an immaterial entity: use &apos;has location&apos;. A specifically dependent continuant cannot be part of an independent continuant: use &apos;inheres in&apos;. An independent continuant cannot be part of a specifically dependent continuant: use &apos;bearer of&apos;.</obo:IAO_0000116>
-        <obo:IAO_0000118 xml:lang="en">part_of</obo:IAO_0000118>
-        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
-        <rdfs:label xml:lang="en">part of</rdfs:label>
-        <rdfs:seeAlso>http://www.obofoundry.org/ro/#OBO_REL:part_of</rdfs:seeAlso>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000111 xml:lang="en">has part</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">my body has part my brain (continuant parthood, two material entities)</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">this year has part this day (occurrent parthood)</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a whole and its part</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part.</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)
-
-A continuant cannot have an occurrent as part: use &apos;participates in&apos;. An occurrent cannot have a continuant as part: use &apos;has participant&apos;. An immaterial entity cannot have a material entity as part: use &apos;location of&apos;. An independent continuant cannot have a specifically dependent continuant as part: use &apos;bearer of&apos;. A specifically dependent continuant cannot have an independent continuant as part: use &apos;inheres in&apos;.</obo:IAO_0000116>
-        <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
-        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
-        <rdfs:label xml:lang="en">has part</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054">
-        <owl:equivalentProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realized_by"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054"/>
     
 
 
@@ -249,16 +197,10 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
-    <!-- http://www.obofoundry.org/ro/ro.owl#has_part -->
-
-    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-    
-
-
     <!-- http://www.obofoundry.org/ro/ro.owl#has_proper_part -->
 
     <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_proper_part">
-        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_part"/>
     </owl:ObjectProperty>
     
 
@@ -343,17 +285,67 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
-    <!-- http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_process_part -->
+    <!-- http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_part -->
 
-    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_process_part">
-        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_part">
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#part_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000111 xml:lang="en">has part</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my body has part my brain (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this year has part this day (occurrent parthood)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a whole and its part</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)
+
+A continuant cannot have an occurrent as part: use &apos;participates in&apos;. An occurrent cannot have a continuant as part: use &apos;has participant&apos;. An immaterial entity cannot have a material entity as part: use &apos;location of&apos;. An independent continuant cannot have a specifically dependent continuant as part: use &apos;bearer of&apos;. A specifically dependent continuant cannot have an independent continuant as part: use &apos;inheres in&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <rdfs:label>has part</rdfs:label>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realized_by -->
+    <!-- http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_process_part -->
 
-    <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realized_by"/>
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_process_part">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_part"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#part_of">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_part"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000111 xml:lang="en">is part of</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my brain is part of my body (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this day is part of this year (occurrent parthood)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a part and its whole</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
+
+A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An occurrent cannot be part of a continuant: use &apos;has participant&apos;. A material entity cannot be part of an immaterial entity: use &apos;has location&apos;. A specifically dependent continuant cannot be part of an independent continuant: use &apos;inheres in&apos;. An independent continuant cannot be part of a specifically dependent continuant: use &apos;bearer of&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">part_of</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
+        <rdfs:seeAlso>http://www.obofoundry.org/ro/#OBO_REL:part_of</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Upper/LewisianRelationOntology#is_output_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Upper/LewisianRelationOntology#is_output_of"/>
     
 
 
@@ -361,14 +353,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/method#has_parameter">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_model_element"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#has_basis -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#has_basis">
-        <rdfs:label>has basis</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -391,7 +375,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_modeled_by"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#part_of"/>
                         <owl:someValuesFrom>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
@@ -419,11 +403,20 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         </rdfs:domain>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description>
-                <owl:inverseOf rdf:resource="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#has_basis"/>
+                <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_basis"/>
             </rdf:Description>
             <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_estimate_of"/>
         </owl:propertyChainAxiom>
         <obo:IAO_0000115>a more specific relation between a model and some other entity, which specifies that a model, when employed in a modeling process, outputs a value that is an estimate of some entity&apos;</obo:IAO_0000115>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_basis -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_basis">
+        <owl:inverseOf rdf:resource="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#is_basis_for"/>
+        <rdfs:label>has basis</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -457,7 +450,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_model_part -->
 
     <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_model_part">
-        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_part"/>
     </owl:ObjectProperty>
     
 
@@ -515,7 +508,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_computed_from -->
 
     <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_computed_from">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#has_basis"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_basis"/>
         <rdfs:label>is computed from</rdfs:label>
     </owl:ObjectProperty>
     
@@ -524,9 +517,16 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_estimate_of -->
 
     <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_estimate_of">
-        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
         <obo:IAO_0000115>when models are used to generate estimates, they, similar to measurements, ultimately characterize a quality or disposition of some entity.</obo:IAO_0000115>
         <rdfs:label>is estimate of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_metric_of -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_metric_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#describes"/>
     </owl:ObjectProperty>
     
 
@@ -568,6 +568,36 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:domain rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_relation"/>
         <obo:IAO_0000115>describes a relation wehre a descriptive information content entity relates the domain of a two variable relation</obo:IAO_0000115>
     </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#conforms_to -->
+
+    <owl:ObjectProperty rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#conforms_to">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_basis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#has_input_data -->
+
+    <owl:ObjectProperty rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#has_input_data">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_basis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#has_ouput_data -->
+
+    <owl:ObjectProperty rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#has_ouput_data">
+        <rdfs:subPropertyOf rdf:resource="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#is_basis_for"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#is_basis_for -->
+
+    <owl:ObjectProperty rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#is_basis_for"/>
     
 
 
@@ -669,107 +699,10 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000001">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
-        <obo:IAO_0000111 xml:lang="en">conditional specification</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115 xml:lang="en">a directive information entity that specifies what should happen if the trigger condition is fulfilled</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">PlanAndPlannedProcess Branch</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
-        <obo:IAO_0000119 xml:lang="en">OBI_0000349</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">conditional specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000005">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
-        <obo:IAO_0000111 xml:lang="en">objective specification</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">In the protocol of a ChIP assay the objective specification says to identify protein and DNA interaction.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">a directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">2009-03-16: original definition when imported from OBI read: &quot;objective is an non realizable information entity which can serve as that  proper part of a plan towards which the realization of the plan is directed.&quot;</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">2014-03-31: In the example of usage (&quot;In the protocol of a ChIP assay the objective specification says to identify protein and DNA interaction&quot;) there is a protocol which is the ChIP assay protocol. In addition to being concretized on paper, the protocol can be concretized as a realizable entity, such as a plan that inheres in a person. The objective specification is the part that says that some protein and DNA interactions are identified. This is a specification of a process endpoint: the boundary in the process before which they are not identified and after which they are. During the realization of the plan, the goal is to get to the point of having the interactions, and participants in the realization of the plan try to do that.</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">Answers the question, why did you do this experiment?</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Barry Smith</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Jennifer Fostel</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">goal specification</obo:IAO_0000118>
-        <obo:IAO_0000119 xml:lang="en">OBI Plan and Planned Process/Roles Branch</obo:IAO_0000119>
-        <obo:IAO_0000119 xml:lang="en">OBI_0000217</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">objective specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000007 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000007">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
-        <obo:IAO_0000112 xml:lang="en">Pour the contents of flask 1 into flask 2</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">a directive information entity that describes an action the bearer will take</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">OBI Plan and Planned Process branch</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">action specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
-        <obo:IAO_0000111 xml:lang="en">data item</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">Data items include counts of things, analyte concentrations, and statistical summaries.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers.</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum.</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym.</obo:IAO_0000116>
-        <obo:IAO_0000116>2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">JAR: datum     -- well, this will be very tricky to define, but maybe some 
-information-like stuff that might be put into a computer and that is 
-meant, by someone, to denote and/or to be interpreted by some 
-process... I would include lists, tables, sentences... I think I might 
-defer to Barry, or to Brian Cantwell Smith
-
-JAR: A data item is an approximately justified approximately true approximate belief</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON: Jonathan Rees</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">data</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">data item</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000055 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
-        <obo:IAO_0000111 xml:lang="en">rule</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">example to be added</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115 xml:lang="en">a rule is an executable which guides, defines, restricts actions</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">MSI</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">PRS</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">OBI_0500021</obo:IAO_0000119>
-        <obo:IAO_0000119 xml:lang="en">PRS</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">rule</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationStructureEntity"/>
         <obo:IAO_0000111 xml:lang="en">data set</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">Intensity values in a CEL file or from multiple CEL files comprise a data set (as opposed to the CEL files themselves).</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -781,44 +714,6 @@ JAR: A data item is an approximately justified approximately true approximate be
         <obo:IAO_0000119 xml:lang="en">OBI_0000042</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
         <rdfs:label xml:lang="en">data set</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000007"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000111 xml:lang="en">plan specification</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">PMID: 18323827.Nat Med. 2008 Mar;14(3):226.New plan proposed to help resolve conflicting medical advice.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">A directive information entity with action specifications and objective specifications as parts that, when concretized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">2009-03-16: provenance: a term a plan was proposed for OBI (OBI_0000344) , edited by the PlanAndPlannedProcess branch. Original definition was &quot; a plan is a specification of a process that is realized by an actor to achieve the objective specified as part of the plan&quot;. It has been subsequently moved to IAO where the objective for which the original term was defined was satisfied with the definitionof this, different, term.</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">2014-03-31: A plan specification can have other parts, such as conditional specifications.</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">Alternative previous definition: a plan is a set of instructions that specify how an objective should be achieved</obo:IAO_0000116>
-        <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">OBI Plan and Planned Process branch</obo:IAO_0000119>
-        <obo:IAO_0000119 xml:lang="en">OBI_0000344</obo:IAO_0000119>
-        <rdfs:comment xml:lang="en">2/3/2009 Comment from OBI review.
-
-Action specification not well enough specified.
-Conditional specification not well enough specified.
-Question whether all plan specifications have objective specifications.
-
-Request that IAO either clarify these or change definitions not to use them</rdfs:comment>
-        <rdfs:label xml:lang="en">plan specification</rdfs:label>
     </owl:Class>
     
 
@@ -841,12 +736,19 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- http://purl.obolibrary.org/obo/OBI_0001930 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001930">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
         <obo:IAO_0000111>categorical value specification</obo:IAO_0000111>
+        <obo:IAO_0000111>value specification</obo:IAO_0000111>
+        <obo:IAO_0000112>The value of &apos;positive&apos; in a classification scheme of &quot;positive or negative&quot;; the value of &apos;20g&apos; on the quantitative scale of mass.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>A value specification that is specifies one category out of a fixed number of nominal categories</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity that specifies a value within a classification scheme or on a quantitative scale.</obo:IAO_0000115>
+        <obo:IAO_0000116>This term is currently a descendant of &apos;information content entity&apos;, which requires that it &apos;is about&apos; something. A value specification of &apos;20g&apos; for a measurement data item of the mass of a particular mouse &apos;is about&apos; the mass of that mouse. However there are cases where a value specification is not clearly about any particular. In the future we may change &apos;value specification&apos; to remove the &apos;is about&apos; requirement.</obo:IAO_0000116>
         <obo:IAO_0000117>PERSON:Bjoern Peters</obo:IAO_0000117>
         <rdfs:label>categorical value specification</rdfs:label>
+        <rdfs:label>value specification</rdfs:label>
     </owl:Class>
     
 
@@ -854,7 +756,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- http://purl.obolibrary.org/obo/OBI_0001931 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001931">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
@@ -876,17 +778,30 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0001933 -->
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Objective -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001933">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Objective">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
-        <obo:IAO_0000111>value specification</obo:IAO_0000111>
-        <obo:IAO_0000112>The value of &apos;positive&apos; in a classification scheme of &quot;positive or negative&quot;; the value of &apos;20g&apos; on the quantitative scale of mass.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115>An information content entity that specifies a value within a classification scheme or on a quantitative scale.</obo:IAO_0000115>
-        <obo:IAO_0000116>This term is currently a descendant of &apos;information content entity&apos;, which requires that it &apos;is about&apos; something. A value specification of &apos;20g&apos; for a measurement data item of the mass of a particular mouse &apos;is about&apos; the mass of that mouse. However there are cases where a value specification is not clearly about any particular. In the future we may change &apos;value specification&apos; to remove the &apos;is about&apos; requirement.</obo:IAO_0000116>
-        <obo:IAO_0000117>PERSON:Bjoern Peters</obo:IAO_0000117>
-        <rdfs:label>value specification</rdfs:label>
+        <ExtendedRelationOntology:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Directive Information Content Entity that prescribes some projected state that some Agent intends to achieve.</ExtendedRelationOntology:definition>
+        <ExtendedRelationOntology:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Objective_(goal)</ExtendedRelationOntology:definition_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#PlanSpecification -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#PlanSpecification">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Objective"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ExtendedRelationOntology:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Directive Information Content Entity that prescribes some set of intended Intentional Acts through which some Agent expects to achieve some Objective.</ExtendedRelationOntology:definition>
+        <ExtendedRelationOntology:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Plan</ExtendedRelationOntology:definition_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plan</rdfs:label>
     </owl:Class>
     
 
@@ -895,7 +810,69 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <rdfs:label>artifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#ArtifactDesignContentEntity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#ArtifactDesignContentEntity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ExtendedRelationOntology:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Directive Information Content Entity that is a specification of an object, manifested by an agent, intended to accomplish goals, in a particular environment, using a set of primitive components, satisfying a set of requirements, subject to constraints.</ExtendedRelationOntology:definition>
+        <ExtendedRelationOntology:definition_source>http://en.wikipedia.org/wiki/Design</ExtendedRelationOntology:definition_source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artifact Design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#ArtifactDimensionSpecification -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#ArtifactDimensionSpecification">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#QualitySpecification"/>
+        <ExtendedRelationOntology:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Quality Specification that prescribes some Size Quality.</ExtendedRelationOntology:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dimension Specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#MassSpecification -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#MassSpecification">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#QualitySpecification"/>
+        <ExtendedRelationOntology:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Quality Specification that prescribes the Amount of Mass that a Material Entity should have.</ExtendedRelationOntology:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mass Specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#PartsList -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#PartsList">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#QualitySpecification"/>
+        <ExtendedRelationOntology:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Quality Specification that prescribes the Amount of some type of Artifact that are part of or located on anotther Artifact.</ExtendedRelationOntology:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parts List</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#QualitySpecification -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#QualitySpecification">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
+        <ExtendedRelationOntology:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Directive Information Content Entity that prescribes some Quality.</ExtendedRelationOntology:definition>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality Specification</rdfs:label>
     </owl:Class>
     
 
@@ -978,13 +955,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#describes"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity"/>
         <owl:disjointWith rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
         <ExtendedRelationOntology:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descriptive ICE</ExtendedRelationOntology:alternative_label>
         <ExtendedRelationOntology:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Information Content Entity that consists of a set of propositions that describe some Entity.</ExtendedRelationOntology:definition>
@@ -1025,7 +995,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#GeospatialCoordinateReferenceSystem -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#GeospatialCoordinateReferenceSystem">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
         <ExtendedRelationOntology:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Descriptive Information Content Entity that describes a set of standards for determining the location of a point at or near the surface of the Earth.</ExtendedRelationOntology:definition>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geospatial Coordinate Reference System</rdfs:label>
     </owl:Class>
@@ -1070,7 +1039,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <owl:disjointWith rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
         <ExtendedRelationOntology:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measurement ICE</ExtendedRelationOntology:alternative_label>
         <ExtendedRelationOntology:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Descriptive Information Content Entity that consists of a symbol that is a measure of the extent, dimensions, quanity, or quality of an Entity relative to some standard.</ExtendedRelationOntology:definition>
@@ -1387,18 +1355,72 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#hypothesis -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#hypothesis">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
         <obo:IAO_0000115>a hypothesis is a descriptive information content entity that uses past observations to make propositions characterizing some entity</obo:IAO_0000115>
     </owl:Class>
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#method_specification -->
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModelDefinition -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#method_specification">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <obo:IAO_0000115>a method is a plan specification consisting of a set of action specifications that constitute a generic workflow for realizing some standardized objective</obo:IAO_0000115>
-        <ExtendedRelationOntology:definition>a method specation is aplan specification that prescribes some generic workflow which will serve as a basis for a more specific plan</ExtendedRelationOntology:definition>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModelDefinition">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModeling"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModelFitting -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModelFitting">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModeling"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModeling -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModeling">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#act_of_characterization"/>
+        <ExtendedRelationOntology:definition>a modelign process is an act of appraisal that yields a reproducible representation of the entity in the form of a model</ExtendedRelationOntology:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelRepresentation -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelRepresentation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+        <obo:IAO_0000112>A circuit drawing</obo:IAO_0000112>
+        <obo:IAO_0000112>Teh graphical representation of a SysML model</obo:IAO_0000112>
+        <obo:IAO_0000115>a model representation is a representational information content entity that represents a technical model</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelingPlan -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelingPlan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#PlanSpecification"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#physical_model"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a modeling plan is aplan that prescribes a set of instructions by which the constituent parts of a model may be operated upon to yield an approximation of some entity in whole or in part.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#act_of_characterization -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#act_of_characterization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAppraisal"/>
     </owl:Class>
     
 
@@ -1412,10 +1434,19 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent -->
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#argument -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#argument">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115>An argument is a descriptive information content entity that summarizes the reasoning behind some action or viewpoint.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#asserted_interface_node -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#asserted_interface_node">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#interface_node"/>
     </owl:Class>
     
 
@@ -1423,7 +1454,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reification"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#argument"/>
         <obo:IAO_0000112>In continuum mechanics it is assumed that the space in between atoms is not significant to the macroscopic dispositions or qualities of the entity being analyzed</obo:IAO_0000112>
         <obo:IAO_0000115>an assumption is a narrative object composed of a description or conclusion that depends on some pre-defined state of an entity or approximation of reality to be fully accurrate or valid.</obo:IAO_0000115>
     </owl:Class>
@@ -1433,8 +1464,8 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#axis -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#axis">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_entity"/>
-        <obo:IAO_0000115>an axis a mathematical symbol  that expresses an infinite, one dimensional line existing in some N-dimensional space</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
+        <obo:IAO_0000115>an axis a mathematical descriptor  that describes an infinite, one dimensional line existing in some N-dimensional space</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1442,7 +1473,14 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#computed_data_item -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#computed_data_item">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/LewisianRelationOntology#is_output_of"/>
+                <owl:someValuesFrom rdf:resource="https://www.raw.githubusers.com/UMassCenterforeDesign/core/model.owl#ActOfComputation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a computed data item is a data item that is derived from other quantities through some act of computation.</obo:IAO_0000115>
         <rdfs:label>computed data item</rdfs:label>
     </owl:Class>
     
@@ -1451,7 +1489,8 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#connection_node -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#connection_node">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_node"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_node"/>
+        <obo:IAO_0000115>A connection node is a node connects separate branches a line diagram representation of a model.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1469,8 +1508,26 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model"/>
-        <obo:IAO_0000115>A descriptive model is a model that only documents or representation of an entity to within the scope information that is known, and deemed relevant to the model creator’s objectives or purpose.</obo:IAO_0000115>
+        <obo:IAO_0000115>A descriptive model is a model that only documents or represent of an entity to within the scope information that is known, and deemed relevant to the model creator’s objectives or purpose.</obo:IAO_0000115>
+        <obo:IAO_0000600>In practice, descriptive models are frequently part of predictive ones - the disjoint between predictive and descriptive should serve to guide definition of model part boundaries</obo:IAO_0000600>
         <rdfs:label>descriptive model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115>a descriptive model element is a descriptive information content entity used within the representation of a model to indicate the models prescribed internal logic</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_node -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_node">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element"/>
     </owl:Class>
     
 
@@ -1542,7 +1599,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#generalization_relation -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#generalization_relation">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_relation"/>
+        <rdfs:subClassOf rdf:resource="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#inheritance_relation"/>
     </owl:Class>
     
 
@@ -1551,6 +1608,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#geometric_node">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_node"/>
+        <obo:IAO_0000115>a geometric node is a model node that corresponds to a represents point on the modeled object</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1568,7 +1626,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#idealization -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#idealization">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reification"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#argument"/>
         <obo:IAO_0000112>In continuum mechanics the assumption that empty space between atoms is not significant to the dispositions or qualities of the entity in question allows the entity to be idealized as a continuum. In reality, it is not.</obo:IAO_0000112>
         <obo:IAO_0000115>The representation of an entity that is simpler or &quot;better&quot; than reality. When an agent makes an assumption as to the description of an entity, they may allow certain simplifications to be invoked under circumstances in which the underlying assumption is valid to within some relevant metric of validity.</obo:IAO_0000115>
     </owl:Class>
@@ -1587,7 +1645,16 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#interface_node -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#interface_node">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#connection_node"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_node"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#interval_value_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#interval_value_specification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <ExtendedRelationOntology:definition>an intervalue value specificaiton is a value specification that prescribes some range of values or acceptable deviation from another value</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
@@ -1611,11 +1678,11 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_entity -->
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_entity">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#NonNameIdentifier"/>
-        <rdfs:label>mathematical symbol</rdfs:label>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115>a mathematical descriptor is a descriptive information content entity that is used to describe the intended logic of a series of computations</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1623,7 +1690,8 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_expression -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_expression">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_entity"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
+        <obo:IAO_0000115>a mathematical expression is a mathematical descriptor that describes a relation between two other descriptors or entities described by said descriptors</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1640,8 +1708,8 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#matrix -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#matrix">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_entity"/>
-        <obo:IAO_0000115>a matrix is a rectangular mathematical symbol that consists of a rectangular (or projected to 2 dimensions as a rectangle) N&gt;=2 dimensional array of  of mathematical expressions</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
+        <obo:IAO_0000115>a matrix is a rectangular mathematical descriptor that consists of a rectangular (or projected to 2 dimensions as a rectangle) N&gt;=2 dimensional array of  of mathematical expressions</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1651,6 +1719,22 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#matrix_operation_symbol">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#operation_symbol"/>
         <rdfs:label>matrix operation symbol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#maximum_value_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#maximum_value_specification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001931"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#minimum_value_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#minimum_value_specification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001931"/>
     </owl:Class>
     
 
@@ -1692,8 +1776,8 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_connection -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_connection">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_element"/>
-        <ExtendedRelationOntology:definition>a model connection is a model element that represents the presence of some relation betweentwo entities described by model elements</ExtendedRelationOntology:definition>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element"/>
+        <ExtendedRelationOntology:definition>a model connection is a descriptive model element that represents the presence of some asserted relation between two by model elements</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
@@ -1701,7 +1785,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_element -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_element">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_primitive"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#representative_model_element"/>
         <obo:IAO_0000116>a model element is a model primitive that describes some entity, part of an entity, or trait of an entity represented by a model</obo:IAO_0000116>
     </owl:Class>
     
@@ -1729,6 +1813,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_node">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_element"/>
+        <obo:IAO_0000115>a model node is a model element that describes a point of interest within the model</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1737,6 +1822,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_parameter">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_element"/>
+        <obo:IAO_0000115>A model parameter is a model element that corresponds to a data item describing a system trait of the subject that is permitted to vary within the model</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1753,19 +1839,9 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_port -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_port">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#connection_node"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_primitive -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_primitive">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
-        <obo:IAO_0000112>Sysml blocks, arrows, ports, etc.</obo:IAO_0000112>
-        <obo:IAO_0000112>a finite element</obo:IAO_0000112>
-        <ExtendedRelationOntology:definition>a model primitive is a descriptive information entity that, as part of a model, describes some entity that is part of the entity represented by teh mdoel,  some trait borne by said represented entity, or a construct within the model itself.</ExtendedRelationOntology:definition>
-        <rdfs:label>model primitive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element"/>
+        <obo:IAO_0000115>a descriptive model primitive is a model primitive that describes the internal logic of a model, but does not explicitly represent the modeled entity or its traits</obo:IAO_0000115>
+        <obo:IAO_0000115>a model port is an interface node that represents an asserted interface (computational, representational, etc) between model elements</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1781,7 +1857,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_relation -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_relation">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_primitive"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element"/>
         <obo:IAO_0000115>a model relation is a model primitive that describes links bewteen model elements</obo:IAO_0000115>
         <obo:IAO_0000115>reificaiton is a descriptive information content entity that provides additional description of asserted facts</obo:IAO_0000115>
         <obo:IAO_0000116>The key here is that while connections reflect the entity represented by a model, relations are internal constructs of the model whicy may or may not characterize aspects of the modeled entity</obo:IAO_0000116>
@@ -1798,51 +1874,11 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#modeling_method -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#modeling_method">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#method_specification"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
-                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#physical_model"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>a modeling method specification is a method specification that prescribes a set of instructions by which the constituent parts of a model may be operated upon to yield an approximation of some entity in whole or in part.</obo:IAO_0000115>
-        <rdfs:label>modeling method</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#modeling_process -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#modeling_process">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAppraisal"/>
-        <ExtendedRelationOntology:definition>a modelign process is an act of appraisal that yields a reproducible representation of the entity in the form of a model</ExtendedRelationOntology:definition>
-        <rdfs:label>modeling process</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#multiplication_symbol -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#multiplication_symbol">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#operation_symbol"/>
         <rdfs:label>multiplication symbol</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#objective -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#objective">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reification"/>
-        <obo:IAO_0000115>An objective is an agent variant rationale that documents the desired outcome which motivates some agent&apos;s participation in a process.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1858,7 +1894,8 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#operation_symbol -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#operation_symbol">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_entity"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
+        <obo:IAO_0000115>a mathematical operation symbol is a mathematical descriptor used to describe a specific class of act of computation</obo:IAO_0000115>
         <rdfs:label>mathematical operation sybmol</rdfs:label>
     </owl:Class>
     
@@ -1879,7 +1916,8 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#plane -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#plane">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_entity"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
+        <obo:IAO_0000115>a plane is a mathematical entity that describes a 2-dimensional region</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1915,7 +1953,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#purpose -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#purpose">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reification"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#argument"/>
         <obo:IAO_0000112>The indirect goal of a non-specific &quot;healthy lifestyle&quot; when engaging in a diet or exercise.</obo:IAO_0000112>
         <obo:IAO_0000112>The use of a model of some phenomenon within a system as part of the greater goal of characterizing that system</obo:IAO_0000112>
         <obo:IAO_0000115>In a case where an agent intentionally participates in a process, they do with with an intent to further some broader goal. This broader goal, to which the completion of the process may only partially or indirectly contribute, is denoted as a purpose</obo:IAO_0000115>
@@ -1926,10 +1964,10 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#rationale -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#rationale">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reification"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#argument"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_part"/>
                 <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#purpose"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1938,20 +1976,23 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reference_datum -->
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reification -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reference_datum">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115>a reference datum is a data item that contains data pertaining to the nature of some entity that serves to contextualize some other information content entity.</obo:IAO_0000115>
-        <rdfs:label>reference datum</rdfs:label>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reification">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element"/>
+        <ExtendedRelationOntology:definition>a reification is a descriptive information content entity that elucidates the context behind some asserted relation in a model</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reification -->
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#representative_model_element -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reification">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#representative_model_element">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+        <obo:IAO_0000112>Sysml blocks, arrows, ports, etc.</obo:IAO_0000112>
+        <obo:IAO_0000112>a finite element</obo:IAO_0000112>
+        <ExtendedRelationOntology:definition>a representational model element is a representational information content entity that, in teh context of a  model is used to reprsent an observable part of or trait of the subject of siad model</ExtendedRelationOntology:definition>
+        <rdfs:label>RepresentationalModelElemnt</rdfs:label>
     </owl:Class>
     
 
@@ -1967,7 +2008,8 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#scalar -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#scalar">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_entity"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
+        <obo:IAO_0000115>a scalar is a mathematical representation that represents a quantity having a magnitude but not direction</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1981,15 +2023,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
 However, computer simulations have time variables, but the &quot;simulated process&quot; within them is basically just an n-dimensional matrix representing a process and trying to replicate time-series process measurements. Making an analogy to visual representation they are &quot;videos&quot; of a process. Based on this logic, simulations are classified as ICEs in this ontology</obo:IAO_0000116>
         <rdfs:label>simulated process</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#simulation -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#simulation">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
-        <ExtendedRelationOntology:definition>a simulation is a representative information content entity that represents teh expected set of time series measurements of a process, its participants, and said participants realized behavior.</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
@@ -2017,7 +2050,7 @@ However, computer simulations have time variables, but the &quot;simulated proce
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#tensor -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#tensor">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#matrix"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
     </owl:Class>
     
 
@@ -2035,7 +2068,8 @@ However, computer simulations have time variables, but the &quot;simulated proce
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#variable -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#variable">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_entity"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
+        <obo:IAO_0000115>a variable is a mathematical representation that may take a range of values in an act of computation</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2043,8 +2077,82 @@ However, computer simulations have time variables, but the &quot;simulated proce
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#vector -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#vector">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_entity"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
         <obo:IAO_0000115>a vector is mathematical symbol that is composed of a 1xn&gt;1 dimensional array of mathematical expressions wherein each term represents an entity in relation to some corresponding dimension of an N-dimensional of a coordinate system</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/core/model.owl#ActOfComputation -->
+
+    <owl:Class rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/core/model.owl#ActOfComputation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IntentionalAct"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#convergence_node -->
+
+    <owl:Class rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#convergence_node">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#connection_node"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#divergence_node -->
+
+    <owl:Class rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#divergence_node">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#connection_node"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#inheritance_relation -->
+
+    <owl:Class rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#inheritance_relation">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_relation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_action_element -->
+
+    <owl:Class rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_action_element">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_entity_element -->
+
+    <owl:Class rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_entity_element">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_element"/>
+        <obo:IAO_0000115>a model entity element is a model element that represent a &quot;type&quot; of thing within the scope of the mdoel, or a particualr instance of it</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_particular_element -->
+
+    <owl:Class rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_particular_element">
+        <rdfs:subClassOf rdf:resource="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_entity_element"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_universal_element -->
+
+    <owl:Class rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_universal_element">
+        <rdfs:subClassOf rdf:resource="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_entity_element"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#sequential_node -->
+
+    <owl:Class rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#sequential_node">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_node"/>
+        <obo:IAO_0000115>a sequential node is a connection node that indicates a single step in some series of modeled or computational processes</obo:IAO_0000115>
     </owl:Class>
 </rdf:RDF>
 
