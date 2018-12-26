@@ -12,6 +12,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl">
         <owl:imports rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology"/>
+        <owl:imports rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/10/Math"/>
     </owl:Ontology>
     
 
@@ -194,6 +195,12 @@
     <!-- http://purl.obolibrary.org/obo/RO_0000058 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000058"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_part"/>
     
 
 
@@ -517,6 +524,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_estimate_of -->
 
     <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_estimate_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#describes"/>
         <obo:IAO_0000115>when models are used to generate estimates, they, similar to measurements, ultimately characterize a quality or disposition of some entity.</obo:IAO_0000115>
         <rdfs:label>is estimate of</rdfs:label>
     </owl:ObjectProperty>
@@ -567,6 +575,14 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_about_source"/>
         <rdfs:domain rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_relation"/>
         <obo:IAO_0000115>describes a relation wehre a descriptive information content entity relates the domain of a two variable relation</obo:IAO_0000115>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#stipulates -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#stipulates">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#describes"/>
     </owl:ObjectProperty>
     
 
@@ -633,6 +649,22 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_maximum_value -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_maximum_value">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_value"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_minimum_value -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_minimum_value">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_value"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_specified_value -->
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_specified_value">
@@ -653,6 +685,22 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_value -->
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_value"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#specifies_maximum_value -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#specifies_maximum_value">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#specifies_value"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#specifies_minimum_value -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#specifies_minimum_value">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#specifies_value"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -721,7 +769,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- http://purl.obolibrary.org/obo/OBI_0000679 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000679">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#computed_data_item"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#StatisticalDescriptiveValue"/>
         <obo:IAO_0000111 xml:lang="en">average value</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115 xml:lang="en">A  data item that is produced as the output of an averaging data transformation and represents the average value of the input data.</obo:IAO_0000115>
@@ -1139,7 +1187,6 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
         <ExtendedRelationOntology:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Descriptive Information Content Entity that consists of a set of propositions or an image that represents some Entity.</ExtendedRelationOntology:definition>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Representational Information Content Entity</rdfs:label>
     </owl:Class>
@@ -1343,20 +1390,18 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#relation -->
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/10/Physics#AssumptionOfOccurrent -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#relation">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-        <obo:IAO_0000115>a relation is disposition that denotes a realizable connetion between two independent continuants.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2018/10/Physics#AssumptionOfOccurrent">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#hypothesis -->
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfAnalysis -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#hypothesis">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
-        <obo:IAO_0000115>a hypothesis is a descriptive information content entity that uses past observations to make propositions characterizing some entity</obo:IAO_0000115>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfAnalysis">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAppraisal"/>
     </owl:Class>
     
 
@@ -1377,11 +1422,246 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModelUse -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModelUse">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModeling"/>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModeling -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfModeling">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#act_of_characterization"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ActOfAnalysis"/>
         <ExtendedRelationOntology:definition>a modelign process is an act of appraisal that yields a reproducible representation of the entity in the form of a model</ExtendedRelationOntology:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfCausality -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfCausality">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfRelation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfChange -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfChange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/10/Physics#AssumptionOfOccurrent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfCorrelation -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfCorrelation">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfRelation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfDistribution -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfDistribution">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfQuality"/>
+        <ExtendedRelationOntology:definition>An assumption that a set of observations of data will adhere to some known probability distribution</ExtendedRelationOntology:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfEqualProportion -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfEqualProportion">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfProportion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfInsignificance -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfInsignificance">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfSmallProportion"/>
+        <ExtendedRelationOntology:definition>An assumption that is about something that is assumed to be unimportant relative to other things under consideration</ExtendedRelationOntology:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfLargeProportion -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfLargeProportion">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfProportion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfProportion -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfProportion">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfRelation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfQuality -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfQuality">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfTrait"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfRandomness -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfRandomness">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfDistribution"/>
+        <ExtendedRelationOntology:definition>An assumption that states that some set of observations are being sampled in a non-biased way</ExtendedRelationOntology:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfRealizableEntity -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfRealizableEntity">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfTrait"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfRelation -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfRelation">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfSignificance -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfSignificance">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfLargeProportion"/>
+        <ExtendedRelationOntology:definition>An Assumption of proportion that describes one entity as having far greater importance or magnitude than another</ExtendedRelationOntology:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfSmallProportion -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfSmallProportion">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfProportion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfStasis -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfStasis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/10/Physics#AssumptionOfOccurrent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfTrait -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfTrait">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ComputedParameter -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ComputedParameter">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ComputedRatioMeasurement -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ComputedRatioMeasurement">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/LewisianRelationOntology#is_output_of"/>
+                <owl:someValuesFrom rdf:resource="https://www.raw.githubusers.com/UMassCenterforeDesign/core/model.owl#ActOfComputation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a computed data item is a data item that is derived from other quantities through some act of computation.</obo:IAO_0000115>
+        <rdfs:label>computed data item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#DescriptionOfReasoning -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#DescriptionOfReasoning">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115>An argument is a descriptive information content entity that summarizes the reasoning behind some action or viewpoint.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#MathematicalDescriptiveInformationContentEntity -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#MathematicalDescriptiveInformationContentEntity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+        <obo:IAO_0000115>a mathematical descriptor is a descriptive information content entity that is used to describe the intended logic of a series of computations</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#MaximumValue -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#MaximumValue">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#StatisticalDescriptiveValue"/>
+        <obo:IAO_0000116>for treatment of these values, we will have them be part_of either a sepcificaiton, a information structure entity, or as part of computed value</obo:IAO_0000116>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#MeanValue -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#MeanValue">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#StatisticalDescriptiveValue"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#MedianValue -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#MedianValue">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#StatisticalDescriptiveValue"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#Method -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#Method">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#PlanSpecification"/>
+        <ExtendedRelationOntology:definition>A method is a generic plan prescribing a set of actions that can be applied and adapted to specific tasks</ExtendedRelationOntology:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelBoundaryCondition -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelBoundaryCondition">
+        <rdfs:subClassOf rdf:resource="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_particular_element"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelElement -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelElement">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+        <obo:IAO_0000112>Sysml blocks, arrows, ports, etc.</obo:IAO_0000112>
+        <obo:IAO_0000112>a finite element</obo:IAO_0000112>
+        <ExtendedRelationOntology:definition>a representational model element is a representational information content entity that, in teh context of a  model is used to reprsent an observable part of or trait of the subject of siad model</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
@@ -1393,6 +1673,24 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <obo:IAO_0000112>A circuit drawing</obo:IAO_0000112>
         <obo:IAO_0000112>Teh graphical representation of a SysML model</obo:IAO_0000112>
         <obo:IAO_0000115>a model representation is a representational information content entity that represents a technical model</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelRepresentationElement -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelRepresentationElement">
+        <rdfs:subClassOf rdf:resource="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_particular_element"/>
+        <ExtendedRelationOntology:definition>A model representation elemletn is a model particular element that represents the logic of the model itslef.</ExtendedRelationOntology:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelingMethod -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelingMethod">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#Method"/>
+        <ExtendedRelationOntology:definition>A modeling method is a method that is used to construct a specific type of model</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
@@ -1417,28 +1715,10 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#act_of_characterization -->
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#StatisticalDescriptiveValue -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#act_of_characterization">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAppraisal"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#addition_symbol -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#addition_symbol">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#operation_symbol"/>
-        <rdfs:label>addition symbol</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#argument -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#argument">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
-        <obo:IAO_0000115>An argument is a descriptive information content entity that summarizes the reasoning behind some action or viewpoint.</obo:IAO_0000115>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#StatisticalDescriptiveValue">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity"/>
     </owl:Class>
     
 
@@ -1454,34 +1734,9 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#argument"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#DescriptionOfReasoning"/>
         <obo:IAO_0000112>In continuum mechanics it is assumed that the space in between atoms is not significant to the macroscopic dispositions or qualities of the entity being analyzed</obo:IAO_0000112>
         <obo:IAO_0000115>an assumption is a narrative object composed of a description or conclusion that depends on some pre-defined state of an entity or approximation of reality to be fully accurrate or valid.</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#axis -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#axis">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
-        <obo:IAO_0000115>an axis a mathematical descriptor  that describes an infinite, one dimensional line existing in some N-dimensional space</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#computed_data_item -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#computed_data_item">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/LewisianRelationOntology#is_output_of"/>
-                <owl:someValuesFrom rdf:resource="https://www.raw.githubusers.com/UMassCenterforeDesign/core/model.owl#ActOfComputation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>a computed data item is a data item that is derived from other quantities through some act of computation.</obo:IAO_0000115>
-        <rdfs:label>computed data item</rdfs:label>
     </owl:Class>
     
 
@@ -1489,7 +1744,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#connection_node -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#connection_node">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_node"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_node"/>
         <obo:IAO_0000115>A connection node is a node connects separate branches a line diagram representation of a model.</obo:IAO_0000115>
     </owl:Class>
     
@@ -1515,32 +1770,6 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
-        <obo:IAO_0000115>a descriptive model element is a descriptive information content entity used within the representation of a model to indicate the models prescribed internal logic</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_node -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_node">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#division_symbol -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#division_symbol">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#operation_symbol"/>
-        <rdfs:label>division symbol</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#duration -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#duration">
@@ -1553,7 +1782,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#estimate -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#estimate">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#computed_data_item"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ComputedRatioMeasurement"/>
     </owl:Class>
     
 
@@ -1561,7 +1790,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#expected_value_estimate -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#expected_value_estimate">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#estimate"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#StatisticalDescriptiveValue"/>
         <obo:IAO_0000115>an expected value estimate is an estimate reflects an expected average value of a measurement or measurement of a process having uncerrtain outcomes at the time of estimation, were it possible to measure said outcome from the realization of a sufficiently large number of processes.</obo:IAO_0000115>
         <rdfs:label>expected value estimate</rdfs:label>
     </owl:Class>
@@ -1574,6 +1803,15 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#rationale"/>
         <obo:IAO_0000115>A rationale derived from an observational process that, by design, elucidates aspects of some entity that are of question in the formation of said rationale.</obo:IAO_0000115>
         <rdfs:label>experimental rationale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#file -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#file">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationStructureEntity"/>
+        <ExtendedRelationOntology:definition>a file is an information structure entity that supports information encoded in some standardized syntax</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
@@ -1626,9 +1864,25 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#idealization -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#idealization">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#argument"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#DescriptionOfReasoning"/>
         <obo:IAO_0000112>In continuum mechanics the assumption that empty space between atoms is not significant to the dispositions or qualities of the entity in question allows the entity to be idealized as a continuum. In reality, it is not.</obo:IAO_0000112>
         <obo:IAO_0000115>The representation of an entity that is simpler or &quot;better&quot; than reality. When an agent makes an assumption as to the description of an entity, they may allow certain simplifications to be invoked under circumstances in which the underlying assumption is valid to within some relevant metric of validity.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#inclusive_maximum_value_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#inclusive_maximum_value_specification">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#maximum_value_specification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#inclusive_minimum_value_specification -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#inclusive_minimum_value_specification">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#minimum_value_specification"/>
     </owl:Class>
     
 
@@ -1654,17 +1908,13 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#interval_value_specification">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#maximum_value_specification"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <ExtendedRelationOntology:definition>an intervalue value specificaiton is a value specification that prescribes some range of values or acceptable deviation from another value</ExtendedRelationOntology:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#longitudinal_axis -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#longitudinal_axis">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#axis"/>
-        <obo:IAO_0000115>a longitudinal axis is an axis that is part of a coordinate system of at least 2 dimensions oriented relative some entity. The longitudinal axis runs parallel to some substantially straight spatial region and the transverse is normal to it.</obo:IAO_0000115>
-        <rdfs:label>longitudinal axis</rdfs:label>
     </owl:Class>
     
 
@@ -1678,47 +1928,11 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
-        <obo:IAO_0000115>a mathematical descriptor is a descriptive information content entity that is used to describe the intended logic of a series of computations</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_expression -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_expression">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
-        <obo:IAO_0000115>a mathematical expression is a mathematical descriptor that describes a relation between two other descriptors or entities described by said descriptors</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_independence -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_independence">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
         <rdfs:label>mathematical independence</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#matrix -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#matrix">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
-        <obo:IAO_0000115>a matrix is a rectangular mathematical descriptor that consists of a rectangular (or projected to 2 dimensions as a rectangle) N&gt;=2 dimensional array of  of mathematical expressions</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#matrix_operation_symbol -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#matrix_operation_symbol">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#operation_symbol"/>
-        <rdfs:label>matrix operation symbol</rdfs:label>
     </owl:Class>
     
 
@@ -1776,7 +1990,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_connection -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_connection">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelRepresentationElement"/>
         <ExtendedRelationOntology:definition>a model connection is a descriptive model element that represents the presence of some asserted relation between two by model elements</ExtendedRelationOntology:definition>
     </owl:Class>
     
@@ -1785,7 +1999,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_element -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_element">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#representative_model_element"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelElement"/>
         <obo:IAO_0000116>a model element is a model primitive that describes some entity, part of an entity, or trait of an entity represented by a model</obo:IAO_0000116>
     </owl:Class>
     
@@ -1839,7 +2053,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_port -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_port">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelRepresentationElement"/>
         <obo:IAO_0000115>a descriptive model primitive is a model primitive that describes the internal logic of a model, but does not explicitly represent the modeled entity or its traits</obo:IAO_0000115>
         <obo:IAO_0000115>a model port is an interface node that represents an asserted interface (computational, representational, etc) between model elements</obo:IAO_0000115>
     </owl:Class>
@@ -1857,7 +2071,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_relation -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_relation">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelElement"/>
         <obo:IAO_0000115>a model relation is a model primitive that describes links bewteen model elements</obo:IAO_0000115>
         <obo:IAO_0000115>reificaiton is a descriptive information content entity that provides additional description of asserted facts</obo:IAO_0000115>
         <obo:IAO_0000116>The key here is that while connections reflect the entity represented by a model, relations are internal constructs of the model whicy may or may not characterize aspects of the modeled entity</obo:IAO_0000116>
@@ -1874,11 +2088,18 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#multiplication_symbol -->
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#non-inclusive_maximum_value_specification -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#multiplication_symbol">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#operation_symbol"/>
-        <rdfs:label>multiplication symbol</rdfs:label>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#non-inclusive_maximum_value_specification">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#maximum_value_specification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#non-inclusive_minimum_value_specificaiton -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#non-inclusive_minimum_value_specificaiton">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#minimum_value_specification"/>
     </owl:Class>
     
 
@@ -1891,16 +2112,6 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#operation_symbol -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#operation_symbol">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
-        <obo:IAO_0000115>a mathematical operation symbol is a mathematical descriptor used to describe a specific class of act of computation</obo:IAO_0000115>
-        <rdfs:label>mathematical operation sybmol</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#physical_model -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#physical_model">
@@ -1909,15 +2120,6 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <obo:IAO_0000112>a scale model to investigate a fluid-structure interaction</obo:IAO_0000112>
         <obo:IAO_0000115>A physical artifact for which the designed function is to describe, categorize, investigate or predict some aspect of another entity.</obo:IAO_0000115>
         <rdfs:label>physical model</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#plane -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#plane">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
-        <obo:IAO_0000115>a plane is a mathematical entity that describes a 2-dimensional region</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1935,7 +2137,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#probability_estimate -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#probability_estimate">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#estimate"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#StatisticalDescriptiveValue"/>
         <obo:IAO_0000115>a probability estimate that characterizes the realtive number of instances in which some particular process outcome might be observed given the process could be realized and its outcomes observed a sufficiently large number of times.</obo:IAO_0000115>
         <rdfs:label>probability estimate</rdfs:label>
     </owl:Class>
@@ -1953,7 +2155,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#purpose -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#purpose">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#argument"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#DescriptionOfReasoning"/>
         <obo:IAO_0000112>The indirect goal of a non-specific &quot;healthy lifestyle&quot; when engaging in a diet or exercise.</obo:IAO_0000112>
         <obo:IAO_0000112>The use of a model of some phenomenon within a system as part of the greater goal of characterizing that system</obo:IAO_0000112>
         <obo:IAO_0000115>In a case where an agent intentionally participates in a process, they do with with an intent to further some broader goal. This broader goal, to which the completion of the process may only partially or indirectly contribute, is denoted as a purpose</obo:IAO_0000115>
@@ -1964,7 +2166,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#rationale -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#rationale">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#argument"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#DescriptionOfReasoning"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_part"/>
@@ -1979,20 +2181,8 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reification -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#reification">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
         <ExtendedRelationOntology:definition>a reification is a descriptive information content entity that elucidates the context behind some asserted relation in a model</ExtendedRelationOntology:definition>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#representative_model_element -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#representative_model_element">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
-        <obo:IAO_0000112>Sysml blocks, arrows, ports, etc.</obo:IAO_0000112>
-        <obo:IAO_0000112>a finite element</obo:IAO_0000112>
-        <ExtendedRelationOntology:definition>a representational model element is a representational information content entity that, in teh context of a  model is used to reprsent an observable part of or trait of the subject of siad model</ExtendedRelationOntology:definition>
-        <rdfs:label>RepresentationalModelElemnt</rdfs:label>
     </owl:Class>
     
 
@@ -2005,11 +2195,11 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#scalar -->
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#resolution -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#scalar">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
-        <obo:IAO_0000115>a scalar is a mathematical representation that represents a quantity having a magnitude but not direction</obo:IAO_0000115>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#resolution">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationQualityEntity"/>
+        <ExtendedRelationOntology:definition>resolution is a information quality entity that pertains to the smallest possible sub-part of some concretized information entity that discretizes some entity</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
@@ -2038,55 +2228,12 @@ However, computer simulations have time variables, but the &quot;simulated proce
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#subtraction_symbol -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#subtraction_symbol">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#operation_symbol"/>
-        <rdfs:label>subtraction symbol</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#tensor -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#tensor">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#transvere_axis -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#transvere_axis">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#axis"/>
-        <obo:IAO_0000115>a longitudinal axis is an axis that is part of a coordinate system of at least 2 dimensions oriented relative some entity. The longitudinal axis runs parallel to some substantially straight spatial region and the transverse is normal to it.</obo:IAO_0000115>
-        <rdfs:label>transverse axis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#variable -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#variable">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
-        <obo:IAO_0000115>a variable is a mathematical representation that may take a range of values in an act of computation</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#vector -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#vector">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_descriptor"/>
-        <obo:IAO_0000115>a vector is mathematical symbol that is composed of a 1xn&gt;1 dimensional array of mathematical expressions wherein each term represents an entity in relation to some corresponding dimension of an N-dimensional of a coordinate system</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
     <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/core/model.owl#ActOfComputation -->
 
     <owl:Class rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/core/model.owl#ActOfComputation">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IntentionalAct"/>
+        <obo:IAO_0000116>Acts of computation do not require artifacts such as computers as participants. They refer both to things like the compilation of code in a computer as well as occurrents like manually computing a sum or creating a cypher.</obo:IAO_0000116>
+        <ExtendedRelationOntology:definition>An act of computation is an intentional act that conists solely of the manipulation of data according to some set of syntactical rules</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
@@ -2118,7 +2265,7 @@ However, computer simulations have time variables, but the &quot;simulated proce
     <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_action_element -->
 
     <owl:Class rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#model_action_element">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model_element"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ModelRepresentationElement"/>
     </owl:Class>
     
 
@@ -2151,7 +2298,7 @@ However, computer simulations have time variables, but the &quot;simulated proce
     <!-- https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#sequential_node -->
 
     <owl:Class rdf:about="https://www.raw.githubusers.com/UMassCenterforeDesign/decision/master/SysML.owl#sequential_node">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_node"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model_node"/>
         <obo:IAO_0000115>a sequential node is a connection node that indicates a single step in some series of modeled or computational processes</obo:IAO_0000115>
     </owl:Class>
 </rdf:RDF>
