@@ -12,6 +12,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/asus/ontologies/2018/10/Math">
         <owl:imports rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology"/>
+        <rdfs:comment>The Mathematics Ontology is an ontology of information entities describign mathematics such as equations, computations, etc. It should be clarified that this is not an ontology of philosophy of mathematics</rdfs:comment>
     </owl:Ontology>
     
 
@@ -291,7 +292,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2018/10/Math#MathematicalFunction">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#mathematical_expression"/>
-        <ExtendedRelationOntology:definition>A mathematical function is a process (set of acts of computation) or relation that associate each element of a domain set, x, to a single output f(x)</ExtendedRelationOntology:definition>
+        <ExtendedRelationOntology:definition>A mathematical function is a mathematical expression that describes a  process (set of acts of computation) or relation that associate each element of a domain set, x, to a single output f(x)</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
