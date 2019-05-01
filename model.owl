@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl"
      xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl"
-     xmlns:ExtendedRelationOntology="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ExtendedRelationOntology="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl">
         <owl:imports rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology"/>
         <owl:imports rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/10/Math"/>
@@ -1390,10 +1390,19 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
-    <!-- http://www.semanticweb.org/asus/ontologies/2018/10/Physics#AssumptionOfOccurrent -->
+    <!-- https://gitlab.serc.stevens.edu/rt168/art002/resources/ontologies/FluidMechanics#No-SlipAssumption -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2018/10/Physics#AssumptionOfOccurrent">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption"/>
+    <owl:Class rdf:about="https://gitlab.serc.stevens.edu/rt168/art002/resources/ontologies/FluidMechanics#No-SlipAssumption">
+        <rdfs:subClassOf rdf:resource="https://gitlab.serc.stevens.edu/rt168/art002/resources/ontologies/Physics#AssumptionOfNonOccurrence"/>
+        <ExtendedRelationOntology:definition>A no-slip assumption is an assumption that a fluid will have effectively zero velocity relative to a solid boundary</ExtendedRelationOntology:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.serc.stevens.edu/rt168/art002/resources/ontologies/Physics#AssumptionOfNonOccurrence -->
+
+    <owl:Class rdf:about="https://gitlab.serc.stevens.edu/rt168/art002/resources/ontologies/Physics#AssumptionOfNonOccurrence">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfAbsenceOfEntity"/>
     </owl:Class>
     
 
@@ -1447,6 +1456,14 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfAbsenceOfEntity -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfAbsenceOfEntity">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption"/>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfCausality -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfCausality">
@@ -1458,7 +1475,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfChange -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfChange">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/10/Physics#AssumptionOfOccurrent"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfOccurence"/>
     </owl:Class>
     
 
@@ -1505,6 +1522,22 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfOccurence -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfOccurence">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfPresenceOfEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfPresenceOfEntity -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfPresenceOfEntity">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption"/>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfProportion -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfProportion">
@@ -1533,7 +1566,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfRelation -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfRelation">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfAbsenceOfEntity"/>
     </owl:Class>
     
 
@@ -1558,7 +1591,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfStasis -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfStasis">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/10/Physics#AssumptionOfOccurrent"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfOccurence"/>
     </owl:Class>
     
 
@@ -1566,31 +1599,17 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfTrait -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfTrait">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#AssumptionOfPresenceOfEntity"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ComputedParameter -->
+    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#DerivedParameter -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ComputedParameter">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#DerivedParameter">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ComputedRatioMeasurement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ComputedRatioMeasurement">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RatioMeasurementInformationContentEntity"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/LewisianRelationOntology#is_output_of"/>
-                <owl:someValuesFrom rdf:resource="https://www.raw.githubusers.com/UMassCenterforeDesign/core/model.owl#ActOfComputation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>a computed data item is a data item that is derived from other quantities through some act of computation.</obo:IAO_0000115>
-        <rdfs:label>computed data item</rdfs:label>
+        <obo:IAO_0000115>A computed ratio measurement is a measurement that by definition must be calculated from other measurable quantities</obo:IAO_0000115>
+        <ExtendedRelationOntology:definition>A derived parameter is a ratio measurement information content entity that must be determined based on other, direct measurements and or models of some entity</ExtendedRelationOntology:definition>
     </owl:Class>
     
 
@@ -1781,9 +1800,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
 
     <!-- https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#estimate -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#estimate">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#ComputedRatioMeasurement"/>
-    </owl:Class>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#estimate"/>
     
 
 
@@ -2305,5 +2322,5 @@ However, computer simulations have time variables, but the &quot;simulated proce
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
